@@ -1,0 +1,22 @@
+T2	entity 154 166	Mark McGowan
+T3	event 167 171	told
+E2	event:T3 ARG0-:T2 ARG2-:T11 ARG1-:T1
+T4	event 1371 1379	election
+E1	event:T4 ARG2-:T12 ARG1-:T13 ARG0-:T10
+T5	event 698 703	wrote
+E3	event:T5 ARG0-:T2
+R1	COEX Arg1:E2 Arg2:E3	
+T11	entity 179 184	press
+T6	event 447 452	serve
+E4	event:T6 ARG0-:T2 ARG1-:T7 ARG2-:T10
+T1	entity 214 220	retire
+R2	AFTER Arg1:E1 Arg2:E4	
+R3	AFTER Arg1:E4 Arg2:E2	
+T7	entity 114 153	Western Australia Premier and Treasurer
+T8	event 1232 1240	informed
+E5	event:T8 ARG0-:T2 ARG1-:T9 ARG2-:T1
+R4	COEX Arg1:E2 Arg2:E5	
+T9	entity 1194 1218	Anthony AlbaneseAlbanese
+T10	entity 453 492	the people of the state in my community
+T12	entity 1400 1419	lower-chamber seats
+T13	entity 1042 1050	WA Labor

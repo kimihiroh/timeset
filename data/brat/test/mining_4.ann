@@ -1,0 +1,40 @@
+T1	event 200 209	explosion
+E1	event:T1 ARG1-:T23
+T2	event 419 428	explosion
+E2	event:T2 ARG1-:T23
+T4	event 588 592	walk
+E4	event:T4 ARG0-:T25
+T5	event 624 632	injuries
+E5	event:T5 ARG0-:T25
+R1	COEX Arg1:E2 Arg2:E5	
+T9	event 929 936	trapped
+E9	event:T9 ARG1-:T26 ARG2-:T23
+T11	event 1127 1134	updated
+E11	event:T11 ARG0-:T29 ARG1-:T27
+T17	event 1846 1857	shorted out
+E17	event:T17 ARG1-:T33 ARG0-:T34
+T19	event 2023 2031	recorded
+E19	event:T19 ARG0-:T40 ARG1-:T41
+T22	event 2235 2242	samples
+E22	event:T22 ARG2-:T42
+T23	entity 146 177	the New Zealand Pike River Mine
+T25	entity 566 576	two miners
+T26	entity 921 923	29
+T27	entity 1065 1081	Miners' families
+T29	entity 1138 1170	the search and rescue leadership
+T33	entity 1715 1736	a bomb-disposal robot
+T34	entity 1861 1866	water
+T37	event 1955 1966	running out
+E24	event:T37 ARG2-:T33 ARG1-:T39
+T39	entity 1970 1977	battery
+R31	COEX Arg1:E24 Arg2:E19	
+T40	entity 1979 2001	A second Defence robot
+T41	entity 2032 2050	some video footage
+T42	entity 2052 2078	A 160 metre long bore-hole
+R2	AFTER Arg1:E5 Arg2:E4	
+R3	COEX Arg1:E5 Arg2:E9	
+R4	AFTER Arg1:E4 Arg2:E11	
+R5	COEX Arg1:E11 Arg2:E17	
+R6	COEX Arg1:E17 Arg2:E24	
+R7	AFTER Arg1:E19 Arg2:E22	
+R8	AFTER Arg1:E22 Arg2:E1	

@@ -1,0 +1,31 @@
+T3	event 138 144	storms
+E2	event:T3 ARG1-:T4
+T12	event 436 443	killing
+E7	event:T12 ARG1-:T13
+T13	entity 444 451	a woman
+T32	event 1670 1674	died
+E17	event:T32 ARG0-:T1
+T41	event 2504 2511	cut off
+E23	event:T41 ARG1-:T42 ARG0-:E2 ARG4-:T2
+T42	entity 2485 2496	electricity
+T1	entity 1765 1775	Bob Thomas
+T2	entity 2441 2474	7,000 homes in Cornwall and Devon
+R20	COEX Arg1:E17 Arg2:E23	
+T4	entity 159 188	the southern coast of England
+T8	event 1305 1309	died
+E3	event:T8 ARG1-:T16
+T16	entity 1279 1300	One elderly passenger
+R5	COEX Arg1:E3 Arg2:E17	
+R8	COEX Arg1:E7 Arg2:E3	
+T14	event 256 264	flooding
+E4	event:T14 
+T15	event 275 281	damage
+E5	event:T15 ARG1-:T17
+T17	entity 266 274	property
+T18	event 287 294	closure
+E8	event:T18 ARG1-:T19
+T19	entity 298 321	road and railway routes
+R10	COEX Arg1:E4 Arg2:E5	
+R11	COEX Arg1:E5 Arg2:E8	
+R1	AFTER Arg1:E2 Arg2:E4	
+R3	COEX Arg1:E8 Arg2:E7	

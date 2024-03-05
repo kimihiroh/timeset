@@ -1,0 +1,11 @@
+T1	entity 90 104	Somali pirates
+T2	event 115 123	indicted
+E1	event:T2 ARG0-:T4 ARG1-:T1
+T3	event 160 167	attacks
+E2	event:T3 ARG1-:T7
+T4	entity 240 264	a courthouse in Virginia
+T5	event 311 319	detained
+E3	event:T5 ARG1-:T1
+T7	entity 171 188	two US navy ships
+R1	AFTER Arg1:E2 Arg2:E3	
+R2	AFTER Arg1:E3 Arg2:E1	

@@ -1,0 +1,24 @@
+T1	event 132 138	talked
+E1	event:T1 ARG0-:T8
+T2	event 189 194	going
+E2	event:T2 ARG0-:T9 ARG3-:T10 ARG4-:T11
+T3	event 326 333	stopped
+E3	event:T3 ARG0-:T12 ARG1-:T9
+T4	event 383 389	arrest
+E4	event:T4 ARG0-:T12 ARG1-:T8
+T5	event 574 579	asked
+E5	event:T5 ARG0-:T13 ARG1-:T8
+T6	event 668 677	notifying
+E6	event:T6 ARG0-:T13 ARG1-:T14
+R1	AFTER Arg1:E2 Arg2:E1	
+R4	AFTER Arg1:E3 Arg2:E4	
+T8	entity 116 130	Lakeysha Beard
+T9	entity 173 188	an Amtrak train
+T10	entity 200 219	Oakland, California
+T11	entity 223 239	Portland, Oregon
+T12	entity 319 325	police
+T13	entity 557 573	a few passengers
+T14	entity 678 693	the train staff
+R6	AFTER Arg1:E5 Arg2:E6	
+R3	AFTER Arg1:E1 Arg2:E5	
+R5	AFTER Arg1:E6 Arg2:E3	

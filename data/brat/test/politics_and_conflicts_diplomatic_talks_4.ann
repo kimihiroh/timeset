@@ -1,0 +1,32 @@
+T1	event 242 251	agreement
+E1	event:T1 ARG0-:T12 ARG1-:T13
+T2	event 279 284	talks
+E2	event:T2 ARG1-:T13 ARG0-:T12
+R1	AFTER Arg1:E2 Arg2:E1	
+T4	event 3773 3781	violence
+E4	event:T4 ARG0-:E8
+T5	event 3816 3824	declared
+E5	event:T5 ARG0-:T8 ARG1-:T10
+R4	AFTER Arg1:E4 Arg2:E2	
+T6	event 3756 3765	displaced
+E6	event:T6 ARG1-:T14
+T7	event 3715 3721	killed
+E7	event:T7 ARG1-:T3 ARG0-:T16
+R5	COEX Arg1:E7 Arg2:E6	
+R6	COEX Arg1:E6 Arg2:E4	
+T8	entity 419 430	Mwai Kibaki
+T9	event 3854 3862	election
+E8	event:T9 ARG2-:T11 ARG1-:T12
+R2	COEX Arg1:E8 Arg2:E5	
+R3	AFTER Arg1:E8 Arg2:E4	
+T10	entity 3825 3835	the winner
+T11	entity 3841 3853	presidential
+T12	entity 1492 1517	Mr. Kibaki and Mr. Odinga
+T13	entity 645 667	a government structure
+T3	entity 3690 3709	One thousand people
+T14	entity 3726 3750	several hundred thousand
+T15	event 3253 3259	killed
+E3	event:T15 ARG0-:T16 ARG1-:T17
+T16	entity 3242 3248	people
+T17	entity 3260 3267	my sons
+R7	COEX Arg1:E3 Arg2:E7	

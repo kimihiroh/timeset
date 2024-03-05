@@ -1,0 +1,36 @@
+T2	event 222 230	outbreak
+E2	event:T2 ARG1-:T4 ARG3-:T5
+T3	event 279 285	killed
+E3	event:T3 ARG1-:T5 ARG0-:T4
+T7	event 1374 1383	agreement
+E7	event:T7 TIMEX:T16
+T8	event 194 198	said
+E8	event:T8 ARG1-:T6 ARG0-:T1 TIMEX:T15
+T13	event 1294 1300	warned
+E13	event:T13 ARG0-:T6 ARG1-:T11
+R3	COEX Arg1:E8 Arg2:E7	
+R2	AFTER Arg1:E2 Arg2:E3	
+R6	AFTER Arg1:E13 Arg2:E2	
+T4	entity 700 705	Ebola
+T5	entity 286 298	2,100 people
+T6	entity 100 128	thousands of new Ebola cases
+T11	entity 1341 1369	the chance of food shortages
+T9	event 1248 1252	bans
+E1	event:T9 ARG1-:T12
+R4	AFTER Arg1:E1 Arg2:E8	
+T10	event 1264 1272	closures
+E4	event:T10 ARG1-:T14
+R1	COEX Arg1:E1 Arg2:E4	
+R5	COEX Arg1:E3 Arg2:E1	
+T12	entity 1241 1247	travel
+T14	entity 1257 1263	border
+T1	entity 162 187	World Health Organisation
+T15	timex 199 208	yesterday
+#1	AnnotatorNotes T15	2014-09-09
+#2	AnnotatorNotes E2	TIMEX: none. "current" unspecified duration
+#3	AnnotatorNotes E3	TIMEX: none. "current" unspecified duration
+#4	AnnotatorNotes E1	TIMEX: none. unspecified duration
+#5	AnnotatorNotes E4	TIMEX: none. unspecified duration
+#6	AnnotatorNotes E13	TIMEX: none. unspecified time
+T16	timex 1389 1398	yesterday
+#7	AnnotatorNotes T16	2014-09-09

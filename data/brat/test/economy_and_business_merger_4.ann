@@ -1,0 +1,22 @@
+T1	event 154 162	approved
+E1	event:T1 ARG0-:T5 ARG1-:T6
+T2	event 491 499	approved
+E2	event:T2 ARG1-:T6 ARG0-:T7
+T3	event 2044 2052	defended
+E3	event:T3 ARG0-:T10
+T5	entity 90 143	United Airlines and Continental Airlines shareholders
+T6	entity 163 186	a US$3.2 billion merger
+T7	entity 503 537	United States antitrust regulators
+T8	event 1292 1298	merger
+E5	event:T8 ARG3-:T9 ARG1-:T11 ARG2-:T12
+R1	AFTER Arg1:E2 Arg2:E1	
+R2	AFTER Arg1:E1 Arg2:E5	
+T9	entity 539 554	The new company
+T10	entity 2016 2038	United and Continental
+T11	entity 289 295	United
+T12	entity 345 356	Continental
+T13	event 1848 1855	lawsuit
+E6	event:T13 ARG1-:T10 ARG2-:T4
+R3	AFTER Arg1:E5 Arg2:E6	
+T4	entity 1893 1934	monopolizing the market and raising fares
+R4	AFTER Arg1:E6 Arg2:E3	

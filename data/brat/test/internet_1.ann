@@ -1,0 +1,30 @@
+T1	event 105 111	blamed
+E1	event:T1 ARG0-:T7 ARG1-:T8 ARG2-:E2
+T2	event 133 144	cyberattack
+E2	event:T2 ARG0-:T8 ARG1-:T9
+R4	AFTER Arg1:E2 Arg2:E1	
+T3	event 1171 1179	severing
+E3	event:T3 ARG0-:T11 ARG1-:T12 ARG2-:T14
+T6	event 1248 1253	leave
+E6	event:T6 ARG0-:T13 ARG1-:T11 ARG2-:T14
+R3	COEX Arg1:E3 Arg2:E6	
+T7	entity 834 870	the Albanian Prime Minister Edi Rama
+T4	event 556 562	blamed
+E4	event:T4 ARG0-:T7 ARG1-:T8 ARG2-:E5
+T5	event 246 252	attack
+E5	event:T5 ARG0-:T8 ARG1-:T10
+R1	AFTER Arg1:E5 Arg2:E4	
+R2	AFTER Arg1:E4 Arg2:E2	
+T8	entity 112 126	Iranian actors
+T9	entity 178 216	the national police's computer systems
+T10	entity 465 516	the country’s public and government service systems
+T13	entity 1214 1235	Iranian embassy staff
+T11	entity 1159 1166	Albania
+T12	entity 1180 1195	diplomatic ties
+T14	entity 1201 1205	Iran
+T15	event 644 655	closed down
+E7	event:T15 ARG0-:T16 ARG1-:T17
+T16	entity 611 626	the authorities
+T17	entity 656 697	their border crossing management software
+R5	COEX Arg1:E1 Arg2:E7	
+R6	COEX Arg1:E7 Arg2:E3	

@@ -1,0 +1,26 @@
+T1	event 142 150	recalled
+E1	event:T1 ARG1-:T9
+T2	event 240 248	received
+E2	event:T2 ARG0-:T11 ARG1-:T14
+T5	event 444 453	taken off
+E5	event:T5 ARG1-:T15
+T6	event 691 699	reported
+E6	event:T6 ARG0-:T12 ARG1-:T13
+T8	entity 286 328	the Therapeutic Goods Administration (TGA)
+R2	COEX Arg1:E2 Arg2:E6	
+R4	AFTER Arg1:E1 Arg2:E5	
+T3	event 639 648	attention
+E3	event:T3 ARG0-:T8 ARG1-:T4
+R3	AFTER Arg1:E6 Arg2:E3	
+T4	entity 558 626	The One Step hCG (human chorionic gonadotropin) urine pregnancy test
+T10	event 940 948	analysed
+E4	event:T10 ARG1-:T7 ARG0-:T8
+R1	AFTER Arg1:E3 Arg2:E4	
+R5	AFTER Arg1:E4 Arg2:E1	
+T7	entity 914 939	the twenty-seven products
+T9	entity 101 136	A number of at-home pregnancy tests
+T11	entity 180 201	customers and clinics
+T12	entity 666 690	a family planning clinic
+T13	entity 700 750	three cases of false negative readings of the test
+T14	entity 212 234	false negative results
+T15	entity 415 438	A further nine products

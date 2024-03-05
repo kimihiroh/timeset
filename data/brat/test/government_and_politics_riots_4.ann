@@ -1,0 +1,31 @@
+T6	event 721 725	riot
+E4	event:T6 ARG0-:T8
+T7	event 819 826	quelled
+E5	event:T7 ARG0-:T12 ARG1-:E4
+T8	entity 943 1021	the gang members of the Primeiro Comando da Capital (PCC) and Comando Vermelho
+T9	event 1224 1232	captured
+E6	event:T9 ARG0-:T12 ARG1-:T11
+T10	event 1237 1241	sent
+E7	event:T10 ARG1-:T11 ARG0-:T12
+R5	COEX Arg1:E5 Arg2:E6	
+R6	AFTER Arg1:E6 Arg2:E7	
+T11	entity 1191 1213	Six of the ringleaders
+T12	entity 799 818	the security forces
+T13	event 1591 1600	attempted
+E8	event:T13 ARG0-:T19 ARG1-:T20
+T14	event 1693 1700	injured
+E9	event:T14 
+T15	event 1714 1718	sent
+E10	event:T15 ARG1-:T17 ARG2-:T18
+R4	AFTER Arg1:E9 Arg2:E10	
+R7	COEX Arg1:E4 Arg2:E8	
+T16	event 1627 1637	recaptured
+E11	event:T16 ARG0-:T12 ARG1-:T19
+R8	AFTER Arg1:E8 Arg2:E11	
+R9	COEX Arg1:E5 Arg2:E11	
+R10	AFTER Arg1:E4 Arg2:E9	
+R11	AFTER Arg1:E4 Arg2:E5	
+T17	entity 1688 1692	nine
+T18	entity 1722 1730	hospital
+T19	entity 1580 1590	one inmate
+T20	entity 1601 1610	to escape

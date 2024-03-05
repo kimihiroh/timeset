@@ -1,0 +1,23 @@
+T1	event 173 182	re-opened
+E1	event:T1 ARG0-:T14 ARG1-:T15
+T3	event 940 946	closed
+E3	event:T3 ARG1-:T15 ARG0-:T14
+T5	event 1039 1044	store
+E5	event:T5 ARG1-:T17 ARG0-:T14
+T6	event 1110 1119	destroyed
+E6	event:T6 ARG1-:T18
+T9	event 1377 1385	smuggled
+E9	event:T9 ARG1-:T21
+R6	COEX Arg1:E5 Arg2:E6	
+T14	entity 161 172	authorities
+T15	entity 183 218	Syria's National Museum of Damascus
+T2	event 839 846	The war
+E2	event:T2 ARG0-:T16
+T16	entity 850 855	Syria
+R3	AFTER Arg1:E2 Arg2:E3	
+T17	entity 1056 1088	about 300,000 cultural artifacts
+T18	entity 1091 1104	Various sites
+T21	entity 1332 1366	several hundred thousand artifacts
+R1	COEX Arg1:E6 Arg2:E9	
+R2	COEX Arg1:E5 Arg2:E3	
+R4	AFTER Arg1:E3 Arg2:E1	

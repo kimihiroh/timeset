@@ -1,0 +1,19 @@
+T3	event 504 514	detonating
+E3	event:T3 ARG0-:T1 ARG1-:T7
+T2	event 551 557	deaths
+E2	event:T2 ARG1-:T8 ARG0-:T1 ARG2-:T7
+T4	event 566 573	wounded
+E4	event:T4 ARG1-:T9 ARG0-:T1 ARG2-:T7
+T5	event 386 397	opened fire
+E5	event:T5 ARG0-:T1
+T6	event 645 667	claimed responsibility
+E6	event:T6 ARG0-:T10 ARG1-:E3
+R1	AFTER Arg1:E5 Arg2:E3	
+R2	COEX Arg1:E2 Arg2:E4	
+R3	AFTER Arg1:E3 Arg2:E2	
+R4	COEX Arg1:E2 Arg2:E6	
+T1	entity 367 385	The suicide bomber
+T7	entity 515 521	a bomb
+T8	entity 545 550	eight
+T9	entity 562 565	six
+T10	entity 628 639	The Taliban

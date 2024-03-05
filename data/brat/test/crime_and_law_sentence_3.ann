@@ -1,0 +1,17 @@
+T2	event 238 248	conviction
+E2	event:T2 ARG0-:T7 ARG1-:T6
+T3	event 264 280	money laundering
+E3	event:T3 ARG0-:T6
+T4	event 285 295	conspiracy
+E4	event:T4 ARG0-:T6
+R1	COEX Arg1:E4 Arg2:E3	
+R2	AFTER Arg1:E3 Arg2:E2	
+T1	event 142 150	sentence
+E1	event:T1 ARG2-:T5 ARG1-:T6 ARG0-:T7
+R3	AFTER Arg1:E2 Arg2:E1	
+T5	entity 122 141	a three-year prison
+T6	entity 160 169	Tom DeLay
+T7	entity 508 518	Pat Priest
+T8	event 722 728	appeal
+E5	event:T8 ARG0-:T6 ARG1-:E2
+R4	AFTER Arg1:E1 Arg2:E5	

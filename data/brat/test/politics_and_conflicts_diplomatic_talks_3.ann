@@ -1,0 +1,25 @@
+T1	event 126 135	announced
+E1	event:T1 ARG0-:T6 ARG1-:T5
+T2	event 231 239	fighting
+E2	event:T2 ARG0-:T7 ARG1-:T8
+T3	event 941 953	negotiations
+E3	event:T3 ARG0-:T8 ARG1-:T11
+T4	event 988 994	failed
+E4	event:T4 ARG1-:T12 ARG2-:E3
+R1	AFTER Arg1:E3 Arg2:E4	
+T5	entity 302 318	the negotiations
+T6	entity 87 125	Colombian President Juan Manuel Santos
+T7	entity 205 216	FARC rebels
+T8	entity 240 254	the government
+R2	AFTER Arg1:E2 Arg2:E3	
+T9	event 838 847	renounced
+E5	event:T9 ARG0-:T11 ARG1-:T13
+T10	event 875 883	released
+E6	event:T10 ARG0-:T11 ARG1-:T14
+T11	entity 774 782	the FARC
+T12	entity 962 973	the parties
+R3	AFTER Arg1:E4 Arg2:E5	
+R4	AFTER Arg1:E5 Arg2:E6	
+R5	AFTER Arg1:E6 Arg2:E1	
+T13	entity 848 858	kidnapping
+T14	entity 884 921	the last of its non-civilian captives

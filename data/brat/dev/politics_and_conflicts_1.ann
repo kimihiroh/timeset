@@ -1,0 +1,59 @@
+T3	event 232 244	traffic stop
+E3	event:T3 ARG1-:T1 ARG0-:T2 TIMEX:T24
+T4	event 364 371	arrests
+E4	event:T4 ARG1-:T23
+T5	event 391 399	injuries
+E5	event:T5 ARG0-:E16
+T6	event 405 411	damage
+E6	event:T6 ARG0-:E16 ARG1-:T21
+T7	event 504 508	died
+E7	event:T7 ARG1-:T22 TIMEX:T25
+T8	event 525 529	fire
+E8	event:T8 TIMEX:T25
+T10	event 619 627	deployed
+E10	event:T10 ARG0-:T14 ARG1-:T15 TIMEX:T26
+T12	event 958 971	investigation
+E12	event:T12 ARG1-:T13
+T16	event 345 353	protests
+E16	event:T16 ARG1-:T13
+T17	event 509 522	extinguishing
+E17	event:T17 ARG0-:T22 ARG1-:E8 TIMEX:T25
+T18	event 607 614	meeting
+E18	event:T18 ARG0-:T14 TIMEX:T26
+T19	event 1063 1068	aimed
+E19	event:T19 ARG0-:T2 ARG2-:T9 TIMEX:T24
+T20	event 1119 1123	shot
+E20	event:T20 ARG0-:T2 ARG2-:T11 TIMEX:T24
+R1	COEX Arg1:E4 Arg2:E5	
+R2	COEX Arg1:E5 Arg2:E6	
+R5	AFTER Arg1:E16 Arg2:E4	
+R7	AFTER Arg1:E8 Arg2:E17	
+R13	COEX Arg1:E18 Arg2:E10	
+R3	AFTER Arg1:E3 Arg2:E19	
+R4	AFTER Arg1:E19 Arg2:E20	
+R9	COEX Arg1:E16 Arg2:E12	
+R10	AFTER Arg1:E20 Arg2:E12	
+R6	AFTER Arg1:E17 Arg2:E7	
+R8	AFTER Arg1:E10 Arg2:E8	
+R11	AFTER Arg1:E4 Arg2:E18	
+T1	entity 153 166	Nahel Merzouk
+T2	entity 1008 1018	an officer
+T9	entity 1073 1086	Merzouk's leg
+T11	entity 1131 1146	the boy's chest
+T13	entity 130 149	the police shooting
+T14	entity 569 584	Emmanuel Macron
+T15	entity 628 652	additional police forces
+T21	entity 415 463	schools, police stations, town halls, and stores
+T22	entity 472 503	a 24-year-old Paris firefighter
+T23	entity 374 377	157
+T24	timex 224 231	Tuesday
+#1	AnnotatorNotes T24	2023-06-27
+#2	AnnotatorNotes E16	TIMEX: none. duration "last night for the sixth consecutive night" 2023-06-27 thru 2023-07-02
+#3	AnnotatorNotes E4	TIMEX: none. duration "last night for the sixth consecutive night" 2023-06-27 thru 2023-07-02
+#4	AnnotatorNotes E5	TIMEX: none. duration "last night for the sixth consecutive night" 2023-06-27 thru 2023-07-02
+#5	AnnotatorNotes E6	TIMEX: none. duration "last night for the sixth consecutive night" 2023-06-27 thru 2023-07-02
+T25	timex 465 470	Today
+#6	AnnotatorNotes T25	2023-07-03
+T26	timex 585 592	earlier
+#7	AnnotatorNotes T26	2023-07-03
+#8	AnnotatorNotes E12	TIMEX: none. duration unspecified

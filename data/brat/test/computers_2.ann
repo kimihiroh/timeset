@@ -1,0 +1,11 @@
+T1	event 163 173	announcing
+E1	event:T1 ARG1-:T9 ARG0-:T7 ARG2-:T10
+T7	entity 94 136	Dutch trade minister Liesje Schreinemacher
+T8	event 1081 1093	negotiations
+E7	event:T8 ARG0-:T12 ARG1-:T11 ARG2-:T17
+T9	entity 201 260	additional curbs on exporting semiconductor chip technology
+T10	entity 307 344	the States General of the Netherlands
+T11	entity 1099 1116	the United States
+T12	entity 614 629	the Netherlands
+R3	AFTER Arg1:E7 Arg2:E1	
+T17	entity 1189 1264	to limit Chinese firms' access to foreign chips and tools to make their own

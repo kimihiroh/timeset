@@ -1,0 +1,44 @@
+T1	event 154 162	indicted
+E1	event:T1 ARG0-:T10 ARG1-:T9 ARG2-:T19
+T3	event 817 823	sought
+E3	event:T3 ARG0-:T15 ARG1-:T12
+T4	event 857 868	handed over
+E4	event:T4 ARG0-:T16 ARG1-:T17 ARG2-:T15
+T2	event 2250 2257	charges
+E2	event:T2 ARG0-:T6 ARG1-:T9 ARG2-:T19
+T7	event 2346 2355	appointed
+E7	event:T7 
+T5	event 592 599	shipped
+E5	event:T5 ARG0-:T11 ARG1-:T12 ARG2-:T14 ARG3-:T13
+R7	COEX Arg1:E2 Arg2:E7	
+T9	entity 183 195	Donald Trump
+T10	entity 115 135	A federal grand jury
+T11	entity 551 569	Trump and staffers
+T12	entity 600 629	hundreds of classified papers
+T14	entity 654 664	Mar-a-Lago
+T15	entity 761 816	the National Archives and Records Administration (NARA)
+T16	entity 841 856	Trump employees
+T17	entity 875 946	197 documents with markings ranging from "CONFIDENTIAL" to "TOP SECRET"
+T18	entity 986 1020	the US Department of Justice (DoJ)
+T8	event 1043 1050	inquiry
+E8	event:T8 
+R4	AFTER Arg1:E2 Arg2:E1	
+T23	event 982 985	ask
+E12	event:T23 ARG0-:T15 ARG2-:T18 ARG1-:E8
+R8	AFTER Arg1:E4 Arg2:E12	
+R9	AFTER Arg1:E12 Arg2:E8	
+R10	AFTER Arg1:E5 Arg2:E3	
+T20	event 739 744	ended
+E9	event:T20 ARG1-:T24
+R11	COEX Arg1:E5 Arg2:E9	
+T13	entity 635 650	the White House
+T24	entity 724 738	his presidency
+R1	AFTER Arg1:E8 Arg2:E2	
+T6	entity 2213 2239	Special Counsel Jack Smith
+T19	entity 232 400	willfully retaining national defense secrets, conspiracy to obstruct justice, concealing a document in a federal investigation, and false statements and representations
+T21	event 1143 1148	found
+E6	event:T21 ARG0-:T22 ARG1-:T25
+R2	AFTER Arg1:E3 Arg2:E6	
+R3	AFTER Arg1:E6 Arg2:E4	
+T22	entity 1080 1090	Walt Nauta
+T25	entity 1149 1158	documents

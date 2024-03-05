@@ -1,0 +1,19 @@
+T6	entity 109 122	the US Senate
+T10	entity 405 420	the US Congress
+T11	entity 562 564	US
+T3	event 261 274	the 2002 AUMF
+E4	event:T3 ARG0-:T10
+T4	event 219 232	The 1991 AUMF
+E5	event:T4 ARG0-:T10
+T5	event 244 256	the Gulf War
+E6	event:T5 ARG0-:T11
+R2	AFTER Arg1:E6 Arg2:E5	
+T2	event 275 287	the Iraq War
+E2	event:T2 ARG0-:T11
+R1	AFTER Arg1:E5 Arg2:E2	
+R3	AFTER Arg1:E2 Arg2:E4	
+T1	event 123 128	voted
+E1	event:T1 ARG0-:T6 ARG2-:T9 ARG1-:T7
+T9	entity 129 134	66–30
+T7	entity 139 217	a repeal of the 1991 and 2002 authorizations for use of military force (AUMFs)
+R4	AFTER Arg1:E4 Arg2:E1	

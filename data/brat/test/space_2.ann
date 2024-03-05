@@ -1,0 +1,71 @@
+T1	event 303 310	arrived
+E1	event:T1 ARG0-:T29 ARG4-:T35
+T3	event 637 643	pumped
+E3	event:T3 ARG2-:T20 ARG1-:T19
+T4	event 1234 1242	launched
+E4	event:T4 ARG1-:T2 ARG0-:T21
+T5	event 1265 1272	arrived
+E5	event:T5 ARG1-:T2 ARG4-:T22
+T6	event 1403 1412	collected
+E6	event:T6 ARG0-:T2 ARG1-:T23
+T7	event 1504 1510	inject
+E7	event:T7 ARG0-:T2 ARG2-:T25 ARG1-:T26
+T8	event 1443 1447	used
+E8	event:T8 ARG0-:T2 ARG1-:T24
+T9	event 1470 1477	contact
+E9	event:T9 ARG0-:T2 ARG1-:T25
+T11	event 1629 1636	entered
+E11	event:T11 ARG0-:T23 ARG1-:T27
+T12	event 1681 1685	trip
+E12	event:T12 ARG0-:T2 ARG1-:T28 ARG2-:T22
+T13	event 1731 1738	dropped
+E13	event:T13 ARG1-:T29 ARG0-:T2
+T14	event 1817 1824	entered
+E14	event:T14 ARG0-:T29 ARG1-:T31
+T15	event 1868 1880	touched down
+E15	event:T15 ARG1-:T29 ARG0-:T2
+T16	event 1957 1962	track
+E16	event:T16 ARG0-:T32 ARG1-:T29 ARG3-:T33
+T17	event 1986 1993	secured
+E17	event:T17 ARG0-:T34 ARG1-:T29
+T18	event 2019 2028	transport
+E18	event:T18 ARG0-:T34 ARG1-:T29 ARG3-:T35
+R1	AFTER Arg1:E4 Arg2:E5	
+R2	COEX Arg1:E8 Arg2:E9	
+R3	AFTER Arg1:E5 Arg2:E9	
+R4	AFTER Arg1:E9 Arg2:E7	
+R7	AFTER Arg1:E6 Arg2:E11	
+R8	AFTER Arg1:E11 Arg2:E12	
+R9	AFTER Arg1:E12 Arg2:E13	
+R10	AFTER Arg1:E13 Arg2:E14	
+R11	AFTER Arg1:E14 Arg2:E15	
+R12	AFTER Arg1:E15 Arg2:E16	
+R13	AFTER Arg1:E16 Arg2:E17	
+R14	AFTER Arg1:E17 Arg2:E18	
+R15	AFTER Arg1:E18 Arg2:E1	
+R16	AFTER Arg1:E1 Arg2:E3	
+T20	entity 625 633	nitrogen
+T2	entity 218 259	Regolith Explorer (OSIRIS-REx) spacecraft
+T21	entity 138 142	NASA
+T22	entity 1276 1281	Bennu
+T24	entity 1448 1461	a robotic arm
+T25	entity 1483 1494	the surface
+T10	event 1527 1534	kick up
+E2	event:T10 ARG2-:T26 ARG0-:T2 ARG1-:T23
+T26	entity 1511 1523	nitrogen gas
+T23	entity 1565 1628	About 8.8 ounces of the approximately six metric tons of debris
+T27	entity 1637 1651	the receptacle
+T28	entity 1689 1694	Earth
+T29	entity 1708 1726	The sample capsule
+T30	event 1799 1803	flew
+E10	event:T30 ARG2-:T2
+R5	AFTER Arg1:E12 Arg2:E10	
+R17	COEX Arg1:E13 Arg2:E10	
+T31	entity 1825 1839	the atmosphere
+T32	entity 1906 1920	Recovery teams
+T33	entity 1926 1953	radar and other instruments
+T34	entity 1976 1985	Personnel
+T35	entity 373 403	the Johnson Space Center (JSC)
+T19	entity 566 586	the sample container
+R18	AFTER Arg1:E7 Arg2:E2	
+R6	AFTER Arg1:E2 Arg2:E6	

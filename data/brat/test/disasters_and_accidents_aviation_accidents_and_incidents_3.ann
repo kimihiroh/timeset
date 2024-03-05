@@ -1,0 +1,27 @@
+T1	event 128 140	acknowledged
+E1	event:T1 ARG0-:T2 ARG1-:E2
+T2	entity 123 127	Iran
+T3	event 180 189	shot down
+E2	event:T3 ARG0-:T2 ARG1-:T4
+T4	entity 190 215	a Ukrainian passenger jet
+T5	event 244 249	error
+E3	event:T5 ARG0-:T6 ARG1-:E2
+T6	entity 238 243	human
+T7	event 335 341	killed
+E4	event:T7 ARG1-:T8
+T8	entity 302 325	The 176 people on board
+T9	event 663 672	airstrike
+E5	event:T9 ARG0-:T10
+T10	entity 660 662	US
+T11	event 678 684	killed
+E6	event:T11 ARG1-:T12
+T12	entity 702 717	Qasem Soleimani
+T13	event 579 587	launched
+E7	event:T13 ARG0-:T2 ARG1-:T14
+T14	entity 588 596	missiles
+R1	COEX Arg1:E5 Arg2:E6	
+R2	AFTER Arg1:E5 Arg2:E7	
+R3	AFTER Arg1:E7 Arg2:E2	
+R4	COEX Arg1:E2 Arg2:E3	
+R5	COEX Arg1:E2 Arg2:E4	
+R6	AFTER Arg1:E4 Arg2:E1	

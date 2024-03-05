@@ -1,0 +1,19 @@
+T1	event 152 158	strike
+E1	event:T1 ARG0-:T17 ARG1-:T18
+T2	event 268 275	ballots
+E2	event:T2 ARG0-:T19
+T3	event 988 997	cancelled
+E3	event:T3 ARG1-:T20
+R3	AFTER Arg1:E2 Arg2:E1	
+R4	AFTER Arg1:E1 Arg2:E3	
+T10	event 1512 1521	cancelled
+E10	event:T10 ARG1-:T27
+T14	event 1958 1967	picketing
+E14	event:T14 ARG0-:T17 ARG1-:T18
+T17	entity 73 82	The staff
+T18	entity 86 128	the British Broadcasting Corporation (BBC)
+T19	entity 332 378	Amicus, National Union of Jounalists and BECTU
+T20	entity 910 973	BBC Radio 4's Today, The World at One, PM and The World Tonight
+T27	entity 1492 1501	Newsnight
+R1	COEX Arg1:E3 Arg2:E10	
+R2	COEX Arg1:E10 Arg2:E14	

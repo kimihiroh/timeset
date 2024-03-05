@@ -1,0 +1,32 @@
+T2	event 1655 1663	restored
+E2	event:T2 ARG1-:E1
+T4	event 489 501	interference
+E4	event:T4 ARG1-:T5
+T5	entity 482 488	signal
+T1	event 126 134	services
+E1	event:T1 ARG1-:T6 ARG0-:T3
+T6	entity 120 125	Train
+T8	event 230 239	disrupted
+E5	event:T8 ARG1-:E1 ARG0-:E4
+T9	event 1473 1481	services
+E6	event:T9 ARG1-:T10 ARG0-:T3
+T10	entity 1469 1472	bus
+R1	AFTER Arg1:E1 Arg2:E4	
+R2	COEX Arg1:E4 Arg2:E5	
+R3	AFTER Arg1:E5 Arg2:E6	
+R4	AFTER Arg1:E6 Arg2:E2	
+T3	entity 207 223	SMRT Corporation
+T7	event 3120 3127	stalled
+E3	event:T7 ARG1-:T11
+T11	entity 3128 3133	train
+R5	AFTER Arg1:E2 Arg2:E3	
+T12	event 3179 3189	disruption
+E7	event:T12 
+R6	AFTER Arg1:E3 Arg2:E7	
+T13	event 3578 3586	services
+E8	event:T13 ARG1-:T14 ARG0-:T3
+T14	entity 3574 3577	bus
+R7	COEX Arg1:E7 Arg2:E8	
+T15	event 3713 3721	removing
+E9	event:T15 ARG0-:T3 ARG1-:T11
+R8	AFTER Arg1:E8 Arg2:E9	

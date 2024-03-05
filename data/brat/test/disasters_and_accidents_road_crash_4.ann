@@ -1,0 +1,25 @@
+T1	event 643 648	crash
+E1	event:T1 ARG1-:T9
+T2	event 997 1002	taken
+E2	event:T2 ARG0-:T8 ARG1-:T11
+T3	event 959 967	returned
+E3	event:T3 ARG0-:T8 ARG4-:T10
+T4	event 1122 1130	awakened
+E4	event:T4 ARG1-:T8
+R1	AFTER Arg1:E3 Arg2:E2	
+R2	AFTER Arg1:E2 Arg2:E4	
+T6	event 1161 1172	disoriented
+E6	event:T6 ARG1-:T8 ARG0-:T11
+T7	event 2142 2153	investigate
+E7	event:T7 ARG0-:T12 ARG1-:E1
+T8	entity 125 143	Patrick J. Kennedy
+T5	event 690 695	drove
+E5	event:T5 ARG0-:T8 ARG1-:T9
+R3	AFTER Arg1:E4 Arg2:E5	
+R4	AFTER Arg1:E5 Arg2:E1	
+R5	AFTER Arg1:E1 Arg2:E7	
+R6	COEX Arg1:E5 Arg2:E6	
+T9	entity 330 347	1997 Ford Mustang
+T10	entity 968 972	home
+T11	entity 1003 1058	the sleep aid Ambien and the anti-nausea drug Phenergan
+T12	entity 2091 2123	The United States Capitol Police

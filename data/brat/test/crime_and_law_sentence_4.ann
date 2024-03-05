@@ -1,0 +1,28 @@
+T1	event 203 212	sentenced
+E1	event:T1 ARG0-:T6 ARG1-:T4 ARG2-:T2 ARG3-:E2
+T2	entity 231 245	life in prison
+T3	event 221 227	murder
+E2	event:T3 ARG1-:T5
+T4	entity 117 132	Mohammed Waseem
+T5	entity 183 197	Qandeel Baloch
+T6	entity 249 266	a court in Multan
+T7	event 276 285	confessed
+E3	event:T7 ARG0-:T4 ARG1-:E2
+T8	event 973 980	posting
+E4	event:T8 ARG0-:T5 ARG1-:T9 ARG2-:T10
+T9	entity 981 1010	pictures of herself with Qawi
+T10	entity 1014 1026	the Internet
+T12	event 914 923	acquitted
+E6	event:T12 ARG0-:T6 ARG1-:T11
+R1	AFTER Arg1:E4 Arg2:E2	
+R2	AFTER Arg1:E2 Arg2:E3	
+T13	event 584 591	forgave
+E7	event:T13 ARG0-:T14 ARG1-:T4 ARG2-:E2
+T14	entity 527 538	the parents
+R3	AFTER Arg1:E3 Arg2:E7	
+T11	entity 839 855	Mufti Abdul Qawi
+T15	event 466 475	convicted
+E5	event:T15 ARG2-:E2 ARG1-:T4
+R4	AFTER Arg1:E7 Arg2:E5	
+R5	COEX Arg1:E5 Arg2:E6	
+R6	AFTER Arg1:E5 Arg2:E1	

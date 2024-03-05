@@ -1,0 +1,15 @@
+bitsandbytes
+chardet
+einops
+jsonlines
+lxml
+peft
+pre-commit
+scikit-learn
+scipy
+sentencepiece
+spacy
+transformers
+trl
+vllm
+xformers

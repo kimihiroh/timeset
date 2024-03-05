@@ -1,0 +1,6 @@
+T1	entity 127 191	Finance ministers and central bankers of the Group of Seven (G7)
+T2	event 212 218	summit
+E1	event:T2 ARG0-:T1
+T3	event 270 276	vowing
+E2	event:T3 ARG0-:T1
+R1	AFTER Arg1:E1 Arg2:E2	

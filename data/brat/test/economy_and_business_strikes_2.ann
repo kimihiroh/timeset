@@ -1,0 +1,15 @@
+T1	event 330 336	strike
+E1	event:T1 ARG0-:T4 ARG1-:T5
+T2	event 268 275	meeting
+E2	event:T2 ARG0-:T4 ARG1-:T5
+T4	entity 139 169	Writers Guild of America (WGA)
+T5	entity 174 233	Alliance of Motion Picture and Television Producers (AMPTP)
+R1	AFTER Arg1:E1 Arg2:E2	
+T3	event 1166 1174	rejected
+E3	event:T3 ARG0-:T5 ARG1-:T7
+T6	event 871 879	rejected
+E4	event:T6 ARG0-:T4 ARG1-:T8
+R3	COEX Arg1:E4 Arg2:E3	
+T7	entity 1175 1224	the WGA's proposals on the writers' room question
+T8	entity 794 849	the AMPTP agreement with the Directors Guild of America
+R2	AFTER Arg1:E2 Arg2:E4	

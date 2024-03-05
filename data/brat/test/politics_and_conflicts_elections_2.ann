@@ -1,0 +1,46 @@
+T2	event 201 213	by-elections
+E2	event:T2 
+T4	event 529 532	won
+E4	event:T4 ARG0-:T21 ARG1-:T22 ARG2-:E2
+T5	event 801 810	suspended
+E5	event:T5 ARG0-:T1 ARG1-:T13
+T6	event 842 849	inquiry
+E6	event:T6 ARG0-:T1 ARG1-:T8 ARG2-:T13
+R2	COEX Arg1:E5 Arg2:E6	
+T7	event 914 917	won
+E7	event:T7 ARG0-:T23 ARG1-:T24 ARG2-:E2
+R4	COEX Arg1:E4 Arg2:E7	
+T3	event 726 734	resigned
+E3	event:T3 ARG0-:T13 ARG1-:T14
+R3	AFTER Arg1:E5 Arg2:E3	
+T9	event 1170 1182	stepped down
+E8	event:T9 ARG0-:T15 ARG1-:T14
+R5	COEX Arg1:E3 Arg2:E8	
+T10	event 1601 1609	resigned
+E9	event:T10 ARG0-:T16 ARG1-:T17
+R7	COEX Arg1:E8 Arg2:E9	
+T11	event 1671 1681	publishing
+E10	event:T11 ARG0-:T18 ARG1-:T19
+R8	AFTER Arg1:E10 Arg2:E9	
+T12	event 1306 1313	Winning
+E11	event:T12 ARG0-:T25 ARG1-:T26 ARG2-:E2
+R12	COEX Arg1:E7 Arg2:E11	
+T13	entity 710 725	David Warburton
+T14	entity 288 315	Members of Parliament (MPs)
+T15	entity 1157 1168	Nigel Adams
+T16	entity 371 384	Boris Johnson
+T17	entity 356 370	Prime Minister
+T18	entity 1657 1668	a committee
+T19	entity 1685 1705	the Partygate report
+R9	AFTER Arg1:E3 Arg2:E2	
+R10	AFTER Arg1:E8 Arg2:E2	
+T21	entity 495 528	The Liberal Democrats' Sarah Dyke
+T22	entity 533 551	Somerton and Frome
+T23	entity 967 978	Keir Mather
+T24	entity 918 934	Selby and Ainsty
+T25	entity 1410 1424	Steve Tuckwell
+T26	entity 1370 1396	Uxbridge and South Ruislip
+T1	entity 764 800	the Conservative parliamentary group
+T8	entity 855 905	admitted cocaine use and alleged sexual harassment
+R1	AFTER Arg1:E2 Arg2:E4	
+R6	AFTER Arg1:E9 Arg2:E2	

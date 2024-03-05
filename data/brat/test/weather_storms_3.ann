@@ -1,0 +1,21 @@
+T9	event 255 263	rendered
+E9	event:T9 ARG1-:T14 ARG2-:T15
+T10	event 717 727	prohibited
+E10	event:T10 ARG0-:T11 ARG3-:T7
+T11	entity 83 102	The city of Merritt
+T1	event 179 184	order
+E1	event:T1 ARG0-:T11 ARG1-:T12 ARG2-:T6
+T12	entity 412 432	Residents of Merritt
+T6	entity 168 178	evacuation
+R5	COEX Arg1:E1 Arg2:E10	
+T14	entity 264 289	the water treatment plant
+T15	entity 291 301	inoperable
+T16	event 208 216	flooding
+E6	event:T16 ARG1-:T11 ARG2-:T2
+R2	AFTER Arg1:E6 Arg2:E1	
+R4	AFTER Arg1:E6 Arg2:E9	
+T2	entity 224 230	waters
+T7	entity 691 712	Returning to the city
+T3	event 364 369	storm
+E2	event:T3 
+R1	AFTER Arg1:E2 Arg2:E6	

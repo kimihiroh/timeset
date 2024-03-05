@@ -1,0 +1,29 @@
+T2	event 175 182	spotted
+E2	event:T2 ARG1-:T1
+T3	event 245 253	vanished
+E3	event:T3 ARG0-:T6 ARG1-:T5
+T4	event 497 506	recovered
+E4	event:T4 ARG0-:T28 ARG1-:T29
+T5	entity 259 272	radar screens
+T1	entity 129 135	debris
+T6	entity 141 170	Indonesia AirAsia Flight 8501
+T7	event 652 660	departed
+E1	event:T7 ARG0-:T6 ARG1-:T8
+T8	entity 606 634	Juanda International Airport
+T14	entity 1290 1356	AirNav, the Indonesian national air traffic control (ATC) facility
+T17	event 1530 1535	asked
+E10	event:T17 ARG0-:T19 ARG1-:T14
+T18	event 1723 1730	radioed
+E11	event:T18 ARG0-:T14 ARG1-:T19
+T19	entity 2200 2266	Indonesian Pilot Iriyanto and French co-pilot Remi Emmanuel Plesel
+T20	event 2479 2490	maintenance
+E12	event:T20 ARG1-:T21
+T21	entity 2376 2434	Airbus A320-200 registration PK-AXC and serial number 3648
+R3	AFTER Arg1:E12 Arg2:E1	
+R9	AFTER Arg1:E1 Arg2:E10	
+T28	entity 69 92	Search and rescue teams
+T29	entity 507 528	at least three bodies
+R7	AFTER Arg1:E11 Arg2:E3	
+R1	AFTER Arg1:E3 Arg2:E2	
+R2	AFTER Arg1:E2 Arg2:E4	
+R4	AFTER Arg1:E10 Arg2:E11	

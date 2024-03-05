@@ -1,0 +1,28 @@
+T2	event 314 322	released
+E2	event:T2 ARG0-:T12 ARG1-:T13
+T3	event 137 143	crisis
+E3	event:T3 ARG2-:T7 ARG1-:T8
+T5	event 477 485	failures
+E5	event:T5 ARG1-:T14
+T6	event 756 762	crisis
+E6	event:T6 ARG1-:T11
+R1	AFTER Arg1:E6 Arg2:E3	
+T4	event 348 356	failures
+E4	event:T4 ARG1-:T9
+T9	entity 360 409	large financial institutions in the United States
+T10	event 524 534	reductions
+E9	event:T10 ARG1-:T15
+R7	COEX Arg1:E5 Arg2:E9	
+T11	entity 734 755	the subprime mortgage
+R8	COEX Arg1:E4 Arg2:E6	
+R2	COEX Arg1:E3 Arg2:E5	
+T1	event 286 289	met
+E1	event:T1 ARG0-:T12
+R5	AFTER Arg1:E1 Arg2:E2	
+R3	AFTER Arg1:E3 Arg2:E1	
+T7	entity 120 126	global
+T8	entity 127 136	financial
+T12	entity 145 200	finance ministers and central bankers of the G7 nations
+T13	entity 323 340	a joint statement
+T14	entity 472 476	bank
+T15	entity 538 573	the value of stocks and commodities

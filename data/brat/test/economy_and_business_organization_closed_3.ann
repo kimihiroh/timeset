@@ -1,0 +1,9 @@
+T1	entity 106 125	General Motors (GM)
+T2	event 126 135	announced
+E1	event:T2 ARG0-:T1 ARG1-:T3
+T5	entity 283 291	Chrysler
+T8	event 317 325	released
+E4	event:T8 ARG0-:T5 ARG1-:T4
+R4	AFTER Arg1:E4 Arg2:E1	
+T3	entity 136 141	plans
+T4	entity 326 332	a list

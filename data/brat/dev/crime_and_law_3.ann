@@ -1,0 +1,42 @@
+T1	event 121 125	shot
+E1	event:T1 ARG1-:T10 ARG0-:T11 TIMEX:T19
+T2	event 196 202	killed
+E2	event:T2 ARG0-:T12 ARG1-:T11 ARG2-:E9 TIMEX:T19
+T3	event 1045 1057	hospitalized
+E3	event:T3 ARG1-:T17 TIMEX:T19
+T4	event 1115 1127	hospitalized
+E4	event:T4 ARG1-:T18 TIMEX:T19
+T5	event 293 300	injured
+E5	event:T5 ARG1-:T13 ARG0-:T11 ARG2-:E1 TIMEX:T19
+T7	event 516 524	troubles
+E7	event:T7 ARG1-:T11 TIMEX:T20
+T8	event 473 479	closed
+E8	event:T8 ARG1-:T16 ARG0-:E7 TIMEX:T20
+T6	event 343 351	injuries
+E6	event:T6 ARG1-:T14 ARG0-:T11 ARG2-:T15 TIMEX:T19
+T9	event 187 191	shot
+E9	event:T9 ARG0-:T12 ARG1-:T11 TIMEX:T19
+R2	AFTER Arg1:E7 Arg2:E8	
+R3	AFTER Arg1:E8 Arg2:E1	
+R4	AFTER Arg1:E1 Arg2:E5	
+R6	AFTER Arg1:E5 Arg2:E3	
+R7	AFTER Arg1:E5 Arg2:E4	
+R5	COEX Arg1:E5 Arg2:E6	
+R8	AFTER Arg1:E5 Arg2:E9	
+R9	COEX Arg1:E3 Arg2:E4	
+T10	entity 135 141	people
+T11	entity 393 405	Nathan DeSai
+T12	entity 206 212	police
+T13	entity 276 287	nine people
+T14	entity 306 311	three
+T15	entity 329 334	glass
+T16	entity 456 472	his law practice
+T17	entity 1026 1044	one of the victims
+T18	entity 1091 1105	Another victim
+R1	AFTER Arg1:E9 Arg2:E2	
+R10	COEX Arg1:E2 Arg2:E3	
+R11	COEX Arg1:E9 Arg2:E3	
+T19	timex 142 154	this morning
+#1	AnnotatorNotes T19	2016-09-26
+T20	timex 480 489	last year
+#2	AnnotatorNotes T20	2015-xx-xx

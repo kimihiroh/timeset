@@ -1,0 +1,12 @@
+T1	entity 144 162	Volodymyr Zelensky
+T2	event 163 171	declined
+E1	event:T2 ARG0-:T1 ARG1-:E2
+T3	entity 187 206	Oleksiy Honcharuk's
+T4	event 216 222	resign
+E2	event:T4 ARG0-:T3
+T7	event 443 451	uploaded
+E5	event:T7 ARG1-:T5 ARG2-:T8
+T8	entity 465 493	an anynomous YouTube channel
+R4	AFTER Arg1:E2 Arg2:E1	
+R2	AFTER Arg1:E5 Arg2:E2	
+T5	entity 244 259	audio recording

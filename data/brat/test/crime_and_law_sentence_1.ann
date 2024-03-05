@@ -1,0 +1,24 @@
+T1	event 145 154	sentenced
+E1	event:T1 ARG0-:T11 ARG1-:T7 ARG3-:T8 ARG2-:T12
+T2	event 388 393	fined
+E2	event:T2 ARG0-:T11 ARG1-:T9 ARG2-:T7 ARG3-:T8
+T3	event 250 257	charges
+E3	event:T3 ARG1-:T7 ARG2-:T8
+T5	event 821 831	conviction
+E5	event:T5 ARG0-:T11 ARG1-:T7 ARG2-:T8
+T6	event 1110 1121	proceedings
+E6	event:T6 ARG1-:T7 ARG3-:T8
+T7	entity 174 193	Vladimir Kara-Murza
+T9	entity 394 420	400,000 rubles (~US$4,900)
+T10	event 1471 1477	speech
+E7	event:T10 ARG0-:T7 ARG2-:T4 ARG1-:T13
+T11	entity 122 144	a Moscow, Russia judge
+T12	entity 197 246	25 years in a "strict regime correctional colony"
+T8	entity 261 374	treason, associating himself with an "undesirable" entity, and disseminating false information about the military
+R1	COEX Arg1:E1 Arg2:E2	
+R2	AFTER Arg1:E3 Arg2:E6	
+R3	AFTER Arg1:E6 Arg2:E5	
+R4	AFTER Arg1:E5 Arg2:E1	
+R5	AFTER Arg1:E7 Arg2:E3	
+T4	entity 1596 1615	Arizona legislators
+T13	entity 1616 1659	Russia was committing war crimes in Ukraine

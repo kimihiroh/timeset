@@ -1,0 +1,19 @@
+T1	event 178 183	death
+E1	event:T1 ARG1-:T6 TIMEX:T9
+T2	event 217 226	diagnosed
+E2	event:T2 ARG1-:T6 ARG2-:T7
+T3	event 149 159	identified
+E3	event:T3 ARG1-:E1 ARG0-:T5 TIMEX:T9
+T4	event 696 709	investigating
+E4	event:T4 ARG0-:T5 ARG1-:E1 ARG2-:T8
+R1	AFTER Arg1:E2 Arg2:E1	
+R2	AFTER Arg1:E1 Arg2:E3	
+R3	COEX Arg1:E3 Arg2:E4	
+T6	entity 286 313	a resident of Harris County
+T7	entity 232 241	monkeypox
+T5	entity 100 148	public health officials in the US state of Texas
+T8	entity 710 773	what role, if any, monkeypox played in the death of the patient
+T9	timex 80 98	Tuesday, August 30
+#1	AnnotatorNotes T9	2022-08-30
+#2	AnnotatorNotes E4	TIMEX: none
+#3	AnnotatorNotes E2	TIMEX: none. unclear when the diagnosis was made, just sometime before his death

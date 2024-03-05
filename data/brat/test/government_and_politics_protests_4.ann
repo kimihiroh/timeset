@@ -1,0 +1,24 @@
+T3	event 307 319	construction
+E3	event:T3 ARG1-:T22 ARG0-:T5
+T6	event 1140 1147	entered
+E6	event:T6 ARG0-:T20 ARG1-:T4
+T15	event 1615 1622	removed
+E15	event:T15 ARG0-:T29 ARG1-:T28
+T16	event 1750 1758	arrested
+E16	event:T16 ARG0-:T29 ARG1-:T21
+T2	event 1314 1320	locked
+E2	event:T2 ARG2-:T28 ARG0-:T20
+T1	event 1657 1665	arrested
+E1	event:T1 ARG0-:T29 ARG1-:T20
+T21	entity 1719 1739	Isabel Indigo Brooks
+R17	COEX Arg1:E15 Arg2:E1	
+R18	COEX Arg1:E1 Arg2:E16	
+T22	entity 275 300	the Keystone Oil Pipeline
+T20	entity 1120 1139	Almonte and Collins
+T28	entity 1253 1264	two barrels
+T29	entity 1365 1371	police
+T4	entity 1148 1160	the pipeline
+R2	AFTER Arg1:E6 Arg2:E2	
+R4	AFTER Arg1:E2 Arg2:E15	
+R1	AFTER Arg1:E3 Arg2:E6	
+T5	entity 422 445	TransCanada Corporation

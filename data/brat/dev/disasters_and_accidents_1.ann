@@ -1,0 +1,43 @@
+T1	event 114 123	went down
+E1	event:T1 ARG1-:T10 TIMEX:T18
+T2	event 215 222	missing
+E2	event:T2 ARG1-:T10 TIMEX:T18
+T3	event 352 356	lost
+E3	event:T3 ARG0-:T14 ARG1-:T10 TIMEX:T18
+T4	event 493 498	found
+E4	event:T4 ARG0-:T11 ARG1-:T12 TIMEX:T19
+T5	event 1027 1033	passed
+E5	event:T5 ARG1-:T10 ARG0-:T17 TIMEX:T20
+T6	event 420 428	flew off
+E6	event:T6 ARG2-:T10 ARG0-:T15 ARG1-:T16 TIMEX:T18
+T7	event 613 619	search
+E7	event:T7 ARG0-:T11 ARG2-:T10 TIMEX:T19
+T8	event 802 808	damage
+E8	event:T8 ARG1-:T10 ARG2-:E1 ARG0-:E1 TIMEX:T18
+T9	event 758 764	gather
+E9	event:T9 ARG1-:T13 ARG0-:T11
+R1	AFTER Arg1:E6 Arg2:E3	
+R8	AFTER Arg1:E5 Arg2:E6	
+R6	AFTER Arg1:E8 Arg2:E9	
+R5	AFTER Arg1:E2 Arg2:E7	
+R2	COEX Arg1:E3 Arg2:E1	
+R3	COEX Arg1:E1 Arg2:E2	
+R9	COEX Arg1:E8 Arg2:E2	
+R4	COEX Arg1:E7 Arg2:E9	
+R7	AFTER Arg1:E7 Arg2:E4	
+T10	entity 103 113	helicopter
+T11	entity 475 492	Japan Coast Guard
+T12	entity 499 544	a door, a rotor blade, and an unused lifeboat
+T13	entity 765 776	information
+T14	entity 346 351	radar
+T15	entity 842 848	pilots
+T16	entity 850 883	two mechanics, and six passengers
+R10	AFTER Arg1:E1 Arg2:E8	
+T17	entity 997 1006	The JGSDF
+T18	timex 177 185	Thursday
+#1	AnnotatorNotes T18	2023-04-06
+T19	timex 449 469	Early Friday morning
+#2	AnnotatorNotes T19	2023-04-07
+#3	AnnotatorNotes E9	TIMEX: none. duration "continuing to gather"?
+T20	timex 1057 1062	March
+#4	AnnotatorNotes T20	2023-03-xx

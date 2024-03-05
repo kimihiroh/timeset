@@ -1,0 +1,21 @@
+T1	event 305 311	closed
+E1	event:T1 ARG1-:T3 ARG0-:T5
+T2	event 326 337	acquisition
+E2	event:T2 ARG0-:T5 ARG1-:T4
+R1	AFTER Arg1:E2 Arg2:E1	
+T3	entity 105 130	Electronic Gaming Monthly
+T4	entity 363 378	the 1UP network
+T5	entity 414 431	UGO Entertainment
+T14	event 1080 1084	lost
+E7	event:T14 ARG0-:T6 ARG1-:T8
+T28	entity 1264 1297	Ziff Davis Holdings Inc (ZFDH.PK)
+T30	event 3691 3696	debut
+E19	event:T30 ARG1-:T3 ARG0-:T28
+T7	event 3617 3623	losing
+E3	event:T7 ARG0-:T3 ARG1-:T13
+T13	entity 3624 3629	money
+R15	COEX Arg1:E7 Arg2:E1	
+R2	AFTER Arg1:E19 Arg2:E3	
+R3	AFTER Arg1:E3 Arg2:E2	
+T6	entity 948 1079	around 30 employees of Ziff Davis' Game Group, including EGM Magazine's staff, 1UP Network's web staff, podcast and video producers
+T8	entity 1091 1095	jobs

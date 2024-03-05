@@ -1,0 +1,22 @@
+T1	event 128 132	sent
+E1	event:T1 ARG0-:T4 ARG1-:T8 ARG2-:T5 TIMEX:T11
+T2	event 327 343	misappropriation
+E2	event:T2 ARG0-:T6 ARG1-:T9
+T3	event 229 235	create
+E3	event:T3 ARG0-:T6 ARG1-:T7
+T4	entity 116 126	Alex Spiro
+T5	entity 164 179	Mark Zuckerberg
+T6	entity 145 159	Meta Platforms
+T7	entity 259 266	Threads
+T8	entity 133 141	a letter
+T9	entity 347 402	Twitter’s trade secrets and other intellectual property
+T10	event 1298 1305	release
+E4	event:T10 ARG0-:T6 ARG1-:T7
+R1	AFTER Arg1:E2 Arg2:E3	
+R2	AFTER Arg1:E3 Arg2:E4	
+R3	AFTER Arg1:E4 Arg2:E1	
+T11	timex 80 89	Wednesday
+#1	AnnotatorNotes T11	2023-07-11
+#2	AnnotatorNotes E3	TIMEX: none. unknown duration
+#3	AnnotatorNotes E2	TIMEX: none. unknown duration
+#4	AnnotatorNotes E4	TIMEX: none. unknown point in time when Thread was released

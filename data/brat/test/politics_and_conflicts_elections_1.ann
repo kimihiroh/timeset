@@ -1,0 +1,33 @@
+T3	event 287 295	election
+E3	event:T3 ARG2-:T9
+T4	event 610 618	demanded
+E4	event:T4 ARG0-:T10 ARG1-:T16
+T5	event 702 721	took to the streets
+E5	event:T5 ARG0-:T17 ARG1-:E3
+R4	COEX Arg1:E4 Arg2:E5	
+T7	entity 1235 1263	INEC chairman Mahmood Yakubu
+T8	entity 1295 1311	Tinubu's victory
+T1	event 1286 1294	announce
+E1	event:T1 ARG0-:T7 ARG1-:T8
+T9	entity 274 286	presidential
+T10	entity 532 587	the Peoples Democratic Party (PDP) and the Labour Party
+T11	event 590 597	alleged
+E7	event:T11 ARG0-:T10 ARG1-:T15 ARG3-:T2
+R3	COEX Arg1:E7 Arg2:E4	
+R5	AFTER Arg1:E5 Arg2:E1	
+T6	event 340 348	received
+E6	event:T6 ARG0-:T2 ARG1-:T12 ARG2-:T14
+R1	AFTER Arg1:E3 Arg2:E6	
+R2	AFTER Arg1:E6 Arg2:E7	
+T2	entity 189 200	Bola Tinubu
+T12	entity 349 364	8,794,726 votes
+T14	entity 395 402	turnout
+T15	entity 598 603	fraud
+T16	entity 619 679	a repeat of the election and the INEC chairman's resignation
+T17	entity 681 701	Dozens of protestors
+T18	entity 777 795	the United Nations
+T13	event 817 823	urging
+E2	event:T13 ARG0-:T18 ARG1-:T20 ARG2-:T19
+R6	COEX Arg1:E5 Arg2:E2	
+T19	entity 845 856	remain calm
+T20	entity 825 841	all stakeholders

@@ -1,0 +1,20 @@
+T1	event 128 135	flooded
+E1	event:T1 ARG1-:T2
+T3	event 208 215	warning
+E2	event:T3 ARG0-:T4
+T4	entity 182 192	Met Office
+T6	event 277 286	evacuated
+E3	event:T6 ARG1-:E6
+T8	event 545 556	rescheduled
+E4	event:T8 ARG0-:T9
+T9	entity 532 544	Severn Trent
+T7	event 232 276	Moseley's Mostly Jazz Funk and Soul Festival
+E6	event:T7 
+T11	event 1784 1793	evacuated
+E7	event:T11 ARG1-:E6
+R1	AFTER Arg1:E2 Arg2:E1	
+R2	COEX Arg1:E6 Arg2:E1	
+R3	AFTER Arg1:E6 Arg2:E3	
+R4	COEX Arg1:E3 Arg2:E4	
+R5	AFTER Arg1:E4 Arg2:E7	
+T2	entity 90 127	Parts of the Birmingham, England area

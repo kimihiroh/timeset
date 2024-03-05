@@ -1,0 +1,16 @@
+T1	event 145 152	paraded
+E1	event:T1 ARG0-:T6 ARG1-:T2
+T3	event 462 468	joined
+E3	event:T3 ARG0-:T7 ARG1-:E1
+R2	COEX Arg1:E1 Arg2:E3	
+T4	event 367 373	parade
+E4	event:T4 ARG1-:T2
+T5	event 398 406	deployed
+E5	event:T5 ARG0-:T8 ARG1-:T9
+R3	COEX Arg1:E4 Arg2:E5	
+T6	entity 97 104	150,000
+T2	entity 244 254	LGBT pride
+R1	AFTER Arg1:E4 Arg2:E1	
+T7	entity 441 461	Visitors to Tel Aviv
+T8	entity 391 397	police
+T9	entity 407 426	over 2,000 officers

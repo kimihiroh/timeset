@@ -1,0 +1,49 @@
+T1	event 240 249	recovered
+E1	event:T1 ARG1-:T11
+T3	event 674 680	asking
+E3	event:T3 ARG1-:T20 ARG2-:T18 ARG0-:T17
+T5	event 893 898	found
+E5	event:T5 ARG0-:T23 ARG1-:T24
+T6	event 976 984	searches
+E6	event:T6 ARG1-:T14 ARG0-:T23
+T7	event 1188 1202	investigations
+E7	event:T7 ARG0-:T16 ARG1-:E4
+R1	COEX Arg1:E7 Arg2:E6	
+T4	event 637 640	hit
+E4	event:T4 ARG0-:T17 ARG1-:T19
+R4	AFTER Arg1:E3 Arg2:E4	
+T2	event 715 728	disintegrated
+E2	event:T2 ARG1-:T17 ARG0-:E4
+R5	COEX Arg1:E4 Arg2:E2	
+T8	event 1086 1100	malfunctioning
+E8	event:T8 ARG0-:T12
+T9	event 594 601	journey
+E9	event:T9 ARG0-:T17
+R9	COEX Arg1:E9 Arg2:E3	
+T10	event 1166 1174	replaced
+E10	event:T10 ARG1-:T25
+R8	AFTER Arg1:E8 Arg2:E10	
+R10	AFTER Arg1:E10 Arg2:E9	
+T11	entity 179 205	the cockpit voice recorder
+T12	entity 1101 1119	airspeed indicator
+T13	event 293 297	died
+E11	event:T13 ARG1-:T15
+R11	COEX Arg1:E11 Arg2:E2	
+T14	entity 994 1036	the recorder and outstanding human remains
+T15	entity 273 276	189
+T16	entity 101 158	The National Transportation Safety Committee of Indonesia
+T17	entity 211 230	Lion Air Flight 610
+T18	entity 681 700	air traffic control
+T19	entity 641 650	the ocean
+T20	entity 701 710	to return
+R7	AFTER Arg1:E4 Arg2:E11	
+T21	event 815 824	recovered
+E12	event:T21 ARG1-:T22 ARG0-:T23
+T22	entity 790 814	the flight data recorder
+R2	AFTER Arg1:E2 Arg2:E6	
+R3	AFTER Arg1:E6 Arg2:E12	
+R6	COEX Arg1:E12 Arg2:E5	
+R12	AFTER Arg1:E5 Arg2:E1	
+T23	entity 871 882	Authorities
+T24	entity 899 912	human remains
+T25	entity 1121 1147	its angle of attack sensor

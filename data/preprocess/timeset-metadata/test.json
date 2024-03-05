@@ -1,0 +1,1202 @@
+{
+    "space_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "space",
+            ""
+        ],
+        "date": "2016-10-3",
+        "#event": 8,
+        "#word": 289,
+        "#sent": 10
+    },
+    "disasters_and_accidents_shipwreck_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "disasters_and_accidents",
+            "shipwreck"
+        ],
+        "date": "2009-03-31",
+        "#event": 8,
+        "#word": 430,
+        "#sent": 17
+    },
+    "disasters_and_accidents_famine_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "disasters_and_accidents",
+            "famine"
+        ],
+        "date": "2012-03-18",
+        "#event": 7,
+        "#word": 267,
+        "#sent": 8
+    },
+    "sports_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "sports",
+            ""
+        ],
+        "date": "2021-07-23",
+        "#event": 4,
+        "#word": 340,
+        "#sent": 14
+    },
+    "government_and_politics_riots_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "government_and_politics",
+            "riots"
+        ],
+        "date": "2017-01-17",
+        "#event": 8,
+        "#word": 793,
+        "#sent": 34
+    },
+    "politics_and_conflicts_resign_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "politics_and_conflicts",
+            "resign"
+        ],
+        "date": "2019-07-28",
+        "#event": 5,
+        "#word": 418,
+        "#sent": 18
+    },
+    "disasters_and_accidents_aviation_accidents_and_incidents_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "disasters_and_accidents",
+            "aviation_accidents_and_incidents"
+        ],
+        "date": "2023-01-4",
+        "#event": 6,
+        "#word": 297,
+        "#sent": 10
+    },
+    "politics_and_conflicts_armed_conflict_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "politics_and_conflicts",
+            "armed_conflict"
+        ],
+        "date": "2009-11-8",
+        "#event": 7,
+        "#word": 488,
+        "#sent": 19
+    },
+    "disasters_and_accidents_famine_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "disasters_and_accidents",
+            "famine"
+        ],
+        "date": "2011-07-15",
+        "#event": 5,
+        "#word": 546,
+        "#sent": 19
+    },
+    "rail_transport_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "rail_transport",
+            ""
+        ],
+        "date": "2016-11-3",
+        "#event": 9,
+        "#word": 793,
+        "#sent": 32
+    },
+    "politics_and_conflicts_drones_2": {
+        "date(binary)": "New",
+        "length(binary)": "Long",
+        "topic": [
+            "politics_and_conflicts",
+            "drones"
+        ],
+        "date": "2023-05-4",
+        "#event": 6,
+        "#word": 759,
+        "#sent": 36
+    },
+    "government_and_politics_riots_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "government_and_politics",
+            "riots"
+        ],
+        "date": "2017-01-5",
+        "#event": 8,
+        "#word": 329,
+        "#sent": 15
+    },
+    "politics_and_conflicts_policy_change_2": {
+        "date(binary)": "New",
+        "length(binary)": "Long",
+        "topic": [
+            "politics_and_conflicts",
+            "policy_change"
+        ],
+        "date": "2023-05-19",
+        "#event": 4,
+        "#word": 393,
+        "#sent": 11
+    },
+    "politics_and_conflicts_drones_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "politics_and_conflicts",
+            "drones"
+        ],
+        "date": "2023-07-26",
+        "#event": 7,
+        "#word": 367,
+        "#sent": 13
+    },
+    "disasters_and_accidents_road_crash_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "disasters_and_accidents",
+            "road_crash"
+        ],
+        "date": "2009-11-14",
+        "#event": 7,
+        "#word": 258,
+        "#sent": 13
+    },
+    "crime_and_law_accuse_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "crime_and_law_accuse",
+            ""
+        ],
+        "date": "2006-06-22",
+        "#event": 5,
+        "#word": 139,
+        "#sent": 5
+    },
+    "weather_floods_2": {
+        "date(binary)": "New",
+        "length(binary)": "Long",
+        "topic": [
+            "weather",
+            "floods"
+        ],
+        "date": "2023-07-11",
+        "#event": 6,
+        "#word": 455,
+        "#sent": 21
+    },
+    "disasters_and_accidents_volcanoes_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "disasters_and_accidents",
+            "volcanoes"
+        ],
+        "date": "2006-01-14",
+        "#event": 6,
+        "#word": 185,
+        "#sent": 10
+    },
+    "weather_storms_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "weather",
+            "storms"
+        ],
+        "date": "2014-02-15",
+        "#event": 8,
+        "#word": 842,
+        "#sent": 33
+    },
+    "computers_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "computers",
+            ""
+        ],
+        "date": "2023-04-23",
+        "#event": 3,
+        "#word": 315,
+        "#sent": 8
+    },
+    "weather_earthquakes_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "weather",
+            "earthquakes"
+        ],
+        "date": "2019-10-22",
+        "#event": 10,
+        "#word": 548,
+        "#sent": 20
+    },
+    "government_and_politics_protests_2": {
+        "date(binary)": "New",
+        "length(binary)": "Long",
+        "topic": [
+            "government_and_politics",
+            "protests"
+        ],
+        "date": "2023-01-9",
+        "#event": 8,
+        "#word": 667,
+        "#sent": 23
+    },
+    "politics_and_conflicts_armed_conflict_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "politics_and_conflicts",
+            "armed_conflict"
+        ],
+        "date": "2023-04-14",
+        "#event": 4,
+        "#word": 381,
+        "#sent": 18
+    },
+    "sports_2": {
+        "date(binary)": "New",
+        "length(binary)": "Long",
+        "topic": [
+            "sports",
+            ""
+        ],
+        "date": "2022-12-21",
+        "#event": 3,
+        "#word": 513,
+        "#sent": 19
+    },
+    "politics_and_conflicts_elections_2": {
+        "date(binary)": "New",
+        "length(binary)": "Long",
+        "topic": [
+            "politics_and_conflicts",
+            "elections"
+        ],
+        "date": "2023-07-30",
+        "#event": 10,
+        "#word": 466,
+        "#sent": 17
+    },
+    "environment_2": {
+        "date(binary)": "New",
+        "length(binary)": "Long",
+        "topic": [
+            "environment",
+            ""
+        ],
+        "date": "2023-03-21",
+        "#event": 10,
+        "#word": 868,
+        "#sent": 20
+    },
+    "weather_floods_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "weather",
+            "floods"
+        ],
+        "date": "2022-04-15",
+        "#event": 6,
+        "#word": 211,
+        "#sent": 8
+    },
+    "sports_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "sports",
+            ""
+        ],
+        "date": "2023-09-11",
+        "#event": 3,
+        "#word": 321,
+        "#sent": 10
+    },
+    "health_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "health",
+            ""
+        ],
+        "date": "2011-12-23",
+        "#event": 7,
+        "#word": 561,
+        "#sent": 15
+    },
+    "weather_earthquakes_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "weather",
+            "earthquakes"
+        ],
+        "date": "2023-02-10",
+        "#event": 10,
+        "#word": 318,
+        "#sent": 16
+    },
+    "crime_and_law_sentence_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "",
+            "crime_and_law_sentence"
+        ],
+        "date": "2023-04-22",
+        "#event": 6,
+        "#word": 390,
+        "#sent": 15
+    },
+    "crime_and_law_accuse_2": {
+        "date(binary)": "New",
+        "length(binary)": "Long",
+        "topic": [
+            "crime_and_law_accuse",
+            ""
+        ],
+        "date": "2023-06-11",
+        "#event": 10,
+        "#word": 462,
+        "#sent": 11
+    },
+    "space_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "space",
+            ""
+        ],
+        "date": "2018-11-29",
+        "#event": 8,
+        "#word": 585,
+        "#sent": 22
+    },
+    "economy_and_business_strikes_2": {
+        "date(binary)": "New",
+        "length(binary)": "Long",
+        "topic": [
+            "economy_and_business",
+            "strikes"
+        ],
+        "date": "2023-08-9",
+        "#event": 4,
+        "#word": 396,
+        "#sent": 11
+    },
+    "politics_and_conflicts_armed_conflict_2": {
+        "date(binary)": "New",
+        "length(binary)": "Long",
+        "topic": [
+            "politics_and_conflicts",
+            "armed_conflict"
+        ],
+        "date": "2023-04-1",
+        "#event": 6,
+        "#word": 649,
+        "#sent": 21
+    },
+    "infectious_disease_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "infectious_disease",
+            ""
+        ],
+        "date": "2010-04-25",
+        "#event": 2,
+        "#word": 460,
+        "#sent": 15
+    },
+    "health_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "health",
+            ""
+        ],
+        "date": "2023-05-12",
+        "#event": 5,
+        "#word": 238,
+        "#sent": 8
+    },
+    "crime_and_law_sentence_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "",
+            "crime_and_law_sentence"
+        ],
+        "date": "2019-09-30",
+        "#event": 7,
+        "#word": 559,
+        "#sent": 25
+    },
+    "weather_storms_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "weather",
+            "storms"
+        ],
+        "date": "2021-11-16",
+        "#event": 5,
+        "#word": 210,
+        "#sent": 9
+    },
+    "sports_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "sports",
+            ""
+        ],
+        "date": "2021-01-4",
+        "#event": 5,
+        "#word": 679,
+        "#sent": 13
+    },
+    "disasters_and_accidents_aviation_accidents_and_incidents_3_extra": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "disasters_and_accidents",
+            "aviation_accidents_and_incidents"
+        ],
+        "date": "2019-01-16",
+        "#event": 12,
+        "#word": 267,
+        "#sent": 13
+    },
+    "disasters_and_accidents_shipwreck_2": {
+        "date(binary)": "New",
+        "length(binary)": "Long",
+        "topic": [
+            "disasters_and_accidents",
+            "shipwreck"
+        ],
+        "date": "2023-04-24",
+        "#event": 7,
+        "#word": 436,
+        "#sent": 14
+    },
+    "rail_transport_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "rail_transport",
+            ""
+        ],
+        "date": "2011-05-24",
+        "#event": 6,
+        "#word": 313,
+        "#sent": 12
+    },
+    "weather_storms_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "weather",
+            "storms"
+        ],
+        "date": "2023-06-17",
+        "#event": 2,
+        "#word": 295,
+        "#sent": 11
+    },
+    "weather_storms_1_extra": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "weather",
+            "storms"
+        ],
+        "date": "2023-05-9",
+        "#event": 2,
+        "#word": 257,
+        "#sent": 9
+    },
+    "mining_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "mining",
+            ""
+        ],
+        "date": "2006-01-3",
+        "#event": 4,
+        "#word": 113,
+        "#sent": 4
+    },
+    "health_1_extra": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "health",
+            ""
+        ],
+        "date": "2022-09-30",
+        "#event": 11,
+        "#word": 350,
+        "#sent": 11
+    },
+    "politics_and_conflicts_policy_change_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "politics_and_conflicts",
+            "policy_change"
+        ],
+        "date": "2018-12-18",
+        "#event": 7,
+        "#word": 940,
+        "#sent": 30
+    },
+    "weather_floods_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "weather",
+            "floods"
+        ],
+        "date": "2023-01-8",
+        "#event": 11,
+        "#word": 354,
+        "#sent": 11
+    },
+    "disasters_and_accidents_aviation_accidents_and_incidents_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "disasters_and_accidents",
+            "aviation_accidents_and_incidents"
+        ],
+        "date": "2020-01-13",
+        "#event": 7,
+        "#word": 217,
+        "#sent": 9
+    },
+    "mining_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "mining",
+            ""
+        ],
+        "date": "2010-11-25",
+        "#event": 10,
+        "#word": 589,
+        "#sent": 25
+    },
+    "economy_and_business_merger_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "economy_and_business",
+            "merger"
+        ],
+        "date": "2010-09-18",
+        "#event": 5,
+        "#word": 438,
+        "#sent": 17
+    },
+    "disasters_and_accidents_gas_explosion_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "disasters_and_accidents",
+            "gas_explosion"
+        ],
+        "date": "2019-01-4",
+        "#event": 8,
+        "#word": 733,
+        "#sent": 35
+    },
+    "internet_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "internet",
+            ""
+        ],
+        "date": "2022-09-12",
+        "#event": 7,
+        "#word": 369,
+        "#sent": 13
+    },
+    "disasters_and_accidents_volcanoes_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "disasters_and_accidents",
+            "volcanoes"
+        ],
+        "date": "2019-09-8",
+        "#event": 9,
+        "#word": 597,
+        "#sent": 23
+    },
+    "politics_and_conflicts_elections_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "politics_and_conflicts",
+            "elections"
+        ],
+        "date": "2018-03-20",
+        "#event": 6,
+        "#word": 380,
+        "#sent": 17
+    },
+    "economy_and_business_strikes_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "economy_and_business",
+            "strikes"
+        ],
+        "date": "2016-01-21",
+        "#event": 8,
+        "#word": 235,
+        "#sent": 10
+    },
+    "environment_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "environment",
+            ""
+        ],
+        "date": "2023-07-10",
+        "#event": 4,
+        "#word": 283,
+        "#sent": 9
+    },
+    "crime_and_law_accuse_3_extra": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "crime_and_law_accuse",
+            ""
+        ],
+        "date": "2010-04-24",
+        "#event": 3,
+        "#word": 191,
+        "#sent": 7
+    },
+    "disasters_and_accidents_fires_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "disasters_and_accidents",
+            "fires"
+        ],
+        "date": "2019-01-7",
+        "#event": 6,
+        "#word": 185,
+        "#sent": 9
+    },
+    "crime_and_law_sentence_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "",
+            "crime_and_law_sentence"
+        ],
+        "date": "2011-01-12",
+        "#event": 5,
+        "#word": 261,
+        "#sent": 13
+    },
+    "culture_and_entertainment_3_extra": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "culture_and_entertainment",
+            ""
+        ],
+        "date": "2016-10-20",
+        "#event": 6,
+        "#word": 300,
+        "#sent": 13
+    },
+    "economy_and_business_strikes_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "economy_and_business",
+            "strikes"
+        ],
+        "date": "2005-05-23",
+        "#event": 5,
+        "#word": 539,
+        "#sent": 22
+    },
+    "politics_and_conflicts_resign_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "politics_and_conflicts",
+            "resign"
+        ],
+        "date": "2022-04-6",
+        "#event": 4,
+        "#word": 270,
+        "#sent": 11
+    },
+    "space_2": {
+        "date(binary)": "New",
+        "length(binary)": "Long",
+        "topic": [
+            "space",
+            ""
+        ],
+        "date": "2023-09-26",
+        "#event": 18,
+        "#word": 479,
+        "#sent": 23
+    },
+    "politics_and_conflicts_resign_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "politics_and_conflicts",
+            "resign"
+        ],
+        "date": "2020-01-18",
+        "#event": 3,
+        "#word": 173,
+        "#sent": 5
+    },
+    "environment_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "environment",
+            ""
+        ],
+        "date": "2021-04-23",
+        "#event": 6,
+        "#word": 675,
+        "#sent": 17
+    },
+    "politics_and_conflicts_policy_change_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "politics_and_conflicts",
+            "policy_change"
+        ],
+        "date": "2022-03-19",
+        "#event": 5,
+        "#word": 215,
+        "#sent": 9
+    },
+    "space_1_extra": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "space",
+            ""
+        ],
+        "date": "2023-02-12",
+        "#event": 4,
+        "#word": 318,
+        "#sent": 9
+    },
+    "space_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "space",
+            ""
+        ],
+        "date": "2023-02-15",
+        "#event": 3,
+        "#word": 237,
+        "#sent": 6
+    },
+    "economy_and_business_organization_closed_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "economy_and_business",
+            "organization_closed"
+        ],
+        "date": "2009-01-8",
+        "#event": 5,
+        "#word": 826,
+        "#sent": 32
+    },
+    "economy_and_business_financial_crisis_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "economy_and_business",
+            "financial_crisis"
+        ],
+        "date": "2010-12-23",
+        "#event": 4,
+        "#word": 229,
+        "#sent": 9
+    },
+    "disasters_and_accidents_fires_3_extra": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "disasters_and_accidents",
+            "fires"
+        ],
+        "date": "2018-12-17",
+        "#event": 7,
+        "#word": 257,
+        "#sent": 16
+    },
+    "health_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "health",
+            ""
+        ],
+        "date": "2017-03-27",
+        "#event": 6,
+        "#word": 305,
+        "#sent": 12
+    },
+    "environment_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "environment",
+            ""
+        ],
+        "date": "2018-10-10",
+        "#event": 6,
+        "#word": 353,
+        "#sent": 10
+    },
+    "politics_and_conflicts_resign_1_extra": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "politics_and_conflicts",
+            "resign"
+        ],
+        "date": "2023-05-30",
+        "#event": 5,
+        "#word": 319,
+        "#sent": 14
+    },
+    "politics_and_conflicts_armed_conflict_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "politics_and_conflicts",
+            "armed_conflict"
+        ],
+        "date": "2011-01-28",
+        "#event": 5,
+        "#word": 199,
+        "#sent": 5
+    },
+    "government_and_politics_protests_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "government_and_politics",
+            "protests"
+        ],
+        "date": "2012-12-4",
+        "#event": 6,
+        "#word": 592,
+        "#sent": 17
+    },
+    "politics_and_conflicts_elections_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "politics_and_conflicts",
+            "elections"
+        ],
+        "date": "2017-06-16",
+        "#event": 3,
+        "#word": 710,
+        "#sent": 28
+    },
+    "government_and_politics_protests_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "government_and_politics",
+            "protests"
+        ],
+        "date": "2018-09-11",
+        "#event": 4,
+        "#word": 249,
+        "#sent": 10
+    },
+    "economy_and_business_merger_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "economy_and_business",
+            "merger"
+        ],
+        "date": "2009-05-7",
+        "#event": 4,
+        "#word": 274,
+        "#sent": 10
+    },
+    "disasters_and_accidents_road_crash_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "disasters_and_accidents",
+            "road_crash"
+        ],
+        "date": "2006-05-5",
+        "#event": 7,
+        "#word": 462,
+        "#sent": 19
+    },
+    "economy_and_business_financial_crisis_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "economy_and_business",
+            "financial_crisis"
+        ],
+        "date": "2008-10-11",
+        "#event": 7,
+        "#word": 351,
+        "#sent": 11
+    },
+    "politics_and_conflicts_elections_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "politics_and_conflicts",
+            "elections"
+        ],
+        "date": "2023-03-3",
+        "#event": 7,
+        "#word": 351,
+        "#sent": 13
+    },
+    "disasters_and_accidents_aviation_accidents_and_incidents_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "disasters_and_accidents",
+            "aviation_accidents_and_incidents"
+        ],
+        "date": "2014-12-30",
+        "#event": 7,
+        "#word": 806,
+        "#sent": 51
+    },
+    "economy_and_business_financial_crisis_2": {
+        "date(binary)": "New",
+        "length(binary)": "Long",
+        "topic": [
+            "economy_and_business",
+            "financial_crisis"
+        ],
+        "date": "2023-05-16",
+        "#event": 2,
+        "#word": 388,
+        "#sent": 13
+    },
+    "weather_earthquakes_1_extra": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "weather",
+            "earthquakes"
+        ],
+        "date": "2023-02-2",
+        "#event": 2,
+        "#word": 156,
+        "#sent": 5
+    },
+    "computers_2": {
+        "date(binary)": "New",
+        "length(binary)": "Long",
+        "topic": [
+            "computers",
+            ""
+        ],
+        "date": "2023-03-9",
+        "#event": 2,
+        "#word": 894,
+        "#sent": 21
+    },
+    "weather_earthquakes_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "weather",
+            "earthquakes"
+        ],
+        "date": "2022-03-17",
+        "#event": 7,
+        "#word": 235,
+        "#sent": 9
+    },
+    "crime_and_law_accuse_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "crime_and_law_accuse",
+            ""
+        ],
+        "date": "2007-06-15",
+        "#event": 5,
+        "#word": 509,
+        "#sent": 15
+    },
+    "politics_and_conflicts_diplomatic_talks_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "politics_and_conflicts",
+            "diplomatic_talks"
+        ],
+        "date": "2012-08-29",
+        "#event": 6,
+        "#word": 183,
+        "#sent": 7
+    },
+    "culture_and_entertainment_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "culture_and_entertainment",
+            ""
+        ],
+        "date": "2023-06-12",
+        "#event": 4,
+        "#word": 239,
+        "#sent": 12
+    },
+    "politics_and_conflicts_policy_change_1": {
+        "date(binary)": "New",
+        "length(binary)": "Short",
+        "topic": [
+            "politics_and_conflicts",
+            "policy_change"
+        ],
+        "date": "2023-04-5",
+        "#event": 5,
+        "#word": 371,
+        "#sent": 12
+    },
+    "disasters_and_accidents_gas_explosion_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "disasters_and_accidents",
+            "gas_explosion"
+        ],
+        "date": "2015-01-31",
+        "#event": 7,
+        "#word": 325,
+        "#sent": 23
+    },
+    "internet_2": {
+        "date(binary)": "New",
+        "length(binary)": "Long",
+        "topic": [
+            "internet",
+            ""
+        ],
+        "date": "2023-02-9",
+        "#event": 5,
+        "#word": 448,
+        "#sent": 15
+    },
+    "economy_and_business_organization_closed_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "economy_and_business",
+            "organization_closed"
+        ],
+        "date": "2009-05-15",
+        "#event": 2,
+        "#word": 261,
+        "#sent": 10
+    },
+    "politics_and_conflicts_diplomatic_talks_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "politics_and_conflicts",
+            "diplomatic_talks"
+        ],
+        "date": "2008-02-28",
+        "#event": 8,
+        "#word": 747,
+        "#sent": 33
+    },
+    "infectious_disease_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "infectious_disease",
+            ""
+        ],
+        "date": "2009-10-31",
+        "#event": 8,
+        "#word": 312,
+        "#sent": 11
+    },
+    "culture_and_entertainment_3": {
+        "date(binary)": "Old",
+        "length(binary)": "Short",
+        "topic": [
+            "culture_and_entertainment",
+            ""
+        ],
+        "date": "2018-10-31",
+        "#event": 6,
+        "#word": 324,
+        "#sent": 12
+    },
+    "disasters_and_accidents_fires_4": {
+        "date(binary)": "Old",
+        "length(binary)": "Long",
+        "topic": [
+            "disasters_and_accidents",
+            "fires"
+        ],
+        "date": "2018-04-10",
+        "#event": 19,
+        "#word": 555,
+        "#sent": 26
+    }
+}

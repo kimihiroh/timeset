@@ -1,0 +1,26 @@
+T1	event 247 253	injury
+E1	event:T1 
+T3	event 1231 1236	fault
+E3	event:T3 ARG1-:T13
+T4	event 1198 1202	fire
+E4	event:T4 ARG1-:T6
+R1	AFTER Arg1:E3 Arg2:E4	
+R2	AFTER Arg1:E4 Arg2:E1	
+T5	event 1025 1033	survived
+E5	event:T5 ARG0-:T8 ARG1-:E4
+T2	event 1092 1096	died
+E2	event:T2 ARG1-:T7
+R3	COEX Arg1:E5 Arg2:E2	
+R4	COEX Arg1:E1 Arg2:E5	
+T7	entity 1035 1078	some of the frogs, insects, and small birds
+T8	entity 998 1013	all the mammals
+T9	event 592 601	shut down
+E6	event:T9 ARG1-:T11 ARG0-:T12
+T6	entity 615 641	The monsoon forest habitat
+R5	AFTER Arg1:E1 Arg2:E6	
+T10	event 969 977	reopened
+E7	event:T10 ARG1-:T11 ARG0-:T12
+R6	AFTER Arg1:E6 Arg2:E7	
+T11	entity 98 109	Chester Zoo
+T12	entity 902 915	zoo personnel
+T13	entity 1220 1230	electrical

@@ -1,0 +1,48 @@
+T1	event 103 110	tsunami
+E1	event:T1 ARG1-:T2 ARG5-:T10 TIMEX:T22
+T2	entity 118 142	Indonesia's Sunda Strait
+T3	event 251 260	landslide
+E2	event:T3 TIMEX:T22
+T4	event 286 295	eruptions
+E3	event:T4 ARG1-:T5 TIMEX:T22
+T5	entity 299 312	Anak Krakatoa
+T6	event 395 399	dead
+E4	event:T6 ARG0-:T8 TIMEX:T22
+T7	event 408 415	injured
+E5	event:T7 ARG0-:T9 TIMEX:T22
+T8	entity 391 394	222
+T9	entity 404 407	843
+T10	entity 641 667	3–7 feet (1–2 meters) high
+T11	entity 1006 1051	The International Federation of the Red Cross
+T12	event 1098 1105	support
+E6	event:T12 ARG1-:T14 ARG0-:T11 TIMEX:T23
+T13	event 1120 1126	locate
+E7	event:T13 ARG1-:T15 ARG0-:T11 TIMEX:T23
+T14	entity 1106 1115	survivors
+T15	entity 1127 1139	the deceased
+T16	event 1279 1286	tsunami
+E8	event:T16 ARG1-:T19 TIMEX:T25
+T17	event 1221 1228	tsunami
+E9	event:T17 ARG1-:T18 TIMEX:T24
+T18	entity 1233 1241	Sulawesi
+T20	event 1313 1319	killed
+E10	event:T20 ARG1-:T21 ARG0-:E8 TIMEX:T25
+T21	entity 1320 1332	over 220,000
+T19	entity 1296 1312	thirteen nations
+R1	AFTER Arg1:E3 Arg2:E2	
+R2	AFTER Arg1:E2 Arg2:E1	
+R3	AFTER Arg1:E1 Arg2:E4	
+R6	AFTER Arg1:E5 Arg2:E6	
+R7	AFTER Arg1:E9 Arg2:E3	
+R8	AFTER Arg1:E10 Arg2:E9	
+R9	AFTER Arg1:E8 Arg2:E10	
+R10	COEX Arg1:E4 Arg2:E5	
+R11	COEX Arg1:E6 Arg2:E7	
+T22	timex 91 99	Saturday
+#1	AnnotatorNotes T22	2018-12-22
+T24	timex 1202 1218	Three months ago
+#3	AnnotatorNotes T24	2018-09-xx
+T25	timex 1274 1278	2004
+#4	AnnotatorNotes T25	2004-xx-xx
+T23	timex 1060 1066	Sunday
+#2	AnnotatorNotes T23	2018-12-23

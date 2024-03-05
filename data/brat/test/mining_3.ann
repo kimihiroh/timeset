@@ -1,0 +1,15 @@
+T1	event 100 107	trapped
+E1	event:T1 ARG1-:T5 ARG2-:T6
+T2	event 274 283	explosion
+E2	event:T2 ARG1-:T7
+T3	event 310 318	collapse
+E3	event:T3 ARG1-:T8
+R1	AFTER Arg1:E2 Arg2:E3	
+R2	AFTER Arg1:E3 Arg2:E1	
+T4	event 320 326	Rescue
+E4	event:T4 ARG1-:T5
+R3	AFTER Arg1:E1 Arg2:E4	
+T5	entity 71 94	13 American coal miners
+T6	entity 138 189	the Sago coal mine in the US state of West Virginia
+T7	entity 262 273	methane gas
+T8	entity 297 306	the shaft

@@ -1,0 +1,67 @@
+T1	event 210 217	closing
+E1	event:T1 ARG0-:T14 ARG1-:T15 TIMEX:T28
+T2	event 541 549	entering
+E2	event:T2 ARG0-:T16 ARG1-:T17
+T3	event 554 561	clashes
+E3	event:T3 ARG0-:T16
+T4	event 626 631	close
+E4	event:T4 ARG1-:T18
+T9	event 1403 1413	controlled
+E9	event:T9 ARG0-:T19 ARG1-:T20 TIMEX:T29
+T10	event 1746 1752	closed
+E10	event:T10 ARG1-:T24 ARG0-:T14 TIMEX:T31
+T11	event 1791 1797	killed
+E11	event:T11 ARG1-:T25 ARG0-:T19 TIMEX:T31
+T12	event 1798 1805	leaving
+E12	event:T12 ARG0-:T25 ARG1-:T26 TIMEX:T31
+T5	event 1268 1274	murder
+E5	event:T5 ARG0-:T19
+T6	event 1276 1286	kidnapping
+E6	event:T6 ARG0-:T19
+T7	event 1291 1306	sexual violence
+E7	event:T7 ARG0-:T19
+T8	event 1488 1498	called for
+E8	event:T8 ARG0-:T21 ARG2-:T22 TIMEX:T30
+R3	AFTER Arg1:E4 Arg2:E1	
+R13	AFTER Arg1:E10 Arg2:E3	
+R1	COEX Arg1:E11 Arg2:E12	
+R2	COEX Arg1:E6 Arg2:E7	
+R4	COEX Arg1:E5 Arg2:E6	
+R5	COEX Arg1:E2 Arg2:E3	
+R8	AFTER Arg1:E11 Arg2:E10	
+R9	AFTER Arg1:E3 Arg2:E4	
+R6	AFTER Arg1:E5 Arg2:E8	
+R7	AFTER Arg1:E8 Arg2:E9	
+R10	AFTER Arg1:E9 Arg2:E12	
+T13	event 1607 1614	stalled
+E13	event:T13 ARG1-:T23 ARG0-:T27
+R11	COEX Arg1:E13 Arg2:E2	
+T14	entity 95 119	Médecins Sans Frontières
+T15	entity 224 232	hospital
+T16	entity 527 540	stray bullets
+T17	entity 562 601	"just metres" from the hospital complex
+T18	entity 615 622	schools
+T19	entity 1397 1402	gangs
+T20	entity 1414 1432	60% of the capital
+T21	entity 1465 1476	Ariel Henry
+T22	entity 1502 1521	international force
+T23	entity 1591 1601	US efforts
+T24	entity 1694 1704	A hospital
+T25	entity 1777 1786	a patient
+T26	entity 1806 1824	the emergency room
+T27	entity 1171 1184	gang violence
+T28	timex 178 187	Wednesday
+#1	AnnotatorNotes T28	2023-03-09
+#2	AnnotatorNotes E2	TIMEX: none. duration the week prior 2023-03-12 thbru 2023-03-17
+#3	AnnotatorNotes E3	TIMEX: none. duration the week prior 2023-03-12 thbru 2023-03-17
+#4	AnnotatorNotes E4	TIMEX: none. duration the week prior 2023-03-12 thbru 2023-03-17
+#5	AnnotatorNotes E5	TIMEX: none. duration "since July 2021 2021-07-xx thru 2023-04-xx
+#6	AnnotatorNotes E6	TIMEX: none. duration "since July 2021" 2021-07-xx thru 2023-04-xx
+#7	AnnotatorNotes E7	TIMEX: none. duration "since July 2021" 2021-07-xx thru 2023-04-xx
+T29	timex 1354 1362	November
+#8	AnnotatorNotes T29	2023-11-xx
+T30	timex 1478 1487	last year
+#9	AnnotatorNotes T30	2022-xx-xx
+#10	AnnotatorNotes E13	TIMEX: none. unspecified
+T31	timex 1753 1770	earlier this year
+#11	AnnotatorNotes T31	2023-xx-xx (sometime before March 12)

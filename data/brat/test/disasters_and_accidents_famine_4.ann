@@ -1,0 +1,21 @@
+T1	event 227 236	suffering
+E1	event:T1 ARG0-:T2 ARG1-:E2
+T2	entity 189 223	one in three, (ten million people)
+T3	event 252 259	drought
+E2	event:T3 
+T4	event 607 616	airlifted
+E3	event:T4 ARG0-:T6 ARG1-:T5 ARG2-:T7
+T5	entity 683 737	five metric tons of medicines, food and water supplies
+R1	AFTER Arg1:E2 Arg2:E1	
+R2	AFTER Arg1:E1 Arg2:E3	
+T6	entity 588 606	the United Nations
+T7	entity 156 163	Somalia
+T8	event 975 979	lost
+E4	event:T8 ARG0-:T10 ARG1-:T9
+T9	entity 980 1005	their livestock and farms
+T10	entity 963 969	people
+T11	event 1107 1119	malnourished
+E5	event:T11 ARG0-:T12
+T12	entity 1080 1088	children
+R4	COEX Arg1:E4 Arg2:E5	
+R3	COEX Arg1:E1 Arg2:E4	

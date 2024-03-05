@@ -1,0 +1,16 @@
+T2	event 404 411	process
+E2	event:T2 ARG1-:T1 ARG0-:T9
+T3	entity 74 94	The European Council
+T4	event 144 152	approved
+E3	event:T4 ARG0-:T3 ARG0-2:T1
+T5	event 1610 1618	bankrupt
+E4	event:T5 ARG1-:T6
+T6	entity 1594 1597	FTX
+R1	AFTER Arg1:E2 Arg2:E4	
+R2	AFTER Arg1:E4 Arg2:E3	
+T1	entity 153 200	the Markets in Crypto Assets (MiCA) regulations
+T7	entity 1624 1647	the TerraUSD stablecoin
+T8	event 1564 1573	collapsed
+E1	event:T8 ARG0-:T7
+R3	COEX Arg1:E4 Arg2:E1	
+T9	entity 392 403	legislative

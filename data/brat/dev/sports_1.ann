@@ -1,0 +1,29 @@
+T1	entity 158 167	Amir Khan
+T2	event 189 192	ban
+E1	event:T2 ARG0-:T8 ARG2-:T1 ARG1-:T12 TIMEX:T13
+T3	event 197 203	doping
+E2	event:T3 ARG0-:T1 ARG2-:T9 TIMEX:T14
+T4	event 349 356	retired
+E3	event:T4 ARG0-:T1
+T5	event 649 653	loss
+E4	event:T5 ARG0-:T1 ARG1-:T7 TIMEX:T16
+T6	event 503 510	testing
+E5	event:T6 ARG1-:T11 ARG3-:T10 ARG2-:T9 TIMEX:T16
+T7	entity 332 342	Kell Brook
+T8	entity 207 238	the UK Anti-Doping organisation
+T9	entity 524 532	ostarine
+T10	entity 511 519	positive
+T11	entity 588 602	a urine sample
+T12	entity 469 478	the sport
+R1	AFTER Arg1:E4 Arg2:E5	
+R2	AFTER Arg1:E2 Arg2:E4	
+R3	AFTER Arg1:E5 Arg2:E3	
+R4	AFTER Arg1:E3 Arg2:E1	
+T13	timex 74 81	Tuesday
+#1	AnnotatorNotes T13	2023-04-04
+T14	timex 315 323	February
+#2	AnnotatorNotes T14	2022-02-xx
+T15	timex 357 385	three months after the fight
+#3	AnnotatorNotes T15	2022-05-xx
+T16	timex 680 688	February
+#4	AnnotatorNotes T16	2022-02-xx

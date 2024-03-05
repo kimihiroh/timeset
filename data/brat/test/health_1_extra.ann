@@ -1,0 +1,41 @@
+T1	event 137 144	injured
+E1	event:T1 ARG0-:E2 ARG1-:T18
+T3	event 456 467	confronting
+E3	event:T3 ARG0-:T8 ARG1-:T10
+T4	event 543 552	responded
+E4	event:T4 ARG0-:T11 ARG1-:E2
+T5	event 1414 1420	closed
+E5	event:T5 ARG1-:T20
+T6	event 1372 1385	investigation
+E6	event:T6 ARG0-:T19 ARG1-:E2
+R4	AFTER Arg1:E4 Arg2:E6	
+R5	COEX Arg1:E6 Arg2:E5	
+T7	event 1469 1478	re-opened
+E7	event:T7 ARG1-:T20
+R6	AFTER Arg1:E5 Arg2:E7	
+T8	entity 431 450	two groups of teens
+T10	entity 468 478	each other
+T11	entity 480 542	West Mifflin Police, Allegheny County Police and park security
+T12	event 668 676	injuries
+E8	event:T12 ARG1-:T16 ARG0-:E10
+T14	event 689 697	trampled
+E10	event:T14 ARG1-:T16
+T13	event 634 641	fleeing
+E9	event:T13 ARG0-:T16 ARG1-:E2
+T15	event 866 874	released
+E11	event:T15 ARG2-:T17 ARG1-:T9
+R10	AFTER Arg1:E1 Arg2:E11	
+T2	event 646 653	gunfire
+E2	event:T2 
+R1	AFTER Arg1:E3 Arg2:E2	
+R2	AFTER Arg1:E2 Arg2:E4	
+T16	entity 619 624	those
+T17	entity 880 892	the hospital
+T9	entity 772 790	a 39-year-old male
+T18	entity 126 131	three
+R3	COEX Arg1:E1 Arg2:E9	
+R7	COEX Arg1:E9 Arg2:E10	
+T19	entity 1230 1303	the Allegheny County Police Department and West Mifflin Police Department
+T20	entity 148 176	the Kennywood amusement park
+R8	COEX Arg1:E10 Arg2:E2	
+R9	COEX Arg1:E8 Arg2:E10	

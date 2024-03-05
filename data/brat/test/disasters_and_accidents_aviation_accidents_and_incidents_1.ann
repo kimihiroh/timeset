@@ -1,0 +1,23 @@
+T1	event 127 135	collided
+E1	event:T1 ARG0-:T11 ARG1-:T12
+T4	event 227 231	dead
+E2	event:T4 ARG0-:T5
+T5	entity 215 226	four people
+T6	event 253 260	injured
+E3	event:T6 ARG1-:T7
+T7	entity 236 241	three
+T9	event 557 567	taking off
+E5	event:T9 ARG0-:T11 ARG1-:T3
+T10	event 613 620	landing
+E6	event:T10 ARG1-:T12
+T11	entity 541 555	one helicopter
+T12	entity 600 612	a helicopter
+T13	event 1161 1172	investigate
+E7	event:T13 ARG0-:T14 ARG1-:E1
+T14	entity 960 1001	Australian Transport Safety Bureau (ATSB)
+R1	COEX Arg1:E5 Arg2:E6	
+R2	AFTER Arg1:E5 Arg2:E1	
+R3	COEX Arg1:E1 Arg2:E2	
+R4	COEX Arg1:E2 Arg2:E3	
+R5	AFTER Arg1:E3 Arg2:E7	
+T3	entity 141 198	the Sea World theme park located in Gold Coast, Australia

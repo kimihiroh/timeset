@@ -1,0 +1,30 @@
+T1	event 242 247	death
+E1	event:T1 ARG1-:T5
+T2	event 262 270	suffered
+E2	event:T2 ARG1-:T10
+T3	event 472 482	contracted
+E3	event:T3 ARG0-:T11 ARG1-:T10
+T4	event 106 113	removed
+E4	event:T4 ARG0-:T8 ARG1-:T13
+T6	event 573 578	tests
+E6	event:T6 ARG2-:T12 ARG1-:T13
+R1	AFTER Arg1:E2 Arg2:E1	
+R2	AFTER Arg1:E1 Arg2:E4	
+T7	event 709 717	suffered
+E7	event:T7 ARG0-:T16 ARG1-:T10
+R3	AFTER Arg1:E3 Arg2:E7	
+R4	COEX Arg1:E2 Arg2:E7	
+T5	entity 1014 1027	Avery Cornett
+T8	entity 94 101	Walmart
+T10	entity 276 297	Cronobacter sakazakii
+T11	entity 441 462	A second newborn baby
+T12	entity 598 693	to establish whether or not the powdered infant formula is connected to the bacterial infection
+T13	entity 2593 2642	Enfamil Newborn Formula 12.5 oz. cans lot #ZP1K7G
+T9	event 2107 2115	referred
+E5	event:T9 ARG0-:T14 ARG1-:T13 ARG2-:T15
+T14	entity 2049 2102	The Missouri Department of Health and Senior Services
+T15	entity 2138 2221	the Centers for Disease Control and Prevention and the Food and Drug Administration
+R5	COEX Arg1:E6 Arg2:E5	
+R6	COEX Arg1:E4 Arg2:E6	
+R7	AFTER Arg1:E1 Arg2:E6	
+T16	entity 694 708	the two babies

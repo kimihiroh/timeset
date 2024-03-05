@@ -1,0 +1,35 @@
+T4	event 348 352	dead
+E4	event:T4 ARG1-:T13
+T5	event 432 440	infected
+E5	event:T5 ARG1-:T14 ARG2-:T20
+T6	event 677 681	died
+E6	event:T6 ARG1-:T11
+T7	event 690 698	outbreak
+E7	event:T7 ARG1-:T9
+T8	event 845 852	ordered
+E8	event:T8 ARG0-:T17 ARG1-:T16 ARG2-:E2
+T10	event 253 257	take
+E10	event:T10 ARG0-:T15 ARG1-:T19
+R5	AFTER Arg1:E7 Arg2:E6	
+R6	COEX Arg1:E6 Arg2:E4	
+T9	entity 702 719	pneumonia and flu
+T11	entity 622 636	30 more people
+T13	entity 321 332	Four people
+T3	event 203 206	ban
+E3	event:T3 ARG0-:T15 ARG1-:T18
+R10	COEX Arg1:E3 Arg2:E10	
+T15	entity 170 184	the government
+T17	entity 803 844	Ukrainian prime minister Yulia Tymoshenko
+T2	event 857 864	closure
+E2	event:T2 ARG0-:T15 ARG1-:T16
+R2	AFTER Arg1:E8 Arg2:E2	
+T16	entity 868 887	schools and cinemas
+R3	COEX Arg1:E8 Arg2:E3	
+T18	entity 207 224	public gatherings
+T19	entity 258 271	other actions
+T14	entity 388 408	another seven people
+T20	entity 124 148	the H1N1 swine flu virus
+R7	COEX Arg1:E4 Arg2:E5	
+R4	AFTER Arg1:E4 Arg2:E3	
+R8	AFTER Arg1:E4 Arg2:E10	
+R1	AFTER Arg1:E4 Arg2:E8	

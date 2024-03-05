@@ -1,0 +1,19 @@
+T5	event 926 935	assembled
+E5	event:T5 ARG0-:T3 ARG1-:T4
+T6	event 959 967	reviewed
+E6	event:T6 ARG0-:T4 ARG1-:T8
+T7	event 1001 1006	wrote
+E7	event:T7 ARG0-:T4 ARG1-:T9
+R1	AFTER Arg1:E5 Arg2:E6	
+R2	AFTER Arg1:E6 Arg2:E7	
+T2	event 170 179	Releasing
+E2	event:T2 ARG0-:T3 ARG1-:T9
+T3	entity 208 252	the American Psychological Association (APA)
+T4	entity 936 954	a panel of experts
+T8	entity 968 992	research on social media
+T9	entity 180 195	recommendations
+T1	event 253 258	urged
+E1	event:T1 ARG0-:T3 ARG1-:T10
+R4	COEX Arg1:E2 Arg2:E1	
+T10	entity 259 266	parents
+R3	AFTER Arg1:E7 Arg2:E2	

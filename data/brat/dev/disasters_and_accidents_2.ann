@@ -1,0 +1,109 @@
+T1	event 154 159	found
+E1	event:T1 ARG0-:T20 ARG1-:T32 ARG2-:E15 TIMEX:T49
+T2	event 233 238	crash
+E2	event:T2 ARG1-:T25 TIMEX:T50
+T3	event 279 285	killed
+E3	event:T3 ARG1-:T26 ARG0-:E2 TIMEX:T50
+T4	event 709 713	paid
+E4	event:T4 ARG0-:T28 ARG2-:T30 ARG3-:T29
+T5	event 3264 3275	accumulated
+E5	event:T5 ARG0-:T41 ARG1-:T40 TIMEX:T54
+T6	event 3291 3300	disabling
+E6	event:T6 ARG0-:T40 ARG1-:T39
+T7	event 3352 3359	stalled
+E7	event:T7 ARG1-:T41 TIMEX:T54
+T8	event 3373 3381	warnings
+E8	event:T8 ARG0-:T45 ARG2-:T37 ARG1-:E7 TIMEX:T54
+T9	event 3400 3411	disregarded
+E9	event:T9 ARG1-:E8 ARG0-:T37 TIMEX:T54
+T10	event 2700 2705	found
+E10	event:T10 ARG1-:T33 TIMEX:T53
+T11	event 636 646	reaffirmed
+E11	event:T11 ARG0-:T20 ARG1-:T27 TIMEX:T49
+T12	event 1082 1089	settled
+E12	event:T12 ARG1-:T27 ARG2-:T30 ARG3-:T31 ARG0-:T23
+T13	event 2188 2193	found
+E13	event:T13 ARG0-:T20 ARG1-:T35 TIMEX:T51
+T14	event 3095 3104	retrieved
+E14	event:T14 ARG1-:T48 ARG0-:T42 TIMEX:T55
+T15	event 347 352	trial
+E15	event:T15 ARG1-:T23 ARG3-:T24 ARG0-:T34
+T16	event 1262 1269	verdict
+E16	event:T16 ARG0-:T20 TIMEX:T49
+T17	event 2667 2677	discovered
+E17	event:T17 ARG1-:T46 ARG0-:T47 TIMEX:T52
+T18	event 1460 1468	disputes
+E18	event:T18 ARG1-:T23 ARG0-:T34 ARG2-:T29
+T19	event 2806 2812	flying
+E19	event:T19 ARG2-:T25 ARG1-:T36 ARG4-:T38 ARG0-:T37 TIMEX:T54
+T21	event 3580 3593	investigation
+E21	event:T21 ARG0-:T42 ARG1-:T38 ARG2-:T38
+T22	event 2373 2380	reports
+E22	event:T22 ARG0-2:T43 ARG1-:T44
+R1	AFTER Arg1:E2 Arg2:E3	
+R5	AFTER Arg1:E19 Arg2:E5	
+R6	AFTER Arg1:E5 Arg2:E6	
+R9	AFTER Arg1:E8 Arg2:E9	
+R4	COEX Arg1:E14 Arg2:E21	
+R12	COEX Arg1:E17 Arg2:E14	
+R13	COEX Arg1:E13 Arg2:E10	
+R14	COEX Arg1:E16 Arg2:E13	
+R16	COEX Arg1:E1 Arg2:E11	
+R17	COEX Arg1:E11 Arg2:E16	
+R19	COEX Arg1:E4 Arg2:E12	
+R20	COEX Arg1:E12 Arg2:E18	
+R15	COEX Arg1:E18 Arg2:E15	
+R18	AFTER Arg1:E15 Arg2:E1	
+R8	COEX Arg1:E7 Arg2:E8	
+R7	COEX Arg1:E6 Arg2:E7	
+R10	AFTER Arg1:E9 Arg2:E2	
+T23	entity 160 181	Air France and Airbus
+T24	entity 196 220	involuntary manslaughter
+T25	entity 242 263	Air France Flight 447
+T26	entity 290 293	228
+T20	entity 372 391	Judge Sylvie Daunis
+T27	entity 665 680	civil liability
+T28	entity 694 704	Air France
+T29	entity 714 725	reparations
+T30	entity 729 737	families
+T31	entity 1114 1121	amounts
+T32	entity 182 192	not guilty
+T34	entity 1920 1943	victims' family members
+T35	entity 2201 2210	negligent
+T33	entity 2724 2741	acted negligently
+T36	entity 1164 1178	216 passengers
+T38	entity 2713 2723	Air France
+T39	entity 3301 3327	autopilot and autothrottle
+T40	entity 3260 3263	ice
+T41	entity 3343 3351	aircraft
+T43	entity 2386 2394	airlines
+T44	entity 2194 2200	Airbus
+T46	entity 3021 3029	wreckage
+T47	entity 2995 3005	submarines
+T48	entity 3120 3143	cockpit voice recorders
+T42	entity 3173 3229	Bureau of Enquiry and Analysis for Civil Aviation Safety
+T45	entity 2460 2475	cockpit display
+T37	entity 3393 3399	pilots
+R11	AFTER Arg1:E22 Arg2:E19	
+R2	AFTER Arg1:E3 Arg2:E17	
+R3	AFTER Arg1:E3 Arg2:E18	
+T49	timex 121 127	Monday
+#1	AnnotatorNotes T49	2023-04-17
+T50	timex 228 232	2009
+#2	AnnotatorNotes T50	2009-xx-xx
+#3	AnnotatorNotes E15	TIMEX: none. "concluding the first... trial" a trial has duration
+#4	AnnotatorNotes E4	TIMEX: none. unspecified time of payment
+#5	AnnotatorNotes E12	TIMEX: none.
+#6	AnnotatorNotes E18	TIMEX: none. duration "for over 10 years"
+T51	timex 2214 2220	Monday
+#7	AnnotatorNotes T51	2023-04-17
+#8	AnnotatorNotes E22	TIMEX: none. unspecified duration of previous incident reports
+T52	timex 2681 2685	2011
+#9	AnnotatorNotes T52	2011_xx-xx
+T53	timex 2706 2712	Monday
+#10	AnnotatorNotes T53	2023-04-17
+T54	timex 2886 2898	May 31, 2009
+#11	AnnotatorNotes T54	2009-05-31
+T55	timex 3168 3171	May
+#12	AnnotatorNotes T55	2011-05-xx
+#13	AnnotatorNotes E21	TIMEX: none. unspecified duration

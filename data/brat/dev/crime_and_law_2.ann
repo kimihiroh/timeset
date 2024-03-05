@@ -1,0 +1,31 @@
+T1	entity 129 191	The office of the attorney general of the US state of Maryland
+T2	event 220 228	alleging
+E1	event:T2 ARG0-:T1 ARG1-:E2 TIMEX:T15
+T3	entity 229 301	clergy members and others in the Roman Catholic Archdiocese of Baltimore
+T4	event 302 317	sexually abused
+E2	event:T4 ARG0-:T3 ARG1-:T5 TIMEX:T16
+T5	entity 318 340	more than 600 children
+T6	entity 1076 1102	Leaders of the Archdiocese
+T7	event 1114 1123	dismissed
+E3	event:T7 ARG0-:T6 ARG1-:T8 TIMEX:T16
+T8	entity 1124 1140	reports of abuse
+T9	event 1318 1329	transferred
+E4	event:T9 ARG1-:T11 ARG2-:T12 ARG0-:T6 TIMEX:T16
+T10	event 1227 1237	complaints
+E5	event:T10 ARG2-:T6 ARG1-:T8 ARG0-:T13 TIMEX:T16
+T11	entity 1336 1343	abusers
+T12	entity 1347 1362	other positions
+T13	entity 784 791	victims
+T14	event 401 414	investigation
+E6	event:T14 ARG0-:T1 ARG1-:T3 ARG2-:E2 TIMEX:T17
+R1	AFTER Arg1:E5 Arg2:E3	
+R3	AFTER Arg1:E6 Arg2:E1	
+R4	AFTER Arg1:E2 Arg2:E5	
+R5	AFTER Arg1:E3 Arg2:E4	
+R6	AFTER Arg1:E4 Arg2:E6	
+T15	timex 210 219	Wednesday
+#1	AnnotatorNotes T15	2023-04-05
+T16	timex 350 368	1940s through 2002
+#2	AnnotatorNotes T16	duration: 1940-xx-xx thru 2002-xx-xx
+T17	timex 424 428	2018
+#3	AnnotatorNotes T17	duration: 2018-xx-xx thru sometime before 2023-04-05

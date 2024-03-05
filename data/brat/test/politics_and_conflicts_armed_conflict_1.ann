@@ -1,0 +1,17 @@
+T2	event 441 446	asked
+E2	event:T2 ARG0-:T5 ARG2-:T7 ARG1-:T8
+T3	event 512 522	circulated
+E3	event:T3 ARG1-:T6
+T4	event 146 155	commented
+E4	event:T4 ARG0-:T5 ARG1-:T6
+R2	COEX Arg1:E2 Arg2:E4	
+R3	AFTER Arg1:E3 Arg2:E4	
+T5	entity 106 145	Ukrainian President Volodymyr Zelenskyy
+T1	event 592 600	beheaded
+E1	event:T1 ARG1-:T9 ARG0-:T11
+R1	AFTER Arg1:E1 Arg2:E3	
+T7	entity 447 479	the International Criminal Court
+T8	entity 483 494	investigate
+T9	entity 560 585	Ukrainian service members
+T11	entity 1695 1711	the Wagner Group
+T6	entity 159 257	recently-surfaced videos allegedly showing the beheading of Ukrainian soldiers by Russian soldiers

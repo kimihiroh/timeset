@@ -1,0 +1,26 @@
+T1	event 396 404	attacked
+E1	event:T1 ARG2-:T8 ARG0-:T13 ARG1-:T9
+T2	event 516 523	wounded
+E2	event:T2 ARG0-:T8 ARG1-:T11
+T3	event 598 609	air strikes
+E3	event:T3 ARG0-:T12 ARG1-:T13
+T4	event 913 920	damaged
+E4	event:T4 ARG1-:T14 ARG2-:T8 ARG0-:T13
+T5	event 488 494	killed
+E5	event:T5 ARG0-:T8 ARG1-:T10
+R1	COEX Arg1:E5 Arg2:E2	
+R2	AFTER Arg1:E1 Arg2:E5	
+T7	event 1044 1050	killed
+E7	event:T7 ARG1-:T6 ARG0-:E3
+T8	entity 388 395	a drone
+T10	entity 495 510	a US contractor
+T11	entity 524 563	five US soldiers and another contractor
+T12	entity 565 571	The US
+T13	entity 613 683	Syrian groups affiliated with Iran's Islamic Revolutionary Guard Corps
+R5	AFTER Arg1:E5 Arg2:E3	
+T9	entity 772 850	Coalition forces at the bases of Mission Support Site Conoco and Green Village
+R3	COEX Arg1:E2 Arg2:E4	
+R4	AFTER Arg1:E3 Arg2:E7	
+T6	entity 1051 1145	three Syrian government soldiers and 11 Syrian and five non-Syrian government-aligned fighters
+T14	entity 921 932	a structure
+R6	AFTER Arg1:E1 Arg2:E4	

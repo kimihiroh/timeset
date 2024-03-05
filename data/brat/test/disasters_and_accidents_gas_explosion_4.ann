@@ -1,0 +1,34 @@
+T1	event 118 127	collapsed
+E1	event:T1 ARG1-:T16
+T2	event 208 212	leak
+E2	event:T2 ARG1-:T22
+T3	event 223 232	explosion
+E3	event:T3 
+T5	event 311 315	dead
+E5	event:T5 ARG1-:T23
+T8	event 510 517	damaged
+E8	event:T8 ARG0-:E3 ARG1-:T6
+T9	event 612 621	recovered
+E9	event:T9 ARG1-:T26 ARG0-:T27 ARG2-:T28
+R3	AFTER Arg1:E2 Arg2:E3	
+R4	COEX Arg1:E3 Arg2:E1	
+R5	COEX Arg1:E1 Arg2:E5	
+R6	COEX Arg1:E5 Arg2:E8	
+T14	event 1053 1061	visiting
+E14	event:T14 ARG0-:T29 ARG1-:T30
+R7	AFTER Arg1:E8 Arg2:E9	
+T16	entity 96 117	An apartment building
+T22	entity 204 207	gas
+T23	entity 283 296	A total of 39
+T24	entity 477 489	1,000 people
+T26	entity 631 644	ten survivors
+T27	entity 519 527	Rescuers
+T28	entity 650 660	the debris
+T29	entity 956 970	Vladimir Putin
+T30	entity 1062 1073	the wounded
+T6	entity 491 504	48 apartments
+T4	event 1748 1757	recovered
+E4	event:T4 ARG0-:T27 ARG1-:T7
+T7	entity 1730 1747	additional bodies
+R1	COEX Arg1:E9 Arg2:E14	
+R2	AFTER Arg1:E14 Arg2:E4	

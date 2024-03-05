@@ -1,0 +1,35 @@
+T1	event 122 128	killed
+E1	event:T1 ARG1-:T8
+T2	event 145 149	riot
+E2	event:T2 ARG0-:T18 ARG1-:T13
+T4	event 580 587	quelled
+E4	event:T4 ARG0-:T10 ARG1-:E2
+T5	event 707 711	held
+E5	event:T5 ARG1-:T11 ARG3-:T19
+T3	event 772 783	decapitated
+E3	event:T3 ARG1-:T9
+T6	event 1054 1061	escaped
+E6	event:T6 ARG0-:T16 ARG1-:T15
+R3	COEX Arg1:E1 Arg2:E3	
+T8	entity 77 87	56 inmates
+T10	entity 564 579	the authorities
+T11	entity 671 701	74 inmates and twelve officers
+T12	event 739 747	released
+E9	event:T12 ARG1-:T14 ARG2-:T15
+T7	event 1075 1086	competition
+E7	event:T7 ARG3-:T17 ARG1-:T13
+R1	AFTER Arg1:E7 Arg2:E2	
+T14	entity 729 733	some
+T9	entity 768 771	Six
+T16	entity 1042 1053	112 inmates
+T17	entity 1091 1101	drug trade
+T18	entity 915 922	inmates
+T19	entity 712 719	hostage
+R7	AFTER Arg1:E5 Arg2:E9	
+R4	AFTER Arg1:E2 Arg2:E5	
+R5	AFTER Arg1:E2 Arg2:E6	
+R6	AFTER Arg1:E9 Arg2:E4	
+R8	AFTER Arg1:E5 Arg2:E1	
+R9	AFTER Arg1:E1 Arg2:E4	
+T13	entity 99 115	rival drug gangs
+T15	entity 153 185	Anisio Jobim Penitentiary Centre

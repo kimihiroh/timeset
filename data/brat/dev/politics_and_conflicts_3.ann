@@ -1,0 +1,24 @@
+T1	event 117 126	airlifted
+E1	event:T1 ARG1-:T3 ARG2-:T7 ARG3-:T6 TIMEX:T12
+T4	event 589 595	flying
+E4	event:T4 ARG1-:T3 TIMEX:T13
+T5	event 669 679	redirected
+E5	event:T5 ARG2-:T7 ARG1-:T10 ARG2-2:T11 TIMEX:T13
+T8	event 644 652	fell ill
+E8	event:T8 ARG1-:T3 TIMEX:T13
+T2	event 751 756	drank
+E2	event:T2 ARG0-:T3 ARG1-:T9 TIMEX:T13
+R1	AFTER Arg1:E2 Arg2:E8	
+R2	AFTER Arg1:E4 Arg2:E2	
+R3	AFTER Arg1:E8 Arg2:E5	
+R4	AFTER Arg1:E5 Arg2:E1	
+T3	entity 98 112	Alexei Navalny
+T6	entity 163 169	Berlin
+T7	entity 144 148	Omsk
+T9	entity 757 760	tea
+T10	entity 654 664	The flight
+T11	entity 683 687	Omsk
+T12	timex 65 70	Today
+#1	AnnotatorNotes T12	2020-08-22
+T13	timex 567 575	Thursday
+#2	AnnotatorNotes T13	2020-08-20

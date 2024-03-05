@@ -1,0 +1,47 @@
+T2	event 473 479	attack
+E2	event:T2 ARG1-:T13 ARG0-:T7 TIMEX:T25
+T3	event 733 742	shut down
+E3	event:T3 ARG1-:T16 TIMEX:T25
+T4	event 992 1001	came down
+E4	event:T4 ARG1-:T17 TIMEX:T25
+T8	event 1417 1425	diverted
+E8	event:T8 ARG1-:T18 TIMEX:T25
+T9	event 1451 1460	shut down
+E9	event:T9 ARG1-:T19 TIMEX:T25
+T10	event 659 663	walk
+E10	event:T10 ARG0-:T24 TIMEX:T25
+T11	event 1475 1482	stopped
+E11	event:T11 ARG0-:T20 ARG1-:T21 TIMEX:T25
+T12	event 1561 1570	shut down
+E12	event:T12 ARG0-:T22 ARG1-:T23 TIMEX:T25
+T1	event 300 310	explosions
+E1	event:T1 ARG0-:T7 TIMEX:T25
+T14	event 137 143	killed
+E14	event:T14 ARG1-:T5 ARG0-:E1 TIMEX:T25
+T15	event 168 175	injured
+E15	event:T15 ARG1-:T6 ARG0-:E1 TIMEX:T25
+R1	COEX Arg1:E14 Arg2:E15	
+R8	AFTER Arg1:E1 Arg2:E14	
+R12	COEX Arg1:E8 Arg2:E9	
+R13	COEX Arg1:E12 Arg2:E11	
+R14	COEX Arg1:E3 Arg2:E11	
+R9	COEX Arg1:E1 Arg2:E2	
+R10	COEX Arg1:E15 Arg2:E10	
+R2	AFTER Arg1:E10 Arg2:E3	
+R3	COEX Arg1:E3 Arg2:E8	
+R4	COEX Arg1:E10 Arg2:E4	
+T5	entity 84 93	26 people
+T6	entity 148 157	many more
+T7	entity 434 448	suicide bomber
+T13	entity 483 518	the Maelbeek/Maalbeek metro station
+T16	entity 698 723	The Brussels metro system
+T17	entity 980 991	The roofing
+T18	entity 1375 1406	All flights to Brussels Airport
+T19	entity 390 406	Brussels Airport
+T20	entity 1462 1470	Eurostar
+T21	entity 1483 1514	the international train service
+T22	entity 1549 1555	Thalys
+T23	entity 1571 1591	their entire network
+T24	entity 612 622	Passengers
+T25	timex 176 181	today
+#1	AnnotatorNotes T25	2016-03-22

@@ -1,0 +1,27 @@
+T1	event 115 124	destroyed
+E1	event:T1 ARG1-:T3
+T2	event 85 94	explosion
+E2	event:T2 ARG1-:T3
+T3	entity 125 174	a state maternity hospital in Mexico City, Mexico
+T4	event 203 207	dead
+E3	event:T4 ARG0-:T5
+T5	entity 176 198	A nurse and two babies
+T6	event 478 485	wounded
+E4	event:T6 ARG1-:T7
+T7	entity 438 473	Over 70 people including 20 infants
+T8	event 577 588	resupplying
+E5	event:T8 ARG0-:T9 ARG1-:T10
+T9	entity 565 572	a truck
+T10	entity 589 613	the hospital's gas tanks
+T11	event 745 753	arrested
+E6	event:T11 ARG1-:T12
+T12	entity 656 734	Driver Julio César Martínez and assistants Carlos Chavez and Salvador Alatorre
+T13	event 621 625	leak
+E7	event:T13 ARG0-:T14
+T14	entity 639 654	the supply hose
+R1	AFTER Arg1:E5 Arg2:E7	
+R2	AFTER Arg1:E7 Arg2:E2	
+R3	COEX Arg1:E2 Arg2:E1	
+R4	COEX Arg1:E1 Arg2:E3	
+R5	COEX Arg1:E3 Arg2:E4	
+R6	AFTER Arg1:E4 Arg2:E6	

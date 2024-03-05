@@ -1,0 +1,65 @@
+T1	event 156 165	denounced
+E1	event:T1 ARG0-:T4 ARG1-:T5 TIMEX:T31
+T2	event 248 254	agreed
+E2	event:T2 ARG0-:T6 ARG1-:T17 TIMEX:T32
+T3	event 329 340	deployments
+E3	event:T3 ARG2-:T8 ARG1-:T7 ARG0-:T20 TIMEX:T32
+T9	event 1465 1474	denounced
+E9	event:T9 ARG0-:T22 ARG1-:T23 TIMEX:T34
+T10	event 1616 1623	invited
+E10	event:T10 ARG0-:T22 ARG1-:T4 ARG2-:T29 TIMEX:T34
+T11	event 3309 3317	expelled
+E11	event:T11 ARG0-:T27 ARG1-:T30
+T12	event 1227 1236	civil war
+E12	event:T12 ARG0-:T8
+T13	event 1074 1083	called on
+E13	event:T13 ARG0-:T4 ARG1-:T20 ARG2-:T28 TIMEX:T33
+T14	event 1338 1344	agreed
+E14	event:T14 ARG0-:T4 ARG1-:T21 TIMEX:T33
+T15	event 711 718	discuss
+E15	event:T15 ARG0-:T4 ARG1-:T19 TIMEX:T33
+T16	event 1751 1759	ceremony
+E16	event:T16 ARG1-:T24 ARG0-:T20 TIMEX:T35
+T18	event 1818 1828	called for
+E18	event:T18 ARG0-:T25 ARG1-:T26 TIMEX:T35
+R1	COEX Arg1:E1 Arg2:E15	
+R2	COEX Arg1:E2 Arg2:E3	
+R3	COEX Arg1:E1 Arg2:E13	
+R4	COEX Arg1:E13 Arg2:E14	
+R5	COEX Arg1:E9 Arg2:E10	
+R6	COEX Arg1:E16 Arg2:E18	
+R7	AFTER Arg1:E2 Arg2:E11	
+R8	AFTER Arg1:E11 Arg2:E1	
+R9	AFTER Arg1:E1 Arg2:E9	
+R10	COEX Arg1:E14 Arg2:E16	
+R11	AFTER Arg1:E12 Arg2:E2	
+T4	entity 106 146	an assembly of several foreign ministers
+T5	entity 166 179	the memoranda
+T6	entity 231 247	Turkey and Libya
+T7	entity 316 328	Turkish army
+T17	entity 258 303	maritime borders in the Eastern Mediterranean
+T19	entity 719 741	Libya–Turkey relations
+T8	entity 344 349	Libya
+T20	entity 1084 1090	Turkey
+T21	entity 1348 1361	a future meet
+T22	entity 1425 1464	the Turkish Ministry of Foreign Affairs
+T23	entity 1475 1504	the conclusions of the summit
+T24	entity 1763 1790	the TurkStream gas pipeline
+T25	entity 1792 1817	Turkish president Erdoğan
+T26	entity 1840 1851	cooperation
+T27	entity 3302 3308	Athens
+T28	entity 1091 1124	to halt their drilling operations
+T29	entity 1638 1654	to open dialogue
+T30	entity 3318 3339	the Libyan ambassador
+T31	timex 95 104	Wednesday
+#1	AnnotatorNotes T31	2020-01-08
+T32	timex 355 363	November
+#2	AnnotatorNotes T32	2019-11-xx
+T33	timex 698 707	Wednesday
+#3	AnnotatorNotes T33	2020-01-08
+#4	AnnotatorNotes E12	TIMEX: none. duration unspecified start and no end
+T34	timex 1406 1424	the following day,
+#5	AnnotatorNotes T34	2020-01-09
+T35	timex 1722 1731	Wednesday
+#6	AnnotatorNotes T35	2020-01-08
+#7	AnnotatorNotes E11	TIMEX none. unspecified point in time after 2019-11-27

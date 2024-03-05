@@ -1,0 +1,88 @@
+T1	event 77 81	fire
+E1	event:T1 TIMEX:T46
+T3	event 316 322	fanned
+E3	event:T3 ARG0-:T13 ARG1-:T20 TIMEX:T46
+T5	event 911 917	aflame
+E5	event:T5 ARG1-:T30 TIMEX:T46
+T6	event 946 955	evacuated
+E6	event:T6 ARG2-:T31 ARG0-:T33 TIMEX:T46
+T7	event 1145 1152	control
+E7	event:T7 ARG1-:E1 ARG0-:T33 TIMEX:T46
+T8	event 1958 1966	injuries
+E8	event:T8 ARG1-:T42 ARG0-:T20 TIMEX:T46
+T9	event 1858 1868	inhalation
+E9	event:T9 ARG0-:T38 ARG1-:T39 TIMEX:T46
+T10	event 1892 1899	hitting
+E10	event:T10 ARG0-:T40 ARG1-:T41 TIMEX:T46
+T11	event 2037 2041	rose
+E11	event:T11 ARG1-:T43 ARG2-:T44 TIMEX:T46
+T12	event 2135 2144	responded
+E12	event:T12 ARG0-:T45 ARG1-:E1 TIMEX:T46
+T14	event 755 759	left
+E14	event:T14 ARG0-:T22 ARG1-:T23 TIMEX:T46
+T15	event 775 782	stepped
+E15	event:T15 ARG1-:T22 ARG2-:T27 ARG3-:T28 TIMEX:T46
+T16	event 887 896	returning
+E16	event:T16 ARG1-:T22 ARG3-:T29 ARG4-:T28 TIMEX:T46
+T17	event 876 880	went
+E17	event:T17 ARG1-:T22 ARG4-:T29 TIMEX:T46
+T18	event 158 165	injured
+E18	event:T18 ARG1-:T2 ARG0-:T20 TIMEX:T46
+T19	event 301 307	burned
+E19	event:T19 ARG1-:T4 ARG0-:T20 TIMEX:T46
+T21	event 1383 1392	inspected
+E21	event:T21 ARG0-:T34 ARG1-:T35 TIMEX:T47
+T24	event 1189 1197	assisted
+E24	event:T24 ARG0-:T32 ARG1-:T33 ARG2-:E7 TIMEX:T46
+T25	event 1537 1547	consulting
+E25	event:T25 ARG0-:T36 ARG1-:T37 TIMEX:T47
+T26	event 1880 1887	falling
+E26	event:T26 ARG1-:T40 TIMEX:T46
+R3	AFTER Arg1:E14 Arg2:E15	
+R4	AFTER Arg1:E15 Arg2:E17	
+R1	COEX Arg1:E9 Arg2:E26	
+R2	COEX Arg1:E26 Arg2:E10	
+R8	COEX Arg1:E8 Arg2:E9	
+R7	COEX Arg1:E18 Arg2:E8	
+R9	COEX Arg1:E19 Arg2:E3	
+R14	COEX Arg1:E7 Arg2:E24	
+R15	AFTER Arg1:E1 Arg2:E7	
+R16	AFTER Arg1:E7 Arg2:E21	
+R17	COEX Arg1:E25 Arg2:E21	
+R20	COEX Arg1:E12 Arg2:E24	
+R5	AFTER Arg1:E17 Arg2:E5	
+R6	AFTER Arg1:E5 Arg2:E16	
+R11	AFTER Arg1:E16 Arg2:E1	
+R12	COEX Arg1:E6 Arg2:E7	
+R10	COEX Arg1:E18 Arg2:E19	
+R13	COEX Arg1:E3 Arg2:E6	
+R18	COEX Arg1:E11 Arg2:E1	
+T2	entity 196 208	eight people
+T4	entity 291 300	buildings
+T13	entity 326 331	winds
+T20	entity 150 157	inferno
+T22	entity 724 729	owner
+T23	entity 762 767	stove
+T27	entity 783 790	outside
+T28	entity 695 705	restaurant
+T29	entity 881 885	home
+T30	entity 907 910	pot
+T31	entity 931 940	residents
+T32	entity 1201 1227	Self-Defence Forces troops
+T33	entity 1171 1183	Firefighters
+T34	entity 1274 1290	Ryuichi Yoneyama
+T35	entity 1406 1411	scene
+T36	entity 1508 1525	Local authorities
+T37	entity 1548 1557	residents
+T38	entity 1844 1847	one
+T39	entity 1852 1857	smoke
+T40	entity 1873 1876	one
+T41	entity 1900 1908	her head
+T42	entity 1919 1936	five firefighters
+T43	entity 2031 2036	Smoke
+T44	entity 2048 2052	300m
+T45	entity 2113 2134	Seventeen fire trucks
+T46	timex 85 93	Thursday
+#1	AnnotatorNotes T46	2016-12-22
+T47	timex 1367 1376	yesterday
+#2	AnnotatorNotes T47	2016-12-23

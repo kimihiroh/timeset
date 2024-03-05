@@ -1,0 +1,23 @@
+T1	event 111 115	fire
+E1	event:T1 ARG1-:T2
+T2	entity 85 103	An apartment block
+T3	event 215 221	killed
+E2	event:T3 ARG1-:T4 ARG0-:E1
+T4	entity 222 227	three
+T5	event 264 271	injured
+E3	event:T5 ARG0-:E1 ARG1-:T6
+T6	entity 272 279	sixteen
+T7	event 491 498	leaping
+E4	event:T7 ARG0-:T8 ARG1-:T9
+T8	entity 440 473	the most seriously injured adults
+T9	entity 504 511	windows
+T10	event 669 672	put
+E5	event:T10 ARG0-:T11 ARG1-:E1
+T11	entity 656 668	Firefighters
+T12	event 729 738	searching
+E6	event:T12 ARG0-:T11 ARG1-:T2
+R1	AFTER Arg1:E1 Arg2:E2	
+R2	COEX Arg1:E2 Arg2:E3	
+R3	COEX Arg1:E3 Arg2:E4	
+R4	AFTER Arg1:E5 Arg2:E6	
+R5	AFTER Arg1:E4 Arg2:E5	

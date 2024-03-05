@@ -1,0 +1,50 @@
+T1	event 351 358	crashed
+E1	event:T1 ARG1-:T3 TIMEX:T23
+T5	event 974 984	plummeting
+E5	event:T5 ARG1-:T3 ARG2-:T22 TIMEX:T23
+T8	event 1218 1231	investigation
+E8	event:T8 ARG0-:T10 ARG1-:E1
+T9	event 2114 2125	condolences
+E9	event:T9 ARG0-:T19 ARG1-:T20 TIMEX:T25
+T11	event 927 933	flight
+E11	event:T11 ARG2-:T3 ARG1-:T21 TIMEX:T23
+T12	event 1044 1051	ceasing
+E12	event:T12 ARG0-:T3 ARG1-:T13 TIMEX:T23
+T15	event 1637 1645	declared
+E15	event:T15 ARG0-:T17 TIMEX:T24
+T16	event 1759 1765	deaths
+E16	event:T16 ARG1-:T18 TIMEX:T23
+T6	event 516 524	declared
+E6	event:T6 ARG0-:T7 TIMEX:T23
+T2	event 1110 1117	gaining
+E2	event:T2 ARG0-:T3 ARG1-:T14 TIMEX:T23
+T4	event 1122 1128	losing
+E4	event:T4 ARG0-:T3 ARG1-:T14 TIMEX:T23
+R1	COEX Arg1:E2 Arg2:E4	
+R4	AFTER Arg1:E2 Arg2:E5	
+R3	AFTER Arg1:E11 Arg2:E2	
+R2	COEX Arg1:E5 Arg2:E12	
+R6	AFTER Arg1:E12 Arg2:E1	
+R7	AFTER Arg1:E16 Arg2:E8	
+R10	COEX Arg1:E6 Arg2:E8	
+R5	COEX Arg1:E16 Arg2:E1	
+R11	AFTER Arg1:E9 Arg2:E15	
+R8	AFTER Arg1:E8 Arg2:E9	
+T3	entity 329 345	an Embraer plane
+T7	entity 460 473	The Grey Zone
+T10	entity 1174 1206	The Federal Air Transport Agency
+T13	entity 1052 1074	to report its altitude
+T14	entity 1129 1137	altitude
+T17	entity 1623 1636	Dmitry Peskov
+T18	entity 1769 1791	the plane's passengers
+T19	entity 2065 2070	Putin
+T20	entity 2129 2160	the families of all the victims
+T21	entity 299 317	the ten passengers
+T22	entity 988 1016	almost 8,000 feet per minute
+T23	timex 374 383	Wednesday
+#1	AnnotatorNotes T23	2023-08-23
+#2	AnnotatorNotes E8	TIMEX: none. duration
+T24	timex 1584 1589	Today
+#3	AnnotatorNotes T24	2023-08-25
+T25	timex 2086 2095	yesterday
+#4	AnnotatorNotes T25	2023-08-24

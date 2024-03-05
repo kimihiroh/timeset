@@ -1,0 +1,21 @@
+T1	event 204 213	rejecting
+E1	event:T1 ARG0-:T5 ARG1-:T3
+T2	event 531 536	wrote
+E2	event:T2 ARG0-:T6 ARG1-:T8
+T5	entity 156 184	the Uruguay language academy
+T3	entity 247 300	ban of three matches and a £100,000 (US$137,000) fine
+T4	event 356 364	sanction
+E3	event:T4 ARG2-:T3 ARG1-:T6 ARG0-:T7
+T6	entity 230 244	Edinson Cavani
+T7	entity 310 339	The Football Association (FA)
+T8	entity 537 590	"Gracias, ((es))Spanish language: ‍Thank you negrito"
+T9	event 2811 2821	supporting
+E4	event:T9 ARG0-:T10 ARG1-:T6
+R2	COEX Arg1:E1 Arg2:E4	
+T10	entity 2863 2893	The Argentina language academy
+T11	event 2841 2851	accusation
+E5	event:T11 ARG0-:T7 ARG1-:T6 ARG2-:T12
+T12	entity 2855 2861	racism
+R1	AFTER Arg1:E2 Arg2:E5	
+R3	AFTER Arg1:E5 Arg2:E3	
+R4	AFTER Arg1:E3 Arg2:E1	

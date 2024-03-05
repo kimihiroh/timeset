@@ -1,0 +1,27 @@
+T2	event 685 691	claims
+E2	event:T2 ARG0-:T12 ARG1-:T14
+T3	event 756 762	claims
+E3	event:T3 ARG0-:T13 ARG1-:T15
+R1	COEX Arg1:E2 Arg2:E3	
+T4	event 867 874	control
+E4	event:T4 ARG0-:T12 ARG1-:T15
+T5	event 901 926	the 1967 Arab-Israeli War
+E5	event:T5 ARG1-:T12
+R2	AFTER Arg1:E5 Arg2:E4	
+T6	event 1431 1439	conflict
+E6	event:T6 ARG0-:T12 ARG1-:T13
+R3	AFTER Arg1:E4 Arg2:E6	
+R6	COEX Arg1:E6 Arg2:E3	
+T9	entity 399 424	The Australian government
+T12	entity 678 684	Israel
+T13	entity 746 755	Palestine
+T14	entity 692 720	the entire city of Jerusalem
+T15	entity 769 783	East Jerusalem
+T7	event 182 191	announced
+E7	event:T7 ARG0-:T8 ARG1-:E1
+T1	event 218 226	decision
+E1	event:T1 ARG0-:T9 ARG1-:T11
+T8	entity 141 181	Australian Prime Minister Scott Morrison
+T11	entity 230 273	recognise West Jerusalem as Israeli capital
+R4	AFTER Arg1:E6 Arg2:E1	
+R5	AFTER Arg1:E1 Arg2:E7	

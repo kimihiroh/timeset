@@ -1,0 +1,9 @@
+India launches Small Satellite Launch Vehicle, deploying three low-earth orbit satellites
+Sunday, February 12, 2023 
+On Friday, India's national space agency, the Indian Space Research Organisation (ISRO), conducted the second test flight of its Small Satellite Launch Vehicle (SSLV-D2), with three satellites onboard.
+The launch took place at 9:18 AM Indian Standard Time (3:48 AM UTC) from the Satish Dhawan Space Centre's first launchpad in Sriharikota, Andhra Pradesh.
+After a 15-minute flight, all three satellites were in a 450 kilometer (280 mile) orbit: the ISRO's Earth Observation Satellite-7 (EOS-07), weighing 156.3 kilograms (344.6 lbs), US company Antaris' Janus-1, weighing 10.2 kilograms (22.5 lbs), and AzaadiSAT-2, constructed by 750 female students and weighing 8.8 kilograms (19.4 lbs).
+ISRO announced the flight's success in a tweet: "SSLV-D2/EOS-07 Mission is [sic] accomplished successfully. SSLV-D2 placed EOS-07, Janus-1, and AzaadiSAT-2 into their intended orbits."
+The SSLV's first test flight on August 7 ended in failure when, ejecting its occupants as planned, the vehicle propelled them into an unstable orbit and they could not muster the velocity to remain on the trajectory.
+The SSLV caters to commercial satellites up to 500 kilograms (1,100 lbs) — the small and micro-satellite market — on a 'launch-on-demand' basis. 
+The Times of India stated the rocket's designers intended to provide access to space that is low-cost, quick, adaptable to many satellite designs, and demands minimal launch infrastructure.

@@ -1,0 +1,34 @@
+T2	event 657 664	protest
+E2	event:T2 ARG0-:T8 ARG1-:T11
+T3	event 665 671	closed
+E3	event:T3 ARG1-:T1
+T4	event 727 736	shut down
+E4	event:T4 ARG1-:T13
+T5	event 1214 1221	lawsuit
+E5	event:T5 ARG1-:T16 ARG2-:E6
+T6	event 186 193	sickout
+E6	event:T6 ARG1-:T8 ARG2-:T12
+R3	COEX Arg1:E2 Arg2:E3	
+R2	AFTER Arg1:E4 Arg2:E6	
+T1	entity 105 141	A majority of Detroit public schools
+T8	entity 198 206	teachers
+T9	event 311 318	arrival
+E1	event:T9 ARG1-:T19 ARG4-:T10
+R4	COEX Arg1:E3 Arg2:E1	
+R5	AFTER Arg1:E6 Arg2:E3	
+R7	AFTER Arg1:E3 Arg2:E5	
+T11	entity 497 591	the dilapidated state of public schools as well as Governor Rick Snyder's plan for the schools
+T12	entity 213 217	work
+T13	entity 737 749	more than 60
+T7	event 763 769	visits
+E7	event:T7 ARG0-:T14 ARG1-:T15
+R1	COEX Arg1:E4 Arg2:E7	
+T14	entity 789 821	Mayor Mike Duggan and inspectors
+T15	entity 773 785	school sites
+T17	event 399 406	rallies
+E9	event:T17 ARG0-:T18
+R8	COEX Arg1:E9 Arg2:E2	
+T18	entity 360 369	Activists
+T19	entity 322 335	the President
+T16	entity 1255 1309	the union as well as individual activists and teachers
+T10	entity 346 358	an auto show

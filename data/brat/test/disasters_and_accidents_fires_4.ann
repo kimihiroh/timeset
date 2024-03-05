@@ -1,0 +1,73 @@
+T1	event 144 148	fire
+E1	event:T1 ARG1-:T18
+T2	event 204 221	claiming the life
+E2	event:T2 ARG1-:T19
+T3	event 317 326	evacuated
+E3	event:T3 ARG2-:T20 ARG1-:T18
+T4	event 409 414	burns
+E4	event:T4 ARG1-:T21 ARG0-:E1
+T5	event 431 439	injuries
+E5	event:T5 ARG1-:T21 ARG0-:E1
+T6	event 642 650	occupies
+E6	event:T6 ARG0-:T22 ARG1-:T18
+T7	event 742 759	security presence
+E7	event:T7 ARG0-:T23 ARG1-:T18
+T8	event 1109 1116	control
+E8	event:T8 ARG0-:T27 ARG1-:E1
+T11	event 1302 1313	malfunction
+E11	event:T11 ARG0-:T28
+T12	event 1385 1393	injuries
+E12	event:T12 ARG1-:T29 ARG0-:E9
+T13	event 1432 1441	evacuated
+E13	event:T13 ARG2-:T30 ARG1-:T18
+T15	event 2456 2462	pulled
+E15	event:T15 ARG1-:T19 ARG0-:T32
+T16	event 2496 2507	transported
+E16	event:T16 ARG1-:T19 ARG3-:T33
+T17	event 2911 2916	leads
+E17	event:T17 ARG0-:T23 ARG1-:E19
+T9	event 1269 1273	fire
+E9	event:T9 ARG1-:T18
+R1	AFTER Arg1:E11 Arg2:E9	
+R3	AFTER Arg1:E1 Arg2:E3	
+R4	COEX Arg1:E3 Arg2:E4	
+R5	COEX Arg1:E4 Arg2:E5	
+R2	AFTER Arg1:E9 Arg2:E13	
+R6	COEX Arg1:E13 Arg2:E12	
+R7	COEX Arg1:E5 Arg2:E15	
+R9	AFTER Arg1:E15 Arg2:E16	
+R10	AFTER Arg1:E16 Arg2:E2	
+R11	COEX Arg1:E5 Arg2:E8	
+R13	AFTER Arg1:E6 Arg2:E7	
+R14	AFTER Arg1:E7 Arg2:E11	
+R15	AFTER Arg1:E12 Arg2:E1	
+R12	AFTER Arg1:E2 Arg2:E17	
+T10	event 2223 2227	find
+E10	event:T10 ARG1-:T31
+R16	COEX Arg1:E8 Arg2:E10	
+T14	event 2311 2319	escorted
+E14	event:T14 ARG0-:T23 ARG1-:T32
+R17	COEX Arg1:E10 Arg2:E14	
+R8	COEX Arg1:E16 Arg2:E14	
+T18	entity 97 108	Trump Tower
+T19	entity 249 262	Todd Brassner
+T20	entity 302 311	residents
+T21	entity 362 378	six firefighters
+T22	entity 635 641	family
+T23	entity 699 720	The US Secret Service
+T24	event 821 829	guarding
+E18	event:T24 ARG0-:T25 ARG1-:T26
+T25	entity 785 820	the New York City Police Department
+T26	entity 830 846	a hard perimeter
+R18	COEX Arg1:E18 Arg2:E7	
+T27	entity 1040 1080	the New York City Fire Department (FDNY)
+T28	entity 1317 1332	a cooling tower
+T29	entity 1346 1369	Three FDNY firefighters
+T30	entity 1399 1431	all residents and office workers
+T31	entity 2232 2263	source of the thick black smoke
+T32	entity 2320 2336	the firefighters
+T33	entity 2511 2541	Mount Sinai Roosevelt Hospital
+T34	event 2917 2934	the investigation
+E19	event:T34 
+R19	COEX Arg1:E17 Arg2:E19	
+R20	COEX Arg1:E2 Arg2:E3	

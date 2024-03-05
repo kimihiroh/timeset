@@ -1,0 +1,16 @@
+T1	event 110 116	agreed
+E1	event:T1 ARG0-:T6 ARG1-:E2
+T2	event 133 138	merge
+E2	event:T2 ARG1-:T7
+T4	event 493 500	discuss
+E4	event:T4 ARG0-:T8 ARG1-:E2
+T5	event 731 741	controlled
+E5	event:T5 ARG0-:T9 ARG1-:T3
+R1	AFTER Arg1:E1 Arg2:E2	
+R4	AFTER Arg1:E5 Arg2:E1	
+T6	entity 73 109	Porsche and Volkswagen family owners
+T7	entity 163 209	one large “integrated car-manufacturing group”
+T8	entity 453 465	A task force
+R2	COEX Arg1:E4 Arg2:E1	
+T3	entity 680 687	Porsche
+T9	entity 745 775	the Porsche and Piëch families

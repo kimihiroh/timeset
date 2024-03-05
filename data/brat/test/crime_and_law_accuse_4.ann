@@ -1,0 +1,23 @@
+T4	event 323 334	indictments
+E4	event:T4 ARG0-:T7 ARG1-:T10 ARG2-:T11
+T5	event 623 630	charged
+E5	event:T5 ARG1-:T10 ARG2-:T11 ARG0-:T1
+T6	event 1475 1483	arrested
+E6	event:T6 ARG1-:T12 ARG2-:T11 ARG0-:T9
+T8	entity 418 427	Dang Vang
+T2	event 202 206	plot
+E2	event:T2 ARG2-:T13 ARG1-:T14 ARG0-:T12
+T10	entity 584 618	Dang Vang, Vang Pao and the others
+T11	entity 636 654;655 669	violating the U.S. Neutrality Act
+T7	entity 277 299	the federal grand jury
+T12	entity 210 222	10 other men
+T13	entity 236 258	the government of Laos
+T14	entity 1081 1157	to blow up government buildings in Laos and assassinate government officials
+T3	event 437 445	arrested
+E3	event:T3 ARG1-:T8 ARG0-:T9
+T1	entity 1688 1707	federal prosecutors
+R1	AFTER Arg1:E6 Arg2:E3	
+R2	AFTER Arg1:E3 Arg2:E5	
+R3	AFTER Arg1:E5 Arg2:E4	
+R4	AFTER Arg1:E2 Arg2:E6	
+T9	entity 493 574	agents from the United States Bureau of Alcohol, Tobacco, Firearms and Explosives

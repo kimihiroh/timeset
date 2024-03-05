@@ -1,0 +1,30 @@
+T1	event 157 164	stormed
+E1	event:T1 ARG1-:T30 ARG0-:T2
+T3	event 302 314	inauguration
+E3	event:T3 ARG1-:T32
+T4	event 366 373	retaken
+E4	event:T4 ARG0-:T33 ARG1-:T30
+T5	event 392 400	detained
+E5	event:T5 ARG0-:T33 ARG1-:T6
+R3	COEX Arg1:E4 Arg2:E5	
+T14	event 905 914	vandalism
+E14	event:T14 ARG0-:T2
+T15	event 919 926	erected
+E15	event:T15 ARG1-:T42 ARG0-:T2
+R12	COEX Arg1:E14 Arg2:E15	
+T19	event 1976 1988	condemnation
+E19	event:T19 ARG0-:T48
+T20	event 1993 2001	sympathy
+E20	event:T20 ARG0-:T48 ARG1-:T32
+R17	COEX Arg1:E19 Arg2:E20	
+T30	entity 165 209	the Brazilian Congress and the Supreme Court
+T32	entity 335 348	Lula da Silva
+T33	entity 350 356	Police
+T42	entity 927 937	barricades
+T48	entity 1949 1962	World leaders
+R2	AFTER Arg1:E3 Arg2:E1	
+R6	AFTER Arg1:E14 Arg2:E4	
+R7	AFTER Arg1:E4 Arg2:E19	
+R1	AFTER Arg1:E1 Arg2:E14	
+T2	entity 101 156	Supporters of far-right former president Jair Bolsonaro
+T6	entity 401 429	hundreds of those in the mob

@@ -1,0 +1,29 @@
+T2	event 298 305	crossed
+E2	event:T2 ARG0-:T5 ARG1-:T18 ARG4-:T33
+T4	event 707 713	killed
+E4	event:T4 ARG1-:T24 ARG0-:E21
+T6	event 840 847	injured
+E6	event:T6 ARG1-:T26
+T10	event 1110 1120	assessment
+E10	event:T10 ARG0-:T29 ARG1-:T5
+T11	event 1487 1494	clashes
+E11	event:T11 ARG0-:T23
+T13	event 1635 1639	fled
+E13	event:T13 ARG0-:T31 ARG2-:T33
+T21	event 538 545	clashes
+E21	event:T21 ARG0-:T23
+R11	AFTER Arg1:E21 Arg2:E4	
+R17	COEX Arg1:E6 Arg2:E2	
+T5	entity 161 187	more than 16,000 civilians
+T23	entity 564 593	the Enyele and Munzaya tribes
+T24	entity 692 701	60 people
+T26	entity 809 824	40 other people
+T29	entity 1060 1072	A UNHCR team
+T31	entity 1609 1634	more than 1,200 residents
+T18	entity 306 324	the Oubangui River
+T33	entity 342 359	Republic of Congo
+T37	entity 230 267	Democratic Republic of the Congo (DRC
+R3	AFTER Arg1:E11 Arg2:E13	
+R4	AFTER Arg1:E13 Arg2:E21	
+R5	COEX Arg1:E4 Arg2:E6	
+R6	AFTER Arg1:E6 Arg2:E10	

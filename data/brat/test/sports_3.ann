@@ -1,0 +1,12 @@
+T3	event 390 399	postponed
+E2	event:T3 ARG2-:T4 ARG1-:E5
+T4	entity 403 409	a year
+T5	event 1441 1449	protests
+E3	event:T5 ARG1-:E5
+T2	event 75 99	The 2020 Summer Olympics
+E5	event:T2 
+T1	event 100 116	opening ceremony
+E1	event:T1 ARG1-:E5
+R1	AFTER Arg1:E2 Arg2:E5	
+R2	COEX Arg1:E1 Arg2:E3	
+R3	COEX Arg1:E1 Arg2:E5	

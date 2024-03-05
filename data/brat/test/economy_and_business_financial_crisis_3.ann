@@ -1,0 +1,19 @@
+T1	event 119 127	prepared
+E1	event:T1 ARG0-:T7 ARG2-:T8
+T2	event 179 185	crisis
+E2	event:T2 ARG1-:T5 ARG2-:T6
+T3	event 544 550	signed
+E3	event:T3 ARG0-:T10 ARG1-:T12 ARG2-:T11
+T4	event 453 463	increasing
+E4	event:T4 ARG0-:E2 ARG1-:T9
+T5	entity 169 178	financial
+T7	entity 98 103	China
+R1	AFTER Arg1:E2 Arg2:E4	
+R2	AFTER Arg1:E4 Arg2:E1	
+R3	COEX Arg1:E1 Arg2:E3	
+T9	entity 464 475	debt levels
+T10	entity 477 514	The International Monetary Fund (IMF)
+T11	entity 519 538	European Union (EU)
+T12	entity 551 635	deals to hand a €110bn aid package to Greece, and an €85bn rescue package to Ireland
+T6	entity 139 157	eurozone countries
+T8	entity 1154 1193	buy between four and five billion euros

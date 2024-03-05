@@ -1,0 +1,130 @@
+category	id	url	#word (roughly)	date	Other candidate	#word (roughly)	Other date		Document type	Count	Additional	Total
+Computers	1	https://en.wikinews.org/wiki/EU_agrees_%E2%82%AC43_billion_Chips_Act_to_boost_semiconductor_production	250	Sunday, April 23, 2023
+Computers	2	https://en.wikinews.org/wiki/Netherlands_set_to_further_restrict_semiconductor_technology_exports	710	Thursday, March 9, 2023
+Crime and law - accuse	1								id = 1	17	5	22
+Crime and law - accuse	2	https://en.wikinews.org/wiki/Federal_grand_jury_indicts_former_US_President_Donald_Trump_in_classified_documents_inquiry	400	Sunday, June 11, 2023					id = 2	15	0	15
+Crime and law - accuse	3	https://en.wikinews.org/wiki/San_Jose_mayor_Gonzales_indicted_on_six_counts	100	Thursday, June 22, 2006	https://en.wikinews.org/wiki/US_indicts_eleven_alleged_pirates_from_Somalia	160	Saturday, April 24, 2010		id = 3	30	7	37
+Crime and law - accuse	4	https://en.wikinews.org/wiki/11th_suspect_arrested_in_Laos_overthrow_plot;_indictments_handed_down	480	Friday, June 15, 2007					id = 4	30	2	32
+Crime and law - sentence	1	https://en.wikinews.org/wiki/Russia_sentences_opposition_activist_Vladimir_Kara-Murza_to_25_years_in_penal_colony	290	Saturday, April 22, 2023						92		106
+Crime and law - sentence	2
+Crime and law - sentence	3	https://en.wikinews.org/wiki/Former_US_Congressman_Tom_DeLay_sentenced_to_three_years_in_prison	180	Wednesday, January 12, 2011					# unique category	32
+Crime and law - sentence	4	https://en.wikinews.org/wiki/Brother_of_murdered_Pakistani_social_media_star_sentenced_to_life	450	Monday, September 30, 2019
+Culture and entertainment	1	https://en.wikinews.org/wiki/Tens_of_thousands_march_in_25th_Tel_Aviv_Pride_parade	180	Monday, June 12, 2023
+Culture and entertainment	2
+Culture and entertainment	3	https://en.wikinews.org/wiki/Syria%27s_National_Museum_re-opens_after_six_years_of_civil_war	250	Wednesday, October 31, 2018	https://en.wikinews.org/wiki/Nobel_Prize_in_Literature_Committee_abandons_efforts_to_contact_Bob_Dylan	180	Thursday, October 20, 2016
+Disasters and accidents - Aviation accidents and incidents	1	https://en.wikinews.org/wiki/Two_helicopters_collide_in_Gold_Coast,_Australia	230	Wednesday, January 4, 2023
+Disasters and accidents - Aviation accidents and incidents	2
+Disasters and accidents - Aviation accidents and incidents	3	https://en.wikinews.org/wiki/Iran_admits_downing_Ukrainian_jet,_cites_%27human_error%27	160	Monday, January 13, 2020	https://en.wikinews.org/wiki/Lion_Air_disaster:_Crashed_jet%27s_voice_recorder_recovered_from_Java_Sea	220	Wednesday, January 16, 2019
+Disasters and accidents - Aviation accidents and incidents	4	https://en.wikinews.org/wiki/AirAsia_disaster:_Bodies,_wreckage_found	660	Tuesday, December 30, 2014
+Disasters and accidents - Famine	1
+Disasters and accidents - Famine	2
+Disasters and accidents - Famine	3	https://en.wikinews.org/wiki/Imminent_danger_of_famine_in_the_Sahel	225	Sunday, March 18, 2012
+Disasters and accidents - Famine	4	https://en.wikinews.org/wiki/Drought_stricken_Somalia_nears_famine	470	Friday, July 15, 2011
+Disasters and accidents - Fires	1
+Disasters and accidents - Fires	2
+Disasters and accidents - Fires	3	https://en.wikinews.org/wiki/Catalonia_apartment_block_fire_kills_three,_injures_sixteen	140	Monday, January 7, 2019	https://en.wikinews.org/wiki/Fire_breaks_out_at_Chester_Zoo,_England	218	Monday, December 17, 2018
+Disasters and accidents - Fires	4	https://en.wikinews.org/wiki/Deadly_fire_below_US_President%27s_Trump_Tower_residence	450	Tuesday, April 10, 2018
+Disasters and accidents - gas explosion	1
+Disasters and accidents - gas explosion	2
+Disasters and accidents - gas explosion	3	https://en.wikinews.org/wiki/Gas_explosion_flattens_Mexico_City_maternity_hospital	280	Saturday, January 31, 2015
+Disasters and accidents - gas explosion	4	https://en.wikinews.org/wiki/Magnitogorsk_apartment_building_collapses_after_explosion,_dozens_dead	660	Friday, January 4, 2019
+Disasters and accidents - road crash	1
+Disasters and accidents - road crash	2
+Disasters and accidents - road crash	3	https://en.wikinews.org/wiki/Four_teenagers_killed_in_car_crash_in_Birmingham,_England	200	Saturday, November 14, 2009
+Disasters and accidents - road crash	4	https://en.wikinews.org/wiki/Rhode_Island_congressman_Patrick_Kennedy_involved_in_car_accident_near_U.S._Capitol	360	Friday, May 5, 2006
+Disasters and accidents - shipwreck	1
+Disasters and accidents - shipwreck	2	https://en.wikinews.org/wiki/Expedition_locates_wreck_of_World_War_II-sunk_ship_Montevideo_Maru	340	Monday, April 24, 2023
+Disasters and accidents - shipwreck	3
+Disasters and accidents - shipwreck	4	https://en.wikinews.org/wiki/Shipwreck_off_coast_of_Libya;_hundreds_of_African_migrants_feared_dead	340	Tuesday, March 31, 2009
+Disasters and accidents - volcanoes	1
+Disasters and accidents - volcanoes	2
+Disasters and accidents - volcanoes	3	https://en.wikinews.org/wiki/Augustine_volcano_erupts	140	Saturday, January 14, 2006
+Disasters and accidents - volcanoes	4	https://en.wikinews.org/wiki/Scientists_report_skyrocketing_phytoplankton_population_in_aftermath_of_K%C4%ABlauea_eruption	480	Sunday, September 8, 2019
+Economy and business - financial crisis	1
+Economy and business - financial crisis	2	https://en.wikinews.org/wiki/G7_finance_chiefs,_central_bankers_commit_to_implementing_plan_to_diversify_supply_chains_by_year%27s_end	302	Tuesday, May 16, 2023
+Economy and business - financial crisis	3	https://en.wikinews.org/wiki/China_prepared_to_support_eurozone_countries_hit_by_financial_crisis	180	Thursday, December 23, 2010
+Economy and business - financial crisis	4	https://en.wikinews.org/wiki/G7_says_%22all_available_tools%22_will_be_used_to_solve_crisis	440	Saturday, October 11, 2008
+Economy and business - merger	1
+Economy and business - merger	2
+Economy and business - merger	3	https://en.wikinews.org/wiki/Porsche_and_Volkswagen_automakers_agree_to_merger	230	Thursday, May 7, 2009
+Economy and business - merger	4	https://en.wikinews.org/wiki/Continental_and_United_Airlines_shareholders_approve_merger	350	Saturday, September 18, 2010
+Economy and business - organization closed	1
+Economy and business - organization closed	2
+Economy and business - organization closed	3	https://en.wikinews.org/wiki/U.S._automaker_GM_plans_to_close_1,100_dealerships	200	Friday, May 15, 2009
+Economy and business - organization closed	4	https://en.wikinews.org/wiki/Ziff_Davis_sells_1UP_to_UGO_Networks/Hearst,_closes_Electronic_Gaming_Monthly	680	Thursday, January 8, 2009
+Economy and business - strikes	1
+Economy and business - strikes	2	https://en.wikinews.org/wiki/US:_Writers,_entertainment_producers%27_groups_meet_two_months_into_writers%27_strike;_writers%27_says_%27no_agreement%27	300	Wednesday, August 9, 2023
+Economy and business - strikes	3	https://en.wikinews.org/wiki/Detroit_teachers_stage_sickout_to_protest_working_conditions_as_Obama_visits	190	Thursday, January 21, 2016
+Economy and business - strikes	4	https://en.wikinews.org/wiki/BBC_drops_programmes_as_third_of_staff_join_strike	460	Monday, May 23, 2005
+Environment	1	https://en.wikinews.org/wiki/Heatwaves_surge_worldwide_as_researchers%27_analysis_indicates_global_temperatures_reaching_new_highs	210	Monday, July 10, 2023
+Environment	2	https://en.wikinews.org/wiki/US_Interior_Department_approves_Willow_oil_project_in_Alaska	700	Tuesday, March 21, 2023
+Environment	3	https://en.wikinews.org/wiki/UN_Report_on_Global_Warming_calls_for_rapid_%27unprecedented%27_changes_globally_to_limit_planetary_warming_to_1.5_degree_C	270	Wednesday, October 10, 2018
+Environment	4	https://en.wikinews.org/wiki/European_Union_to_reduce_carbon_emissions_by_55%25_of_1990_levels_by_2030	530	Friday, April 23, 2021
+Government and politics - protests	1
+Government and politics - protests	2	https://en.wikinews.org/wiki/Supporters_of_ex-President_Bolsonaro_storm_Brazil%27s_Congress,_Supreme_Court	503	Monday, January 9, 2023
+Government and politics - protests	3	https://en.wikinews.org/wiki/Russians_protest_against_pension_reform	210	Tuesday, September 11, 2018
+Government and politics - protests	4	https://en.wikinews.org/wiki/Protesters_arrested_after_barricading_themselves_inside_portion_of_Keystone_Oil_Pipeline	490	Tuesday, December 4, 2012
+Government and politics - riots	1
+Government and politics - riots	2
+Government and politics - riots	3	https://en.wikinews.org/wiki/At_least_56_killed_in_Brazil_prison_riot	280	Thursday, January 5, 2017
+Government and politics - riots	4	https://en.wikinews.org/wiki/At_least_26_killed_in_another_Brazil_prison_riot	667	Tuesday, January 17, 2017
+Health	1	https://en.wikinews.org/wiki/New_American_Psychological_Association_guidelines:_Parents_should_advise_teenagers_on_social_media_use,_impose_restrictions	170	Friday, May 12, 2023	https://en.wikinews.org/wiki/Shooting_injures_three_at_Kennywood_amusement_park_in_Pennsylvania,_US	260	Friday, September 30, 2022
+Health	2
+Health	3	https://en.wikinews.org/wiki/Numerous_home_pregnancy_tests_recalled_after_false_negative_results_reported	240	Monday, March 27, 2017
+Health	4	https://en.wikinews.org/wiki/Walmart_recalls_infant_formula_after_baby_death	480	Friday, December 23, 2011
+Infectious disease	1
+Infectious disease	2
+Infectious disease	3	https://en.wikinews.org/wiki/Ukraine_closes_schools_after_reports_of_swine_flu_deaths	240	Saturday, October 31, 2009
+Infectious disease	4	https://en.wikinews.org/wiki/WHO_starts_simultaneous_immunization_campaigns_in_over_100_countries	380	Sunday, April 25, 2010
+Internet	1	https://en.wikinews.org/wiki/Albania_blames_Iran_for_cyberattacks	300	Monday, September 12, 2022
+Internet	2	https://en.wikinews.org/wiki/Pakistan_reverses_block_on_Wikimedia_projects,_including_Wikipedia	340	Thursday, February 9, 2023
+Mining	1
+Mining	2
+Mining	3	https://en.wikinews.org/wiki/13_coal_miners_trapped_in_West_Virginia_mine	90	Tuesday, January 3, 2006
+Mining	4	https://en.wikinews.org/wiki/29_presumed_dead_after_second_explosion_at_New_Zealand_mine	532	Thursday, November 25, 2010
+Politics and conflicts - armed conflict	1	https://en.wikinews.org/wiki/Ukraine_decries_videoed_beheadings_as_committed_by_Russian_%27beasts%27	240	Friday, April 14, 2023
+Politics and conflicts - armed conflict	2	https://en.wikinews.org/wiki/White_House:_attacks_in_Syria_%27won%27t_deter%27_US_mission	513	Saturday, April 1, 2023
+Politics and conflicts - armed conflict	3	https://en.wikinews.org/wiki/Taliban_bombing_in_Kabul_supermarket_leaves_eight_dead	150	Friday, January 28, 2011
+Politics and conflicts - armed conflict	4	https://en.wikinews.org/wiki/Thousands_flee_violence_in_northern_Democratic_Republic_of_the_Congo	410	Sunday, November 8, 2009
+Politics and conflicts - diplomatic talks	1
+Politics and conflicts - diplomatic talks	2
+Politics and conflicts - diplomatic talks	3	https://en.wikinews.org/wiki/Colombian_President_announces_peace_talks_with_FARC_rebels	140	Wednesday, August 29, 2012
+Politics and conflicts - diplomatic talks	4	https://en.wikinews.org/wiki/Kenyan_government_and_opposition_agree_on_power_sharing	660	Thursday, February 28, 2008
+Politics and conflicts - drones	1	https://en.wikinews.org/wiki/US:_Russian_fighter_jet%27s_flare_damaged_drone_over_Syria	290	Wednesday, July 26, 2023
+Politics and conflicts - drones	2	https://en.wikinews.org/wiki/Russia:_Kremlin_drone_attack_was_Ukrainian_assassination_attempt_on_Putin	620	Thursday, May 4, 2023
+Politics and conflicts - elections	1	https://en.wikinews.org/wiki/Electoral_commission_declares_Bola_Tinubu_victor_in_Nigerian_presidential_election	250	Friday, March 3, 2023
+Politics and conflicts - elections	2	https://en.wikinews.org/wiki/UK_Conservative_Party_loses_two_seats_in_by-elections,_retains_former_PM_Johnson%27s	380	Sunday, July 30, 2023
+Politics and conflicts - elections	3	https://en.wikinews.org/wiki/Vladimir_Putin_wins_fourth_term_as_President_of_Russia	300	Tuesday, March 20, 2018
+Politics and conflicts - elections	4	https://en.wikinews.org/wiki/Leo_Varadkar_becomes_first_openly_gay_elected_Taoiseach_of_Ireland,_succeeds_Enda_Kenny	570	Friday, June 16, 2017
+Politics and conflicts - policy change	1	https://en.wikinews.org/wiki/US_Senate_votes_to_repeal_authorizations_of_use_of_force_against_Iraq	280	Wednesday, April 5, 2023
+Politics and conflicts - policy change	2	https://en.wikinews.org/wiki/European_Council_agrees_to_crypto_asset_regulations	310	Friday, May 19, 2023
+Politics and conflicts - policy change	3	https://en.wikinews.org/wiki/Peru%27s_top_court_restores_pardon_for_ex-President_Fujimori	160	Saturday, March 19, 2022
+Politics and conflicts - policy change	4	https://en.wikinews.org/wiki/Australia_now_recognises_West_Jerusalem_as_Israeli_capital,_Prime_Minister_Scott_Morrison_announces	734	Tuesday, December 18, 2018
+Politics and conflicts - resign	1	https://en.wikinews.org/wiki/Ukrainian_president_rejects_prime_minister%27s_resignation_over_leaked_audio_recording	128	Saturday, January 18, 2020	https://en.wikinews.org/wiki/%27I%27m_tired,_extremely_tired%27:_Western_Australia_Premier_Mark_McGowan_announces_resignation	250	Tuesday, May 30, 2023
+Politics and conflicts - resign	2
+Politics and conflicts - resign	3	https://en.wikinews.org/wiki/Mass_protests_prompt_Sri_Lankan_cabinet_to_resign	210	Wednesday, April 6, 2022
+Politics and conflicts - resign	4	https://en.wikinews.org/wiki/Puerto_Rico_governor_announces_resignation_following_protests	310	Sunday, July 28, 2019
+Rail transport	1
+Rail transport	2
+Rail transport	3	https://en.wikinews.org/wiki/Police_arrest_train_passenger_for_a_16-hour_loud_cellphone_conversation	250	Tuesday, May 24, 2011
+Rail transport	4	https://en.wikinews.org/wiki/Signalling_issues_and_stalled_train_disrupt_service_on_Singapore%27s_Mass_Rapid_Transit_lines	650	Thursday, November 3, 2016
+Space	1	https://en.wikinews.org/wiki/Saudi_Arabia_announces_astronaut_to_be_nation%27s_first_female_space_traveler	170	Wednesday, February 15, 2023	https://en.wikinews.org/wiki/India_launches_Small_Satellite_Launch_Vehicle,_deploying_three_low-earth_orbit_satellites	210	Sunday, February 12, 2023
+Space	2	https://en.wikinews.org/wiki/NASA%27s_OSIRIS-REx_arrives_in_Houston,_US_after_returning_asteroid_samples_to_Earth	340	Tuesday, September 26, 2023
+Space	3	https://en.wikinews.org/wiki/Twelve-year_journey_of_Rosetta_ends;_spacecraft_crashes_into_comet	217	Monday, October 3, 2016
+Space	4	https://en.wikinews.org/wiki/NASA%27s_InSight_Lander_makes_it_to_Mars	500	Thursday, November 29, 2018
+Sports	1	https://en.wikinews.org/wiki/U.S._tennis_player_Coco_Gauff_wins_U.S._Open_women%27s_singles_tournament	230	Monday, September 11, 2023
+Sports	2	https://en.wikinews.org/wiki/Brothers_Sunshine_Coast_to_join_A_grade_rugby_union_competition_on_Australia%27s_Sunshine_Coast	400	Wednesday, December 21, 2022
+Sports	3	https://en.wikinews.org/wiki/2020_Olympics_opening_ceremony_takes_place_in_Tokyo	270	Friday, July 23, 2021
+Sports	4	https://en.wikinews.org/wiki/Uruguayan_Language_Academy_rejects_FA_sanction_against_Edinson_Cavani_as_%27poverty_of_cultural_and_linguistic_knowledge%27	390	Monday, January 4, 2021
+Weather - Earthquakes	1	https://en.wikinews.org/wiki/Death_toll_from_earthquake_in_Syria_and_Turkey_surpasses_20,000	240	Friday, February 10, 2023	https://en.wikinews.org/wiki/Earthquake_strikes_Aksu_Prefecture,_Xinjiang_Region,_China;_no_casualties_reported	100	Thursday, February 2, 2023
+Weather - Earthquakes	2
+Weather - Earthquakes	3	https://en.wikinews.org/wiki/Japan_hit_by_earthquake_off_coast_of_Fukushima	190	Thursday, March 17, 2022
+Weather - Earthquakes	4	https://en.wikinews.org/wiki/Aftershocks_increase_death_toll_of_magnitude_6.3_earthquake_in_southern_Philippines	440	Tuesday, October 22, 2019
+Weather - Floods	1	https://en.wikinews.org/wiki/%22One-in-100-year_flood_event%22_devastates_Western_Australia	270	Sunday, January 8, 2023
+Weather - Floods	2	https://en.wikinews.org/wiki/England:_Parts_of_Birmingham_area_flood;_music_festival_evacuates	350	Tuesday, July 11, 2023
+Weather - Floods	3	https://en.wikinews.org/wiki/South_African_floods_kill_at_least_300_people	160	Friday, April 15, 2022
+Weather - Floods	4
+Weather - Storms	1	https://en.wikinews.org/wiki/England:_West_Midlands_region_floods_amid_heavy_rain,_high_winds	212	Saturday, June 17, 2023	https://en.wikinews.org/wiki/First_NASA_TROPICS_satellites_launch_to_monitor_tropical_storms	190	Tuesday, May 9, 2023
+Weather - Storms	2
+Weather - Storms	3	https://en.wikinews.org/wiki/Merritt,_British_Columbia_evacuated_amid_massive_storm	180	Tuesday, November 16, 2021
+Weather - Storms	4	https://en.wikinews.org/wiki/Two_dead_in_storms_with_no_sign_of_floods_letting_up_in_Britain	710	Saturday, February 15, 2014

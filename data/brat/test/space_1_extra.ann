@@ -1,0 +1,15 @@
+T1	event 323 329	launch
+E1	event:T1 ARG0-:T6 ARG1-:T7
+T2	event 491 497	flight
+E2	event:T2 ARG2-:T7
+T4	event 923 929	placed
+E4	event:T4 ARG0-:T7 ARG1-:T8
+T5	event 812 821	announced
+E5	event:T5 ARG0-:T6 ARG1-:T3
+R2	AFTER Arg1:E1 Arg2:E2	
+R3	AFTER Arg1:E2 Arg2:E4	
+R4	AFTER Arg1:E4 Arg2:E5	
+T6	entity 159 204	the Indian Space Research Organisation (ISRO)
+T7	entity 246 286	Small Satellite Launch Vehicle (SSLV-D2)
+T3	entity 822 842	the flight's success
+T8	entity 930 962	EOS-07, Janus-1, and AzaadiSAT-2

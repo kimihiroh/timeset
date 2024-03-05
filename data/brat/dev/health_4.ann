@@ -1,0 +1,70 @@
+T2	event 157 165	outbreak
+E2	event:T2 ARG1-:T7 ARG3-:T8
+T3	event 371 377	killed
+E3	event:T3 
+T5	event 731 742	precautions
+E5	event:T5 ARG1-:T15 ARG0-:T9
+T10	event 2698 2706	deployed
+E10	event:T10 ARG0-:T27 ARG1-:T28
+T13	event 2898 2908	resistance
+E13	event:T13 ARG1-:T31 ARG0-:T32
+T14	event 3142 3150	violence
+E14	event:T14 ARG0-:T32 ARG2-:T30
+T19	event 476 484	declared
+E19	event:T19 ARG0-:T9 ARG1-:T11
+T20	event 2498 2510	restrictions
+E20	event:T20 ARG0-:T9
+T21	event 805 813	appealed
+E21	event:T21 ARG0-:T16 ARG1-:T17 TIMEX:T33
+T22	event 1367 1371	help
+E22	event:T22 ARG1-:T24 ARG0-:T18
+T23	event 127 133	stated
+E23	event:T23 ARG0-:T4 ARG1-:E2 TIMEX:T33
+R5	COEX Arg1:E23 Arg2:E21	
+R6	COEX Arg1:E3 Arg2:E5	
+R7	COEX Arg1:E5 Arg2:E22	
+R11	COEX Arg1:E10 Arg2:E13	
+R12	COEX Arg1:E13 Arg2:E14	
+T1	event 1758 1764	warned
+E1	event:T1 ARG0-:T4 ARG2-:T25 ARG1-:T26
+R14	COEX Arg1:E21 Arg2:E1	
+T6	event 3045 3051	deaths
+E6	event:T6 ARG1-:T29
+R4	AFTER Arg1:E2 Arg2:E3	
+R10	COEX Arg1:E20 Arg2:E6	
+R15	AFTER Arg1:E20 Arg2:E10	
+R3	COEX Arg1:E20 Arg2:E22	
+R1	AFTER Arg1:E10 Arg2:E1	
+R2	COEX Arg1:E19 Arg2:E13	
+T4	entity 95 120	World Health Organisation
+T7	entity 151 156	Ebola
+T8	entity 336 348	1,000 people
+T9	entity 435 469	Sierra Leone, Liberia, and Nigeria
+T11	entity 485 505	national emergencies
+T12	entity 563 569	Guinea
+T15	entity 746 762	border crossings
+T16	entity 788 804	Dr Margaret Chan
+T17	entity 821 843	international response
+T24	entity 1397 1404	control
+T25	entity 1765 1776	all nations
+T26	entity 1784 1791	prepare
+T27	entity 2647 2671	Liberia and Sierra Leone
+T28	entity 2707 2715	soldiers
+T29	entity 3055 3069	family members
+T30	entity 3159 3203	those seeking to enforce government measures
+T31	entity 2912 2925	some measures
+T32	entity 3010 3021	many people
+T18	entity 1289 1319	Health experts and aid workers
+T33	timex 83 89	Friday
+#1	AnnotatorNotes T33	2014-08-08
+#2	AnnotatorNotes E2	TIMEX: none. unspecified duration
+#3	AnnotatorNotes E3	TIMEX: none. unspecified duration
+#4	AnnotatorNotes E19	TIMEX: none. unspecified multiple points in time for plural subject
+#5	AnnotatorNotes E5	TIMEX: none. unspecified point in time
+#6	AnnotatorNotes E22	TIMEX: none. unspecified point in time
+#7	AnnotatorNotes E1	TIMEX: none. unspecified point in time
+#8	AnnotatorNotes E20	TIMEX: none. unspecified point in time
+#9	AnnotatorNotes E10	TIMEX: none. unspecified point in time
+#10	AnnotatorNotes E13	TIMEX: none. unspecified time point
+#11	AnnotatorNotes E6	TIMEX: none. multiple unspecified points in time
+#12	AnnotatorNotes E14	TIMEX: none. multiple unspecified points in time

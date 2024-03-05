@@ -1,0 +1,8 @@
+First NASA TROPICS satellites launch to monitor tropical storms
+Tuesday, May 9, 2023 
+On Sunday at about 13:00 NZST (0100 UTC), a Rocket Lab Electron rocket launched the first two of four NASA TROPICS (Time-Resolved Observations of Precipitation Structure and Storm Intensity with a Constellation of Smallsats) CubeSats from Māhia, New Zealand. 
+The CubeSats would form an array in low-Earth orbit, collecting observations of tropical cycloness' precipitation, temperature, and humidity more frequently than weather satellites currently in orbit.
+Ben Kim, a program executive with NASA's Earth Science Division, said: "TROPICS aims to improve our scientific understanding by obtaining microwave observations that allow us to see the inner structure of the storm approximately hourly."
+TROPICS would share data with, among other organizations, the National Oceanic and Atmospheric Administration, the Joint Typhoon Warning Center, and the National Hurricane Center.
+The satellites are scheduled to begin observations before the 2023 hurricane season begins. Kim noted Hurricane Ian, among three hurricanes to strike the US last year, inflicted more than US$100 billion in damages while killing over 100.
+Rocket Lab secured the launch contract last November. NASA terminated a contract with Astra after an Astra rocket experienced ignition failure in June, with two TROPICS satellites burning up as the rocket's upper stage reentered the atmosphere.

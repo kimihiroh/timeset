@@ -1,0 +1,12 @@
+T1	event 189 196	elected
+E1	event:T1 ARG1-:T4 ARG2-:T5
+T2	event 278 289	resignation
+E2	event:T2 ARG0-:T3
+T3	entity 248 258	Enda Kenny
+T4	entity 172 184	Leo Varadkar
+T5	entity 197 234	Taoiseach — Prime Minister of Ireland
+R1	AFTER Arg1:E2 Arg2:E1	
+T6	event 2887 2893	served
+E3	event:T6 ARG0-:T4 ARG1-:T7
+T7	entity 2897 2969	minister for social protection; health; and transport, tourism and sport
+R2	AFTER Arg1:E3 Arg2:E2	

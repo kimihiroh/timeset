@@ -1,0 +1,23 @@
+T1	event 110 118	flooding
+E1	event:T1 ARG0-:T7
+T2	event 142 148	killed
+E2	event:T2 ARG1-:T8 ARG0-:E1
+T3	event 372 378	deploy
+E3	event:T3 ARG0-:T10 ARG1-:T9
+T4	event 291 297	rescue
+E4	event:T4 ARG0-:T10
+R1	COEX Arg1:E4 Arg2:E3	
+T5	event 804 811	damaged
+E5	event:T5 ARG1-:T11 ARG0-:E1
+T6	event 1024 1032	affected
+E6	event:T6 ARG0-:T7 ARG1-:T12
+T7	entity 84 95	heavy rains
+T8	entity 149 164	over 300 people
+T9	entity 379 409	some helicopters and personnel
+T10	entity 309 349	the South African National Defence Force
+R2	AFTER Arg1:E1 Arg2:E2	
+R4	COEX Arg1:E5 Arg2:E2	
+R5	COEX Arg1:E5 Arg2:E6	
+T11	entity 766 791	Metropolitan Municipality
+T12	entity 1033 1044	power lines
+R3	AFTER Arg1:E2 Arg2:E4	

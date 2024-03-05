@@ -1,0 +1,17 @@
+T1	event 212 221	convicted
+E1	event:T1 ARG1-:T3 ARG2-:E2
+T2	event 225 246	murder and corruption
+E2	event:T2 
+T3	entity 194 210	Alberto Fujimori
+R1	AFTER Arg1:E2 Arg2:E1	
+T4	event 342 350	pardoned
+E3	event:T4 ARG0-:T5 ARG1-:T3
+T5	entity 379 400	Pedro Pablo Kuczynski
+R2	AFTER Arg1:E1 Arg2:E3	
+T6	event 482 492	overturned
+E4	event:T6 ARG1-:E3
+R3	AFTER Arg1:E3 Arg2:E4	
+T7	event 126 134	restored
+E5	event:T7 ARG0-:T8 ARG1-:E3
+T8	entity 98 125	Peru's Constitutional Court
+R4	AFTER Arg1:E4 Arg2:E5	

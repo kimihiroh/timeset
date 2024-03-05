@@ -1,0 +1,30 @@
+T1	event 171 179	crashing
+E1	event:T1 ARG0-:T8 ARG1-:T9
+T2	event 428 434	ceased
+E2	event:T2 ARG0-:E1 ARG1-:T11
+T3	event 716 722	landed
+E3	event:T3 ARG1-2:T10 ARG0-:T8
+T4	event 863 874	discoveries
+E4	event:T4 ARG0-:T10 ARG1-:T12
+T5	event 1108 1115	studied
+E5	event:T5 ARG0-:T8 ARG1-:T15
+T6	event 952 962	discovered
+E6	event:T6 ARG0-:T10 ARG1-:T13
+R2	COEX Arg1:E4 Arg2:E6	
+R4	AFTER Arg1:E3 Arg2:E4	
+T7	event 559 568	traveling
+E7	event:T7 ARG0-:T8
+T8	entity 103 151	European Space Agency's (ESA) spacecraft Rosetta
+T9	entity 185 231	Jupiter-family comet 67P/Churyumov–Gerasimenko
+T11	entity 438 473	receive signals from the spacecraft
+R1	COEX Arg1:E1 Arg2:E7	
+R5	AFTER Arg1:E1 Arg2:E2	
+T10	entity 723 775	a probe called Philae onto 67P/Churyumov–Gerasimenko
+T12	entity 900 929	molecular oxygen and nitrogen
+T13	entity 963 968	water
+T14	event 1193 1201	approach
+E8	event:T14 ARG1-:T8
+R3	COEX Arg1:E5 Arg2:E8	
+R7	AFTER Arg1:E6 Arg2:E8	
+T15	entity 1116 1141	the gas, dust, and plasma
+R6	AFTER Arg1:E8 Arg2:E1	

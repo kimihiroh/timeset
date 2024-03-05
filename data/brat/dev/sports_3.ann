@@ -1,0 +1,42 @@
+T1	entity 130 140	Chelsea FC
+T2	event 163 172	agreement
+E1	event:T2 ARG0-:T1 ARG2-:T3 ARG1-:E8 TIMEX:T18
+T3	entity 199 210	Real Madrid
+T4	entity 242 258	Thibaut Courtois
+T5	event 469 475	joined
+E2	event:T5 ARG0-:T4 ARG1-:T1 TIMEX:T19
+T6	event 1285 1291	loaned
+E3	event:T6 ARG0-:T3 ARG1-:T13 ARG2-:T1 TIMEX:T21
+T7	event 820 826	loaned
+E4	event:T7 ARG0-:T1 ARG1-:T4 ARG2-:T12 TIMEX:T20
+T8	event 1024 1027	won
+E5	event:T8 ARG1-:T14 ARG0-:T4 ARG2-:T17
+T9	event 925 928	won
+E6	event:T9 ARG0-:T4 ARG1-:T16
+T10	event 571 574	won
+E7	event:T10 ARG0-:T4 ARG1-:T11
+T11	entity 575 677	Premier League titles in 2014–15 and 2016–17, an EFL Cup in 2014–15, and the FA Cup in the last season
+T12	entity 862 877	Atlético Madrid
+T13	entity 1268 1281	Mateo Kovačić
+T14	entity 1028 1051	the Adidas Golden Glove
+T15	event 214 222	transfer
+E8	event:T15 ARG0-:T1 ARG1-:T4 ARG2-:T3 TIMEX:T18
+T16	entity 929 1013	one each of the Spanish LaLiga, Copa del Rey, UEFA Europa League, and UEFA Super Cup
+R1	AFTER Arg1:E2 Arg2:E4	
+R2	AFTER Arg1:E4 Arg2:E6	
+R3	AFTER Arg1:E6 Arg2:E7	
+R4	AFTER Arg1:E7 Arg2:E5	
+R5	AFTER Arg1:E5 Arg2:E1	
+R6	COEX Arg1:E1 Arg2:E8	
+T17	entity 1055 1081	this year's FIFA World Cup
+R8	COEX Arg1:E1 Arg2:E3	
+T18	timex 97 106	Yesterday
+#1	AnnotatorNotes T18	2018-08-08
+T19	timex 489 493	2011
+#2	AnnotatorNotes T19	2011-xx-xx
+#3	AnnotatorNotes E7	TIMEX: none. multiple points in time over multiple years in a conjoined object
+T20	timex 801 805	2011
+#4	AnnotatorNotes T20	2011-xx-xx
+#5	AnnotatorNotes E6	TIMEX: none. multiple points in time in a conjoined object
+T21	timex 1225 1241	At the same time
+#6	AnnotatorNotes T21	2018-08-08

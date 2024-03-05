@@ -1,0 +1,28 @@
+T1	event 160 169	collision
+E1	event:T1 ARG0-:T7 ARG1-:T14
+T2	event 419 423	died
+E2	event:T2 ARG1-:T6
+T3	event 889 896	arrived
+E3	event:T3 ARG1-:T10 ARG4-:T15
+T4	event 1089 1097	injuries
+E4	event:T4 ARG1-:T6 ARG0-:E1
+T5	event 900 904	find
+E5	event:T5 ARG0-:T10 ARG1-:T7
+R3	AFTER Arg1:E1 Arg2:E2	
+R2	COEX Arg1:E2 Arg2:E4	
+T6	entity 87 104	Four teenage boys
+T7	entity 259 271	a blue Rover
+T8	event 790 799	responded
+E6	event:T8 ARG0-:T13 ARG2-:E1
+T9	event 705 717	flagged down
+E7	event:T9 ARG0-:T11 ARG1-:T12
+R4	AFTER Arg1:E1 Arg2:E7	
+R5	AFTER Arg1:E7 Arg2:E6	
+R6	COEX Arg1:E6 Arg2:E3	
+T10	entity 883 888	Crews
+T11	entity 721 743	a member of the public
+T12	entity 664 676	A police car
+T13	entity 781 789	Officers
+T14	entity 277 283	a wall
+T15	entity 1200 1209	the scene
+R1	AFTER Arg1:E3 Arg2:E5	

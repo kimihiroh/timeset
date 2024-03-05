@@ -1,0 +1,45 @@
+T6	event 378 385	swelled
+E6	event:T6 ARG0-:E5 ARG1-:T4
+T5	event 355 377	Tropical Cyclone Ellie
+E5	event:T5 ARG4-:E8
+T8	event 947 953	damage
+E8	event:T8 ARG0-:E10 ARG1-:T19
+T9	event 1448 1457	airlifted
+E9	event:T9 ARG1-:T15 ARG0-:T18
+T1	event 1319 1328	evacuated
+E1	event:T1 ARG2-:T16 ARG1-:T17
+T2	event 1716 1723	pledged
+E2	event:T2 ARG0-:T11 ARG2-:T10 ARG1-:T19
+T3	event 1802 1811	announced
+E3	event:T3 ARG0-:T12 ARG1-:T13
+T10	entity 1724 1742	federal assistance
+T11	entity 1643 1674	Prime Minister Anthony Albanese
+T12	entity 1759 1792	The Western Australian government
+T13	entity 1812 1840	a AU$3 million distress fund
+T14	event 170 175	flood
+E10	event:T14 ARG0-:E6 ARG1-:T4
+R5	AFTER Arg1:E10 Arg2:E8	
+R6	COEX Arg1:E1 Arg2:E9	
+R7	COEX Arg1:E2 Arg2:E3	
+T16	entity 1299 1309	233 people
+T17	entity 1334 1366	settlements across the Kimberley
+T15	entity 1458 1520	approximately 3,000 kilograms (6,600 lbs) of food and supplies
+T18	entity 1411 1447	Australian Defence Force helicopters
+R10	AFTER Arg1:E10 Arg2:E1	
+T19	entity 278 306	communities in the Kimberley
+T7	event 1018 1022	shut
+E7	event:T7 ARG1-:T22
+T20	event 1055 1061	closed
+E11	event:T20 ARG1-:T23
+T21	event 1079 1088	inundated
+E12	event:T21 ARG1-:T24
+R4	COEX Arg1:E7 Arg2:E11	
+R11	COEX Arg1:E11 Arg2:E12	
+R8	COEX Arg1:E12 Arg2:E8	
+R9	AFTER Arg1:E10 Arg2:E2	
+T22	entity 972 1007	parts of the Great Northern Highway
+T23	entity 1024 1034	the bridge
+T24	entity 1066 1078	the airstrip
+R2	AFTER Arg1:E6 Arg2:E10	
+R1	AFTER Arg1:E5 Arg2:E6	
+T4	entity 386 398	local rivers

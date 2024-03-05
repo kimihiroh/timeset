@@ -1,0 +1,25 @@
+T1	event 115 119	said
+E1	event:T1 ARG0-:T20 ARG1-:E2
+T2	event 149 161	drone attack
+E2	event:T2 ARG0-:T21 ARG1-:T22
+T3	event 544 551	disable
+E3	event:T3 ARG0-:T23 ARG1-:T6
+T4	event 570 577	crashed
+E4	event:T4 ARG0-:T6 ARG1-:T25
+T6	entity 402 430	Two unmanned aerial vehicles
+T14	event 2687 2693	denied
+E13	event:T14 ARG0-:T35 ARG1-:E2
+T18	event 3903 3910	doubted
+E17	event:T18 ARG0-:T40 ARG1-:E2
+R9	AFTER Arg1:E2 Arg2:E3	
+R10	AFTER Arg1:E3 Arg2:E4	
+T20	entity 108 114	Russia
+T21	entity 120 127	Ukraine
+T22	entity 440 451	the Kremlin
+T23	entity 470 503	the military and special services
+T25	entity 581 600	the Kremlin grounds
+T35	entity 2665 2681	Serhii Nykyforov
+T40	entity 3862 3878	Two US officials
+R2	COEX Arg1:E13 Arg2:E17	
+R1	AFTER Arg1:E4 Arg2:E1	
+R3	AFTER Arg1:E1 Arg2:E13	

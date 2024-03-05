@@ -1,0 +1,14 @@
+T1	event 146 155	announced
+E1	event:T1 ARG0-:T9 ARG1-:E2
+T2	event 173 181	selected
+E2	event:T2 ARG0-:T6 ARG1-:T7 ARG3-:T8
+T3	event 1128 1141	establishment
+E3	event:T3 ARG0-:T4 ARG1-:T5
+R1	AFTER Arg1:E3 Arg2:E2	
+R2	AFTER Arg1:E2 Arg2:E1	
+T4	entity 967 999	Crown Prince Mohammed bin Salman
+T5	entity 1145 1164	the space programme
+T6	entity 156 168	Saudi Arabia
+T7	entity 210 226	Rayyanah Barnawi
+T8	entity 330 366	the kingdom's first female spacegoer
+T9	entity 117 145	the Saudi Press Agency (SPA)

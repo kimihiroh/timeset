@@ -1,0 +1,25 @@
+T2	event 359 365	agreed
+E2	event:T2 ARG0-:T6 ARG1-:T7
+T3	event 384 396	negotiations
+E3	event:T3 ARG0-:T6 ARG1-:T7
+T4	event 906 914	promised
+E4	event:T4 ARG0-:T8 ARG1-:T9
+T5	event 1648 1655	adopted
+E5	event:T5 ARG0-:T10 ARG1-:T11
+T6	entity 110 133	the European Union (EU)
+R1	AFTER Arg1:E3 Arg2:E2	
+T7	entity 339 357	The EU Climate Law
+T1	event 671 679	disputed
+E1	event:T1 ARG0-:T12 ARG1-:T7
+R2	COEX Arg1:E2 Arg2:E1	
+T8	entity 877 905	the European Commission (EC)
+R3	AFTER Arg1:E4 Arg2:E3	
+T9	entity 1025 1077	the corresponding legislative proposals by June 2021
+T10	entity 1637 1643	Poland
+T11	entity 1656 1680	its own climate strategy
+R4	COEX Arg1:E1 Arg2:E5	
+T12	entity 765 780	Barbara Mariani
+T13	event 2087 2098	Criticising
+E6	event:T13 ARG0-:T14 ARG1-:T7
+T14	entity 2118 2131	Michael Bloss
+R5	COEX Arg1:E5 Arg2:E6	

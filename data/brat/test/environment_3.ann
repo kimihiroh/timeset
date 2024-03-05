@@ -1,0 +1,22 @@
+T1	entity 149 201	The Intergovernmental Panel on Climate Change (IPCC)
+T2	event 234 242	released
+E1	event:T2 ARG0-:T1 ARG1-:T3
+T3	entity 247 295	Special Report on Global Warming of 1.5ºC (SR15)
+T6	event 764 783	the Paris Agreement
+E3	event:T6 ARG0-:T5
+T4	event 319 331	48th session
+E2	event:T4 
+T5	entity 816 830	global leaders
+T7	event 935 943	produced
+E4	event:T7 ARG0-:T8 ARG1-:T3
+T8	entity 947 988	a team of 91 scientists from 40 countries
+T9	event 1002 1013	assessments
+E5	event:T9 ARG0-:T8 ARG1-:E6
+R1	AFTER Arg1:E5 Arg2:E4	
+R3	AFTER Arg1:E4 Arg2:E1	
+R4	COEX Arg1:E1 Arg2:E2	
+T10	event 1044 1051	studies
+E6	event:T10 ARG1-:T11
+T11	entity 1033 1043	scientific
+R2	AFTER Arg1:E6 Arg2:E5	
+R5	COEX Arg1:E3 Arg2:E6	

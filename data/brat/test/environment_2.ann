@@ -1,0 +1,43 @@
+T1	event 120 128	approved
+E1	event:T1 ARG0-:T27 ARG1-:E2
+T2	event 162 170	proposal
+E2	event:T2 ARG0-:T24
+T3	event 253 260	revoked
+E3	event:T3 ARG0-:T27 ARG1-:T32
+T9	entity 942 992	Supplemental Environmental Impact Statement (SEIS)
+T10	event 993 1002	published
+E7	event:T10 ARG1-:T9 ARG0-:T11
+T11	entity 1006 1041	the Bureau of Land Management (BLM)
+T14	event 1986 1997	authorizing
+E9	event:T14 ARG0-:T27 ARG1-:T4
+T4	entity 1998 2136	up to three drill sites as well as supporting infrastructure such as processing and support facilities, gravel access roads, and pipelines
+T5	event 2529 2536	granted
+E4	event:T5 ARG0-:T34 ARG1-:T15
+T15	entity 2537 2559	a temporary injunction
+T16	event 2715 2723	reversed
+E10	event:T16 ARG1-:T30 ARG0-:T17
+T17	entity 2680 2714	the US District Court in Anchorage
+T20	event 3378 3385	granted
+E12	event:T20 ARG0-:T37 ARG1-:T21
+T21	entity 3386 3410	a preliminary injunction
+T27	entity 86 119	The US Department of the Interior
+T29	event 1436 1444	released
+E16	event:T29 ARG0-:T11 ARG1-:T30
+T30	entity 1449 1452	EIS
+T24	entity 129 143	ConocoPhillips
+R1	AFTER Arg1:E2 Arg2:E16	
+R5	AFTER Arg1:E9 Arg2:E4	
+R6	AFTER Arg1:E4 Arg2:E10	
+T31	event 3192 3198	signed
+E17	event:T31 ARG0-:T35 ARG1-:T36
+R7	AFTER Arg1:E10 Arg2:E17	
+R8	AFTER Arg1:E17 Arg2:E12	
+R11	COEX Arg1:E1 Arg2:E3	
+R10	AFTER Arg1:E12 Arg2:E7	
+T32	entity 261 366	leases of 68,000 acres (275 square kilometers) of land within the Bear Tooth Unit, in the northeast NPR–A
+T34	entity 2472 2528	the United States Court of Appeals for the Ninth Circuit
+T35	entity 3182 3191	Joe Biden
+T36	entity 3199 3217	an executive order
+T37	entity 3361 3377	Terry A. Doughty
+R2	AFTER Arg1:E16 Arg2:E9	
+R3	AFTER Arg1:E7 Arg2:E1	

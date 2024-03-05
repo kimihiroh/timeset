@@ -1,0 +1,27 @@
+T1	event 269 276	located
+E1	event:T1 ARG0-:T8 ARG1-:T9
+T2	event 435 444	torpedoed
+E2	event:T2 ARG1-:T13 ARG0-:T11
+T3	event 760 768	searched
+E3	event:T3 ARG0-:T8 ARG1-:T14
+T4	event 374 382	carrying
+E4	event:T4 ARG1-:T12 ARG0-:T13
+T5	event 478 485	killing
+E5	event:T5 ARG1-:T10 ARG0-:E2
+R1	AFTER Arg1:E4 Arg2:E2	
+R2	AFTER Arg1:E2 Arg2:E5	
+R3	AFTER Arg1:E5 Arg2:E3	
+R4	AFTER Arg1:E3 Arg2:E1	
+T6	event 1233 1240	sinking
+E6	event:T6 ARG1-:T13 ARG0-:T11
+R5	COEX Arg1:E5 Arg2:E6	
+T7	event 878 886	captured
+E7	event:T7 ARG1-:T12
+R6	AFTER Arg1:E7 Arg2:E4	
+T8	entity 208 264	a team led by the Australia-based Silentworld Foundation
+T9	entity 297 302	wreck
+T10	entity 486 491	1,080
+T11	entity 412 434	the United States Navy
+T12	entity 383 406	prisoners of war (POWs)
+T13	entity 310 325	Montevideo Maru
+T14	entity 785 797	around Luzon

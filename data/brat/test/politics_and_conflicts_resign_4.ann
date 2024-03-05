@@ -1,0 +1,23 @@
+T1	event 149 160	resignation
+E1	event:T1 ARG0-:T2 ARG1-:T3
+T2	entity 85 109	Ricardo Rosselló Nevares
+T3	entity 111 133	Puerto Rico's governor
+T4	event 393 401	protests
+E2	event:T4 ARG2-:E3 ARG1-:E3
+T5	event 1035 1043	comments
+E3	event:T5 ARG0-:T8 ARG1-:T6 ARG2-:T7
+T6	entity 1002 1034	anti-homosexual and misogynistic
+T7	entity 1050 1058	Telegram
+T8	entity 1168 1194	Rosselló and eleven others
+T9	event 1643 1654	resignation
+E4	event:T9 ARG0-:T10 ARG1-:T14
+T10	entity 1658 1675	Luis Rivera Marín
+T11	event 2063 2074	resignation
+E5	event:T11 ARG0-:T12 ARG1-:T13
+T12	entity 1999 2015	Ricardo Llerandi
+T13	entity 2017 2042	Rosselló's chief of staff
+R1	AFTER Arg1:E3 Arg2:E2	
+R2	AFTER Arg1:E2 Arg2:E4	
+R3	COEX Arg1:E4 Arg2:E5	
+R4	AFTER Arg1:E4 Arg2:E1	
+T14	entity 1539 1561	the Secretary of State

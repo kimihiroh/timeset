@@ -1,0 +1,18 @@
+T1	entity 72 155	Ron Gonzales, the mayor of San Jose, California, and his financial aide, Joe Guerra
+T2	event 162 170	indicted
+E1	event:T2 ARG0-:T3 ARG1-:T1 ARG2-:T4
+T3	entity 174 195	a criminal grand jury
+T4	entity 210 233	six undisclosed charges
+T5	event 255 266	surrendered
+E2	event:T5 ARG0-:T1 ARG1-:T6
+T6	entity 270 313	the Santa Clara County Sheriff's Department
+T7	event 348 357	processed
+E3	event:T7 ARG0-:T6 ARG1-:T1
+T8	event 362 370	released
+E4	event:T8 ARG0-:T6 ARG1-:T1
+T9	event 437 450	investigating
+E5	event:T9 ARG0-:T3 ARG1-:T1
+R1	AFTER Arg1:E5 Arg2:E1	
+R2	AFTER Arg1:E1 Arg2:E2	
+R3	AFTER Arg1:E2 Arg2:E3	
+R4	AFTER Arg1:E3 Arg2:E4	

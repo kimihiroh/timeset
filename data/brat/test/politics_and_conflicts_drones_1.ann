@@ -1,0 +1,30 @@
+T1	entity 136 170	a Russian Sukhoi Su-35 fighter jet
+T2	event 172 176	flew
+E1	event:T2 ARG2-:T1
+T3	entity 208 223	a US MQ-9 drone
+T4	event 224 230	flying
+E2	event:T4 ARG2-:T3 ARG3-:T5
+T5	entity 231 270	a "defeat-ISIS [Islamic State]" mission
+T6	event 354 362	released
+E3	event:T6 ARG0-:T1 ARG1-:T12
+T7	event 375 383	damaging
+E4	event:T7 ARG0-:T12 ARG1-:T13
+T8	event 417 425	returned
+E5	event:T8 ARG0-:T3 ARG4-:T14
+T9	event 1496 1506	supporting
+E6	event:T9 ARG0-:T15 ARG1-:T16
+T10	event 1554 1564	supporting
+E7	event:T10 ARG0-:T17 ARG1-:T18
+R1	COEX Arg1:E6 Arg2:E7	
+R4	AFTER Arg1:E2 Arg2:E1	
+R5	COEX Arg1:E1 Arg2:E3	
+R6	AFTER Arg1:E3 Arg2:E4	
+R7	AFTER Arg1:E4 Arg2:E5	
+T12	entity 363 369	flares
+T13	entity 384 397	the propeller
+T14	entity 440 449	home base
+T15	entity 1489 1495	Russia
+T16	entity 1507 1541	President Bashar al-Assad's regime
+T17	entity 1547 1553	the US
+T18	entity 1565 1614	the anti-Islamic State Operation Inherent Resolve
+R2	AFTER Arg1:E6 Arg2:E2	

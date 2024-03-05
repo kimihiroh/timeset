@@ -1,0 +1,30 @@
+T1	event 106 113	reports
+E1	event:T1 ARG0-:T10
+T3	event 230 238	prepares
+E3	event:T3 ARG0-:T14
+T5	event 455 463	received
+E5	event:T5 ARG0-:T16 ARG1-:T17
+T6	event 737 746	displaced
+E6	event:T6 ARG1-:T18 ARG2-:T19 ARG0-:T20
+T7	event 828 836	returned
+E7	event:T7 ARG0-:T21 ARG3-:T22 ARG4-:T23
+T8	event 1335 1354	East Africa drought
+E8	event:T8 
+T9	event 1390 1402	Sahel famine
+E9	event:T9 
+R4	AFTER Arg1:E5 Arg2:E3	
+R5	COEX Arg1:E5 Arg2:E6	
+R6	COEX Arg1:E6 Arg2:E7	
+R7	AFTER Arg1:E9 Arg2:E8	
+R8	AFTER Arg1:E8 Arg2:E6	
+T10	entity 72 105	Food and Agriculture Organization
+T14	entity 223 229	UNICEF
+T16	entity 420 438	the United Nations
+T17	entity 470 499	a quarter of the US$1 billion
+T18	entity 747 756	residents
+T19	entity 760 785	other states of the Sahel
+T20	entity 657 675	Tuareg separatists
+T21	entity 801 808	workers
+T22	entity 842 858	Libya or Nigeria
+T23	entity 812 817	Niger
+R1	COEX Arg1:E3 Arg2:E1	

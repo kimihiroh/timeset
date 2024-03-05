@@ -1,0 +1,20 @@
+T1	event 141 146	block
+E1	event:T1 ARG0-:T19 ARG1-:T18
+T2	event 128 136	reversed
+E2	event:T2 ARG0-:T19 ARG1-:E1
+T3	event 427 434	rebuked
+E3	event:T3 ARG0-:T17 ARG1-:T19
+T6	event 688 698	instructed
+E6	event:T6 ARG0-:T21 ARG1-:T19
+T9	event 1317 1326	announced
+E9	event:T9 ARG0-:T24 ARG1-:E1
+R10	AFTER Arg1:E6 Arg2:E2	
+T18	entity 150 183	all Wikimedia Foundation projects
+T19	entity 240 282	Pakistan Telecommunication Authority (PTA)
+T17	entity 404 426	Human rights advocates
+T21	entity 602 616	Shehbaz Sharif
+T23	entity 758 776	Marriyum Aurangzeb
+T24	entity 1272 1292	Wikimedia Foundation
+R1	AFTER Arg1:E1 Arg2:E3	
+R4	COEX Arg1:E3 Arg2:E9	
+R2	AFTER Arg1:E9 Arg2:E6	

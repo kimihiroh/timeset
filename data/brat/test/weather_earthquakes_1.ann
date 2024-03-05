@@ -1,0 +1,45 @@
+T2	event 248 254	damage
+E2	event:T2 ARG0-:E9
+T3	event 108 113	death
+E3	event:T3 ARG1-:T8
+T4	event 538 545	visited
+E4	event:T4 ARG0-:T14 ARG1-:T15
+T5	event 1348 1355	sending
+E5	event:T5 ARG0-:T18 ARG1-:T19 ARG2-:T21
+T6	event 1361 1371	overriding
+E6	event:T6 ARG0-:T18 ARG1-:T20
+T7	event 1408 1417	requested
+E7	event:T7 ARG0-:T21 ARG1-:E6 ARG2-:T18
+T9	event 337 342	quake
+E8	event:T9 ARG2-:T12 ARG3-:E3 ARG4-:E2 ARG1-:T22
+T10	event 385 390	quake
+E9	event:T10 ARG2-:T13 ARG3-:E3 ARG4-:E2 ARG1-:T22
+R1	AFTER Arg1:E8 Arg2:E9	
+T1	event 1487 1497	called for
+E1	event:T1 ARG0-:T11 ARG2-:T23 ARG1-:T24
+R2	AFTER Arg1:E9 Arg2:E2	
+R3	COEX Arg1:E3 Arg2:E2	
+R5	AFTER Arg1:E9 Arg2:E3	
+R6	AFTER Arg1:E7 Arg2:E6	
+R7	COEX Arg1:E4 Arg2:E7	
+R8	COEX Arg1:E6 Arg2:E5	
+R9	COEX Arg1:E5 Arg2:E1	
+T8	entity 172 190	over 20,000 people
+T12	entity 349 355	7.8 Mw
+T13	entity 378 384	7.5 Mw
+T14	entity 516 536	Recep Tayyip Erdoğan
+T15	entity 546 564	affected provinces
+T16	event 642 650	response
+E10	event:T16 ARG0-:T17 ARG1-:E9
+R4	AFTER Arg1:E3 Arg2:E10	
+R10	AFTER Arg1:E2 Arg2:E10	
+R11	COEX Arg1:E10 Arg2:E4	
+T17	entity 508 514	Turkey
+T18	entity 1321 1344	The European Union (EU)
+T19	entity 1356 1359	aid
+T20	entity 1372 1381	sanctions
+T21	entity 1389 1407	Syria's government
+T22	entity 147 163	Syria and Turkey
+T11	entity 1422 1436	Janez Lenarčič
+T23	entity 1498 1508	EU members
+T24	entity 1512 1545	donate medical equipment and food

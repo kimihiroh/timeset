@@ -1,0 +1,41 @@
+T2	event 150 160	earthquake
+E2	event:T2 ARG1-:T4 ARG2-:T3
+T3	entity 175 188	magnitude 6.3
+T4	entity 201 221	southern Philippines
+T7	event 334 343	landslide
+E5	event:T7 
+T9	event 476 483	injured
+E6	event:T9 ARG1-:T28
+T1	event 370 380	aftershock
+E1	event:T1 ARG1-:T10
+T10	entity 356 369	5.0 magnitude
+T17	event 1379 1386	damaged
+E8	event:T17 ARG1-:T18 ARG0-:E2
+T18	entity 1387 1400	143 buildings
+T21	event 1896 1906	earthquake
+E10	event:T21 ARG2-:T22 ARG1-:T23
+T22	entity 1943 1961	a magnitude of 4.0
+T23	entity 1982 1996	Sultan Kudarat
+T24	event 2014 2019	quake
+E11	event:T24 ARG2-:T25 ARG1-:T26
+T25	entity 1998 2013	A 5.3-magnitude
+T26	entity 2093 2114	Manay, Davao Oriental
+T8	event 436 440	dead
+E17	event:T8 ARG0-:T27
+R1	COEX Arg1:E17 Arg2:E6	
+R2	AFTER Arg1:E2 Arg2:E17	
+R5	AFTER Arg1:E17 Arg2:E10	
+R6	AFTER Arg1:E10 Arg2:E11	
+R12	AFTER Arg1:E1 Arg2:E5	
+T27	entity 431 435	five
+T28	entity 464 475	at least 30
+T5	event 745 752	injured
+E3	event:T5 ARG1-:T6
+T6	entity 722 725	167
+R9	COEX Arg1:E3 Arg2:E5	
+T11	event 596 601	death
+E4	event:T11 ARG0-:T12
+T12	entity 610 613	six
+R10	COEX Arg1:E4 Arg2:E3	
+R3	COEX Arg1:E8 Arg2:E6	
+R4	AFTER Arg1:E11 Arg2:E1	

@@ -1,0 +1,24 @@
+T1	event 219 228	elections
+E1	event:T1 ARG1-:T2 ARG2-:T3
+T2	entity 168 182	Vladimir Putin
+T4	event 139 147	declared
+E2	event:T4 ARG0-:T5 ARG1-:T6
+T5	entity 91 138	the Central Election Commission (CEC) of Russia
+T6	entity 183 193	the winner
+T7	event 665 673	received
+E3	event:T7 ARG0-:T8 ARG1-:T9
+T8	entity 606 620	Pavel Grudinin
+T9	entity 674 700	just under 12% of the vote
+R1	COEX Arg1:E1 Arg2:E2	
+T12	event 1724 1730	became
+E5	event:T12 ARG0-:T2 ARG1-:T3
+T3	entity 1731 1750	President of Russia
+R3	AFTER Arg1:E5 Arg2:E1	
+T10	event 242 251	criticism
+E4	event:T10 ARG0-:T11 ARG1-:E1
+T11	entity 257 292	opposition groups and western media
+R2	COEX Arg1:E4 Arg2:E1	
+R4	COEX Arg1:E4 Arg2:E3	
+T13	event 824 835	celebration
+E6	event:T13 ARG0-:T2 ARG1-:E2
+R5	AFTER Arg1:E3 Arg2:E6	

@@ -1,0 +1,36 @@
+T1	event 149 158	published
+E1	event:T1 ARG0-:T10 ARG1-:T11
+T2	event 288 296	eruption
+E2	event:T2 ARG1-:T13
+T3	event 1058 1068	dispatched
+E3	event:T3 ARG0-:T12 ARG1-:T15
+T4	event 1180 1186	sailed
+E4	event:T4 ARG0-:T15
+T5	event 1255 1260	study
+E5	event:T5 ARG0-:T12 ARG1-:T16
+T6	event 2445 2450	found
+E6	event:T6 ARG0-:T12 ARG1-:T17
+T7	event 2825 2833	eruption
+E7	event:T7 ARG1-:T18
+R3	AFTER Arg1:E3 Arg2:E4	
+R4	AFTER Arg1:E4 Arg2:E5	
+R5	AFTER Arg1:E5 Arg2:E6	
+R6	AFTER Arg1:E6 Arg2:E1	
+T8	event 362 370	increase
+E8	event:T8 ARG1-:T14
+T9	event 2887 2895	increase
+E9	event:T9 ARG1-:T19
+R1	COEX Arg1:E7 Arg2:E9	
+R2	AFTER Arg1:E2 Arg2:E8	
+R7	AFTER Arg1:E7 Arg2:E2	
+R8	COEX Arg1:E8 Arg2:E3	
+T10	entity 129 148	the journal Science
+T11	entity 159 167	a report
+T12	entity 171 275	a team from the University of Hawaii at Mānoa (UH Mānoa) and the University of Southern California (USC)
+T13	entity 300 319	the Kīlauea volcano
+T14	entity 374 405	the population of phytoplankton
+T15	entity 1069 1106	the research ship Ka'imikai-O-Kanaloa
+T16	entity 1261 1294	the organisms and water chemistry
+T17	entity 2461 2487	so much iron and phosphate
+T18	entity 2806 2824	A similar volcanic
+T19	entity 2899 2926	the local salmon population

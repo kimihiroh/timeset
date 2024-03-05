@@ -1,0 +1,29 @@
+T1	event 115 125	earthquake
+E1	event:T1 ARG1-:T7 ARG2-:T14
+T2	event 246 254	derailed
+E2	event:T2 ARG1-:T15
+T3	event 350 357	injured
+E3	event:T3 ARG1-:T16
+T5	event 450 454	died
+E5	event:T5 ARG1-:T18
+T6	event 462 469	outages
+E6	event:T6 ARG1-:T19
+T8	event 634 642	restored
+E8	event:T8 ARG1-:T19
+T9	event 689 696	tsunami
+E9	event:T9 ARG1-:T21
+R4	AFTER Arg1:E1 Arg2:E2	
+R5	COEX Arg1:E2 Arg2:E3	
+R8	COEX Arg1:E5 Arg2:E6	
+R9	AFTER Arg1:E6 Arg2:E8	
+R10	COEX Arg1:E8 Arg2:E9	
+T7	entity 194 221	Fukushima Prefecture, Japan
+T14	entity 136 169	7.3 on the moment magnitude scale
+T15	entity 223 241	A Shinkansen train
+T16	entity 358 364	people
+T18	entity 438 445	one man
+T19	entity 456 461	Power
+R12	COEX Arg1:E8 Arg2:E5	
+T21	entity 709 739	the coast of Miyagi Prefecture
+R14	COEX Arg1:E2 Arg2:E6	
+R6	COEX Arg1:E3 Arg2:E5	

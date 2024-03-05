@@ -1,0 +1,9 @@
+T1	event 157 165	launched
+E1	event:T1 ARG1-:T3
+T2	event 1214 1221	secured
+E2	event:T2 ARG0-:T4 ARG1-:T5 ARG2-:T6
+R1	AFTER Arg1:E2 Arg2:E1	
+T3	entity 166 319	the first two of four NASA TROPICS (Time-Resolved Observations of Precipitation Structure and Storm Intensity with a Constellation of Smallsats) CubeSats
+T4	entity 1203 1213	Rocket Lab
+T6	entity 1257 1261	NASA
+T5	entity 1222 1241	the launch contract

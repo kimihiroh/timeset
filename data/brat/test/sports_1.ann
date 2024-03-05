@@ -1,0 +1,14 @@
+T1	event 130 133	won
+E1	event:T1 ARG0-:T4 ARG4-:T5 ARG1-:T9 ARG2-:T8
+T2	event 801 809	defeated
+E2	event:T2 ARG0-:T4 ARG1-:T6
+T3	event 955 963	defeated
+E3	event:T3 ARG1-:T7 ARG0-:T4
+R1	AFTER Arg1:E2 Arg2:E3	
+R2	AFTER Arg1:E3 Arg2:E1	
+T4	entity 119 129	Coco Gauff
+T5	entity 153 168	Aryna Sabalenka
+T6	entity 810 826	Jeļena Ostapenko
+T7	entity 921 937	Karolína Muchová
+T9	entity 338 355	Grand Slam trophy
+T8	entity 198 223	the women's singles final
