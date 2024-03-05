@@ -21,6 +21,16 @@ Annotated data in the `json` format is under `./preprocess/timeset/`.
 ```
 Only the data used in the paper is under `./preprocess/timeset-sample/`.
 
+## Load as HuggingFace Dataset
+```python
+from datasets import load_dataset
+# <formulation> = {nli, pairwise, mrc, timeline}
+dataset = load_dataset("kimihiroh/timeset",  <formulation>, trust_remote_code=True)
+```
+This loads `full` version of TimeSET.
+
+Note: Some information are missing when loading with `load_dataset()`. Please directly check the `.json` files for the complete annotation information.
+
 # Benchmark
 ## Download data
 ```bash

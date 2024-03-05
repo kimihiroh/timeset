@@ -4,6 +4,7 @@ This repository contains the data and code for the paper: <br>
 ["Formulation Comparison for Timeline Construction using LLMs" (Hasegawa et al., arXiv 2024)](https://arxiv.org/abs/2403.00990).
 
 ## News
+* 2024/03/05: TimeSET is also available as HuggingFace Datasets ([`kimihiroh/timeset`](https://huggingface.co/datasets/kimihiroh/timeset)).
 * 2024/03/04: TimeSET now includes 118 annotated documents (dev: 18, test: 100), over twice the number reported in the paper (dev: 10, test: 40).
 
 ## TimeSET
@@ -17,8 +18,10 @@ Check [the paper](https://arxiv.org/abs/2403.00990) for more details.
 * `brat` format: `data/brat`
 * `json` format: `data/preprocess/timeset`
     * Original data used in the paper: `data/preprocess/timeset-sample/`
+* Hugging Face datasets: [`kimihiroh/timeset`](https://huggingface.co/datasets/kimihiroh/timeset)
 
 Check [data](https://github.com/kimihiroh/timeset/blob/main/data/) for more details.
+
 
 ## Environment Setup
 
