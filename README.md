@@ -40,51 +40,24 @@ Check [`scripts/comparison`](https://github.com/kimihiroh/timeset/blob/main/scri
 ![Result](./notebooks/figures/result_formulation_comparison_base.pdf)
 
 ## Benchmarking
-### Download data
-```bash
-cd data
-# TORQUE (annotation+document)
-git clone git@github.com:qiangning/TORQUE-dataset.git
-# Temporal NLI
-git clone git@github.com:sidsvash26/temporal_nli.git
-# MATRES (annotation)
-git clone git@github.com:qiangning/MATRES.git
-# MATRES (document)
-git clone git@github.com:qiangning/StructTempRel-EMNLP17.git
-# TDDiscourse
-git clone git@github.com:aakanksha19/TDDiscourse.git
-# [Additional]
-git@github.com:Jryao/temporal_dependency_graphs_crowdsourcing.git
-```
-### Preprocess
-```bash
-# TORQUE
-bash scripts/preprocess/torque.sh
-# MATRES
-bash scripts/preprocess/matres.sh
-# temporal nli (TempEval3)
-# TODO: add customized preprocessing script & instruction
-bash scripts/preprocess/temporal_nli.sh
-# TDDiscourse (TDDMan)
-bash scripts/preprocess/tddiscourse.sh
-# ctf
-bash scripts/preprocess/ctf.sh
-```
-### Download model weights
-```bash
-bash scripts/download.sh
-```
-### Finetuning
-```bash
-# {method} = [ft, peft]
-bash scripts/benchmark/{dataset}/{method}_{model}.sh
-```
-### Inference
-```bash
-bash scripts/benchmark/{dataset}/inference_{method}_*.sh
-```
-* `output` contains the actual outputs from models.
-* `output_score` contains the evaluation results/scores.
+Check [`scripts/comparison`](https://github.com/kimihiroh/timeset/blob/main/scripts/benchmark) for more details.
+
+| Tuning Method | Model (\#parameter) | TemporalNLI <br>(Accuracy) | MATRES <br>(micro-F1) | TDDiscourse <br>(micro-F1) | TORQUE <br>(Exact Match) |
+|---------------|---------------------|:-----------------------:|:-----------------:|:----------------------:|:--------------------:|
+| FT            | DeBERTaV3 (440M)    | 0.531                   | 0.736             | 0.439                  | 0.493                |
+|               | Flan-T5 (770M)      | 0.524                   | 0.744             | 0.234                  | 0.407                |
+| PEFT          | DeBERTaV3 (440M)    | 0.211                   | 0.743             | 0.403                  | 0.510                |
+|               | Flan-T5 (770M)      | 0.550                   | 0.763             | 0.243                  | 0.463                |
+|               | Flan-T5 (3B)        | 0.550                   | 0.750             | 0.437                  | 0.509                |
+|               | Llama-2 (7B)        | 0.539                   | 0.717             | ---                     | 0.436                |
+| ICL           | Llama 2 (7B)        | 0.269                   | 0.139             | 0.147                  | 0.118                |
+|               | Llama 2 (13B)       | 0.336                   | 0.457             | 0.204                  | 0.086                |
+|               | Llama 2 (70B)       | 0.329                   | 0.290             | 0.033                  | 0.158                |
+|               | Llama 2 Chat (7B)   | 0.340                   | 0.473             | 0.214                  | 0.036                |
+|               | Flan-T5 (3B)        | 0.337                   | 0.311             | 0.063                  | 0.028                |
+|               | Flan-T5 (11B)       | 0.375                   | 0.386             | 0.124                  | 0.034                |
+|               | T5 (3B)             | 0.0                     | 0.0               | 0.0                    | 0.0                  |
+|Existing Works | --- |0.625 <br>([Mathur et al., NAACL 2022](https://aclanthology.org/2022.naacl-main.73/)) | 0.840 <br>([Zhou et al., COLING 2022](https://aclanthology.org/2022.coling-1.174/)) | 0.511 <br>([Man et al., AAAI 2022](https://ojs.aaai.org/index.php/AAAI/article/view/21354)) | 0.522 <br>([Huang et al., NAACL 2022](https://aclanthology.org/2022.naacl-main.28/)) |
 
 ## Citation
 If you find this work helpful in your research, please consider citing our work,

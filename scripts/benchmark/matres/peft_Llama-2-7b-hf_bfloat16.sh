@@ -8,15 +8,15 @@ conda activate timeset
 dirpath_output=# TODO: dir for output files
 
 dirpath_log=./log
-filepath_data_train={filepath_data_train}
-filepath_data_dev={filepath_data_dev}
+filepath_data_train=data/preprocess/matres/train.json
+filepath_data_dev=data/preprocess/matres/dev.json
 
-dataset_name={dataset_name}
+dataset_name=matres
 
 batch_size=8
-model_id={model_id}
+model_id=meta-llama/Llama-2-7b-hf
 num_epoch=10
-precision_type={precision_type}
+precision_type=bfloat16
 finetune_type=peft
 peft_type=lora
 lora_dimensions=( 16 64 )
@@ -29,7 +29,7 @@ for lora_alpha in "${lora_alphas[@]}"; do
     for lora_dimension in "${lora_dimensions[@]}"; do
         for learning_rate in "${learning_rates[@]}"; do
 
-            python src/{code}.py \
+            python src/finetune_generation.py \
                 --batch_size $batch_size \
                 --dataset_name $dataset_name \
                 --dirpath_log $dirpath_log \

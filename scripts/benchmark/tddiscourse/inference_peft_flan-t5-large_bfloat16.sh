@@ -8,26 +8,26 @@ conda activate timeset
 dirpath_output=./output/benchmark/
 dirpath_output_score=./output_score/benchmark/
 dirpath_log=./log
-filepath_test={filepath_data_test}
+filepath_test=data/preprocess/tddiscourse/test.json
 
-dataset_name={dataset_name}
-inference_type={inference_type}
+dataset_name=tddiscourse
+inference_type=peft
 seeds=( 7 )
 
 batch_size=8
-model_id={model_id}
-precision_type={precision_type}
+model_id=google/flan-t5-large
+precision_type=bfloat16
 num_gpu=1
 
 max_new_tokens=64
 num_demonstration=0
 temperature=0
 
-dirpath_model={dirpath_model}
-peft_model_path={peft_model_path}
+dirpath_model=None
+peft_model_path=/usr1/datasets/kimihiro/llm-for-event-temporal-ordering/models/tddiscourse/flan-t5-large_bfloat16_peft_generation/seed7_bs8_lr0.0001_dim64_alpha16_drop0.1
 
 for seed in "${seeds[@]}"; do
-    python src/{code}.py \
+    python src/inference_generation.py \
         --batch_size $batch_size \
         --dataset_name $dataset_name \
         --dirpath_log $dirpath_log \

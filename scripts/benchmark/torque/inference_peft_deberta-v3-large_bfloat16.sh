@@ -8,26 +8,26 @@ conda activate timeset
 dirpath_output=./output/benchmark/
 dirpath_output_score=./output_score/benchmark/
 dirpath_log=./log
-filepath_test={filepath_data_test}
+filepath_test=data/preprocess/torque/dev.json
 
-dataset_name={dataset_name}
-inference_type={inference_type}
+dataset_name=torque
+inference_type=peft
 seeds=( 7 )
 
 batch_size=8
-model_id={model_id}
-precision_type={precision_type}
+model_id=microsoft/deberta-v3-large
+precision_type=bfloat16
 num_gpu=1
 
 max_new_tokens=64
 num_demonstration=0
 temperature=0
 
-dirpath_model={dirpath_model}
-peft_model_path={peft_model_path}
+dirpath_model=None
+peft_model_path=/usr1/datasets/kimihiro/llm-for-event-temporal-ordering/models/torque/deberta-v3-large_bfloat16_peft_sequence_tagging/seed7_bs8_lr0.0001_dim16_alpha64_drop0.1
 
 for seed in "${seeds[@]}"; do
-    python src/{code}.py \
+    python src/inference_sequence_tagging.py \
         --batch_size $batch_size \
         --dataset_name $dataset_name \
         --dirpath_log $dirpath_log \

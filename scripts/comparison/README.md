@@ -6,7 +6,7 @@ bash scripts/download.sh
 ## Generate scripts
 ```bash
 # 1. modify src/template_script/comparison_*.txt
-# 2. generate scripts
+# 2. generate scripts after setting `task=comparison`
 bash scripts/generate_bash_scripts_for_experiments.sh
 ```
 # Experiment

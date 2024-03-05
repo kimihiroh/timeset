@@ -7,16 +7,16 @@ conda activate timeset
 dirpath_output=# TODO: dir for output files
 
 dirpath_log=./log
-filepath_data_train={filepath_data_train}
-filepath_data_dev={filepath_data_dev}
+filepath_data_train=data/preprocess/tddiscourse/train.json
+filepath_data_dev=data/preprocess/tddiscourse/dev.json
 
-dataset_name={dataset_name}
+dataset_name=tddiscourse
 
 batch_sizes=( 16 32 )
-model_id={model_id}
+model_id=google/flan-t5-large
 num_epoch=10
 num_gpu=1
-precision_type={precision_type}
+precision_type=bfloat16
 finetune_type=ft
 
 learning_rates=( 1e-4 1e-5 1e-6 )
@@ -24,7 +24,7 @@ learning_rates=( 1e-4 1e-5 1e-6 )
 for batch_size in "${batch_sizes[@]}"; do
     for learning_rate in "${learning_rates[@]}"; do
 
-        python src/{code}.py \
+        python src/finetune_generation.py \
             --batch_size "$batch_size" \
             --dataset_name $dataset_name \
             --dirpath_log $dirpath_log \

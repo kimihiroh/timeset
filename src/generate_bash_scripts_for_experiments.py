@@ -156,8 +156,8 @@ def generate_scripts_for_benchmark_finetune(dirpath: Path) -> None:
     params = [
         {
             "dataset_name": "torque",
-            "filepath_train": "data/preprocessed/torque/train_train.json",
-            "filepath_dev": "data/preprocessed/torque/train_dev.json",
+            "filepath_train": "data/preprocess/torque/train_train.json",
+            "filepath_dev": "data/preprocess/torque/train_dev.json",
             "models": [
                 ("google/flan-t5-large", "finetune_generation", "bfloat16"),
                 ("microsoft/deberta-v3-large", "finetune_sequence_tagging", "bfloat16"),
@@ -165,8 +165,8 @@ def generate_scripts_for_benchmark_finetune(dirpath: Path) -> None:
         },
         {
             "dataset_name": "matres",
-            "filepath_train": "data/preprocessed/matres/train.json",
-            "filepath_dev": "data/preprocessed/matres/dev.json",
+            "filepath_train": "data/preprocess/matres/train.json",
+            "filepath_dev": "data/preprocess/matres/dev.json",
             "models": [
                 ("google/flan-t5-large", "finetune_generation", "bfloat16"),
                 ("microsoft/deberta-v3-large", "finetune_classification", "bfloat16"),
@@ -174,8 +174,8 @@ def generate_scripts_for_benchmark_finetune(dirpath: Path) -> None:
         },
         {
             "dataset_name": "tddiscourse",
-            "filepath_train": "data/preprocessed/tddiscourse/train.json",
-            "filepath_dev": "data/preprocessed/tddiscourse/dev.json",
+            "filepath_train": "data/preprocess/tddiscourse/train.json",
+            "filepath_dev": "data/preprocess/tddiscourse/dev.json",
             "models": [
                 ("google/flan-t5-large", "finetune_generation", "bfloat16"),
                 ("microsoft/deberta-v3-large", "finetune_classification", "bfloat16"),
@@ -183,8 +183,8 @@ def generate_scripts_for_benchmark_finetune(dirpath: Path) -> None:
         },
         {
             "dataset_name": "temporal-nli",
-            "filepath_train": "data/preprocessed/temporal_nli/train.json",
-            "filepath_dev": "data/preprocessed/temporal_nli/dev.json",
+            "filepath_train": "data/preprocess/temporal_nli/train.json",
+            "filepath_dev": "data/preprocess/temporal_nli/dev.json",
             "models": [
                 ("google/flan-t5-large", "finetune_generation", "bfloat16"),
                 ("microsoft/deberta-v3-large", "finetune_classification", "bfloat16"),
@@ -221,8 +221,8 @@ def generate_scripts_for_benchmark_peft(dirpath: Path) -> None:
     params = [
         {
             "dataset_name": "torque",
-            "filepath_train": "data/preprocessed/torque/train_train.json",
-            "filepath_dev": "data/preprocessed/torque/train_dev.json",
+            "filepath_train": "data/preprocess/torque/train_train.json",
+            "filepath_dev": "data/preprocess/torque/train_dev.json",
             "models": [
                 ("google/flan-t5-large", "finetune_generation", "bfloat16"),
                 ("google/flan-t5-xl", "finetune_generation", "bfloat16"),
@@ -232,8 +232,8 @@ def generate_scripts_for_benchmark_peft(dirpath: Path) -> None:
         },
         {
             "dataset_name": "matres",
-            "filepath_train": "data/preprocessed/matres/train.json",
-            "filepath_dev": "data/preprocessed/matres/dev.json",
+            "filepath_train": "data/preprocess/matres/train.json",
+            "filepath_dev": "data/preprocess/matres/dev.json",
             "models": [
                 ("google/flan-t5-large", "finetune_generation", "bfloat16"),
                 ("google/flan-t5-xl", "finetune_generation", "bfloat16"),
@@ -243,8 +243,8 @@ def generate_scripts_for_benchmark_peft(dirpath: Path) -> None:
         },
         {
             "dataset_name": "tddiscourse",
-            "filepath_train": "data/preprocessed/tddiscourse/train.json",
-            "filepath_dev": "data/preprocessed/tddiscourse/dev.json",
+            "filepath_train": "data/preprocess/tddiscourse/train.json",
+            "filepath_dev": "data/preprocess/tddiscourse/dev.json",
             "models": [
                 ("google/flan-t5-large", "finetune_generation", "bfloat16"),
                 ("google/flan-t5-xl", "finetune_generation", "bfloat16"),
@@ -254,8 +254,8 @@ def generate_scripts_for_benchmark_peft(dirpath: Path) -> None:
         },
         {
             "dataset_name": "temporal-nli",
-            "filepath_train": "data/preprocessed/temporal_nli/train.json",
-            "filepath_dev": "data/preprocessed/temporal_nli/dev.json",
+            "filepath_train": "data/preprocess/temporal_nli/train.json",
+            "filepath_dev": "data/preprocess/temporal_nli/dev.json",
             "models": [
                 ("google/flan-t5-large", "finetune_generation", "bfloat16"),
                 ("google/flan-t5-xl", "finetune_generation", "bfloat16"),
@@ -293,7 +293,7 @@ def generate_scripts_for_benchmark_inference(dirpath_output):
     params = [
         {
             "dataset_name": "torque",
-            "filepath_test": "data/preprocessed/torque/dev.json",
+            "filepath_test": "data/preprocess/torque/dev.json",
             "peft": [
                 (
                     "google/flan-t5-large",
@@ -337,7 +337,7 @@ def generate_scripts_for_benchmark_inference(dirpath_output):
         },
         {
             "dataset_name": "matres",
-            "filepath_test": "data/preprocessed/matres/test.json",
+            "filepath_test": "data/preprocess/matres/test.json",
             "peft": [
                 (
                     "google/flan-t5-large",
@@ -381,7 +381,7 @@ def generate_scripts_for_benchmark_inference(dirpath_output):
         },
         {
             "dataset_name": "tddiscourse",
-            "filepath_test": "data/preprocessed/tddiscourse/test.json",
+            "filepath_test": "data/preprocess/tddiscourse/test.json",
             "peft": [
                 (
                     "google/flan-t5-large",
@@ -420,7 +420,7 @@ def generate_scripts_for_benchmark_inference(dirpath_output):
         },
         {
             "dataset_name": "temporal-nli",
-            "filepath_test": "data/preprocessed/temporal_nli/test.json",
+            "filepath_test": "data/preprocess/temporal_nli/test.json",
             "peft": [
                 (
                     "google/flan-t5-large",
