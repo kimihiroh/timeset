@@ -36,11 +36,11 @@ export HF_HOME="<some dir>/.cache/huggingface/"
 ```
 
 ## Formulation Comparison
-![Overview](https://github.com/kimihiroh/timeset/blob/main/notebooks/figures/overview_w_timeline.pdf)
+![Overview](https://github.com/kimihiroh/timeset/blob/main/notebooks/figures/overview_w_timeline.png)
 
 Check [`scripts/comparison`](https://github.com/kimihiroh/timeset/blob/main/scripts/comparison) for more details.
 
-![Result](https://github.com/kimihiroh/timeset/blob/main/notebooks/figures/result_formulation_comparison_base.pdf)
+![Result](https://github.com/kimihiroh/timeset/blob/main/notebooks/figures/result_formulation_comparison_base.png)
 
 ## Benchmarking
 Check [`scripts/comparison`](https://github.com/kimihiroh/timeset/blob/main/scripts/benchmark) for more details.
