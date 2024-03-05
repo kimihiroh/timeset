@@ -1,0 +1,83 @@
+{
+    "args": {
+        "batch_size": 8,
+        "dataset_name": "matres",
+        "device": "cuda",
+        "dirpath_log": "log",
+        "dirpath_model": "None",
+        "dirpath_output": "output/benchmark",
+        "dirpath_output_score": "output_score/benchmark",
+        "filepath_test": "data/preprocessed/matres/test.json",
+        "filepath_dev": null,
+        "inference_type": "peft",
+        "max_new_tokens": 64,
+        "model_id": "microsoft/deberta-v3-large",
+        "num_demonstration": 0,
+        "num_gpu": 1,
+        "peft_model_path": "/usr1/datasets/kimihiro/llm-for-event-temporal-ordering/models/matres/deberta-v3-large_bfloat16_peft_sequence_classification/seed7_bs8_lr0.0001_dim64_alpha64_drop0.1",
+        "precision_type": "bfloat16",
+        "seed": 7,
+        "temperature": 0.0
+    },
+    "average": {
+        "example-wise-scores": {
+            "min": 0.717559224439156,
+            "median": 0.717559224439156,
+            "max": 0.717559224439156
+        }
+    },
+    "individuals": {
+        "example-wise-scores": {
+            "0": {
+                "AFTER": {
+                    "precision": 0.737012987012987,
+                    "recall": 0.8438661710037175,
+                    "f1-score": 0.7868284228769498,
+                    "support": 269.0
+                },
+                "BEFORE": {
+                    "precision": 0.8258928571428571,
+                    "recall": 0.8726415094339622,
+                    "f1-score": 0.8486238532110091,
+                    "support": 424.0
+                },
+                "EQUAL": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0,
+                    "support": 31.0
+                },
+                "VAGUE": {
+                    "precision": 0.30864197530864196,
+                    "recall": 0.22123893805309736,
+                    "f1-score": 0.2577319587628866,
+                    "support": 113.0
+                },
+                "null": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0,
+                    "support": 0.0
+                },
+                "micro avg": {
+                    "precision": 0.7431302270011948,
+                    "recall": 0.7431302270011948,
+                    "f1-score": 0.7431302270011948,
+                    "support": 837.0
+                },
+                "macro avg": {
+                    "precision": 0.3743095638928972,
+                    "recall": 0.3875493236981554,
+                    "f1-score": 0.3786368469701691,
+                    "support": 837.0
+                },
+                "weighted avg": {
+                    "precision": 0.6969075366128333,
+                    "recall": 0.7431302270011948,
+                    "f1-score": 0.717559224439156,
+                    "support": 837.0
+                }
+            }
+        }
+    }
+}

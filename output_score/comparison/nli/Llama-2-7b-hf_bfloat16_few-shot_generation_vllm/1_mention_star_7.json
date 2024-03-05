@@ -1,0 +1,5174 @@
+{
+    "args": {
+        "batch_size": 8,
+        "dataset_name": "ctf-nli",
+        "device": "cuda",
+        "dirpath_log": "log",
+        "dirpath_model": null,
+        "dirpath_output": "output/comparison",
+        "filepath_test": "data/preprocessed/ctf/test.json",
+        "filepath_dev": "data/preprocessed/ctf/dev.json",
+        "inference_type": "few-shot",
+        "local_rank": 0,
+        "marker": "star",
+        "max_new_tokens": 5,
+        "model_id": "meta-llama/Llama-2-7b-hf",
+        "num_demonstration": 1,
+        "num_gpu": 1,
+        "precision_type": "bfloat16",
+        "representation": "mention",
+        "seed": 7,
+        "temperature": 0.0,
+        "top_p": 1
+    },
+    "average": {
+        "document-and-pair-wise-scores": {
+            "range": {
+                "min": 0.0,
+                "median": 0.014097462227829129,
+                "max": 0.13425998135789466
+            },
+            "individual": {
+                "simple": 0.0,
+                "unclear": 0.0,
+                "take": 0.028194924455658257,
+                "only": 0.0,
+                "assume": 0.0,
+                "based": 0.0,
+                "keep": 0.1048279393371388,
+                "imply": 0.11639196515519122,
+                "entailment": 0.10047089798946883,
+                "confident": 0.13425998135789466
+            }
+        }
+    },
+    "individuals": {
+        "document-and-pair-wise-scores": {
+            "simple": {
+                "disasters_and_accidents_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 48.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 113.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 49.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 210.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 210.0
+                    }
+                },
+                "politics_and_conflicts_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 13.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 60.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 5.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "politics_and_conflicts_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "micro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    },
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    }
+                },
+                "health_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 27.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 32.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 19.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "health_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 3.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 2.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 1.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    }
+                },
+                "politics_and_conflicts_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 34.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 66.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 66.0
+                    }
+                },
+                "crime_and_law_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 29.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 16.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 14.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    }
+                },
+                "health_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 49.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 22.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 7.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "health_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 8.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 21.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 21.0
+                    }
+                },
+                "politics_and_conflicts_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 24.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 27.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 96.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 37.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 57.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 190.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 190.0
+                    }
+                },
+                "crime_and_law_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    }
+                }
+            },
+            "unclear": {
+                "disasters_and_accidents_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 48.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 113.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 49.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 210.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 210.0
+                    }
+                },
+                "politics_and_conflicts_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 13.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 60.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 5.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "politics_and_conflicts_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "micro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    },
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    }
+                },
+                "health_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 27.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 32.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 19.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "health_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 3.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 2.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 1.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    }
+                },
+                "politics_and_conflicts_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 34.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 66.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 66.0
+                    }
+                },
+                "crime_and_law_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 29.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 16.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 14.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    }
+                },
+                "health_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 49.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 22.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 7.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "health_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 8.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 21.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 21.0
+                    }
+                },
+                "politics_and_conflicts_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 24.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 27.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 96.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 37.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 57.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 190.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 190.0
+                    }
+                },
+                "crime_and_law_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    }
+                }
+            },
+            "take": {
+                "disasters_and_accidents_2": {
+                    "AFTER": {
+                        "precision": 0.25,
+                        "recall": 0.041666666666666664,
+                        "f1-score": 0.07142857142857142,
+                        "support": 48.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.3333333333333333,
+                        "recall": 0.02654867256637168,
+                        "f1-score": 0.049180327868852465,
+                        "support": 113.0
+                    },
+                    "COEX": {
+                        "precision": 0.2857142857142857,
+                        "recall": 0.04081632653061224,
+                        "f1-score": 0.07142857142857142,
+                        "support": 49.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.03333333333333333,
+                    "macro avg": {
+                        "precision": 0.21726190476190474,
+                        "recall": 0.027257916440912647,
+                        "f1-score": 0.04800936768149883,
+                        "support": 210.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.30317460317460315,
+                        "recall": 0.03333333333333333,
+                        "f1-score": 0.0594568975131036,
+                        "support": 210.0
+                    }
+                },
+                "politics_and_conflicts_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 13.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 60.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 5.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "politics_and_conflicts_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "micro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    },
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    }
+                },
+                "health_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 27.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 32.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 19.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "health_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 3.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 2.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 1.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    }
+                },
+                "politics_and_conflicts_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 34.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 66.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 66.0
+                    }
+                },
+                "crime_and_law_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 29.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_1": {
+                    "AFTER": {
+                        "precision": 1.0,
+                        "recall": 0.125,
+                        "f1-score": 0.2222222222222222,
+                        "support": 16.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 14.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.05555555555555555,
+                    "macro avg": {
+                        "precision": 0.25,
+                        "recall": 0.03125,
+                        "f1-score": 0.05555555555555555,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.4444444444444444,
+                        "recall": 0.05555555555555555,
+                        "f1-score": 0.09876543209876543,
+                        "support": 36.0
+                    }
+                },
+                "health_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 49.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 22.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 7.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "health_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 8.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 21.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 21.0
+                    }
+                },
+                "politics_and_conflicts_1": {
+                    "AFTER": {
+                        "precision": 1.0,
+                        "recall": 0.16666666666666666,
+                        "f1-score": 0.2857142857142857,
+                        "support": 24.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.6666666666666666,
+                        "recall": 0.07407407407407407,
+                        "f1-score": 0.13333333333333333,
+                        "support": 27.0
+                    },
+                    "COEX": {
+                        "precision": 0.25,
+                        "recall": 0.25,
+                        "f1-score": 0.25,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.12727272727272726,
+                    "macro avg": {
+                        "precision": 0.47916666666666663,
+                        "recall": 0.12268518518518517,
+                        "f1-score": 0.16726190476190475,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.7818181818181819,
+                        "recall": 0.12727272727272726,
+                        "f1-score": 0.2083116883116883,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 96.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 37.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 57.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 190.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 190.0
+                    }
+                },
+                "crime_and_law_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    }
+                }
+            },
+            "only": {
+                "disasters_and_accidents_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 48.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 113.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 49.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 210.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 210.0
+                    }
+                },
+                "politics_and_conflicts_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 13.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 60.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 5.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "politics_and_conflicts_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "micro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    },
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    }
+                },
+                "health_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 27.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 32.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 19.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "health_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 3.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 2.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 1.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    }
+                },
+                "politics_and_conflicts_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 34.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 66.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 66.0
+                    }
+                },
+                "crime_and_law_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 29.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 16.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 14.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    }
+                },
+                "health_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 49.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 22.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 7.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "health_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 8.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 21.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 21.0
+                    }
+                },
+                "politics_and_conflicts_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 24.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 27.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 96.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 37.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 57.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 190.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 190.0
+                    }
+                },
+                "crime_and_law_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    }
+                }
+            },
+            "assume": {
+                "disasters_and_accidents_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 48.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 113.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 49.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 210.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 210.0
+                    }
+                },
+                "politics_and_conflicts_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 13.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 60.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 5.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "politics_and_conflicts_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "micro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    },
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    }
+                },
+                "health_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 27.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 32.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 19.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "health_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 3.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 2.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 1.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    }
+                },
+                "politics_and_conflicts_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 34.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 66.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 66.0
+                    }
+                },
+                "crime_and_law_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 29.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 16.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 14.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    }
+                },
+                "health_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 49.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 22.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 7.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "health_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 8.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 21.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 21.0
+                    }
+                },
+                "politics_and_conflicts_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 24.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 27.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 96.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 37.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 57.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 190.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 190.0
+                    }
+                },
+                "crime_and_law_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    }
+                }
+            },
+            "based": {
+                "disasters_and_accidents_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 48.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 113.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 49.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 210.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 210.0
+                    }
+                },
+                "politics_and_conflicts_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 13.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 60.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 5.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "politics_and_conflicts_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "micro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    },
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    }
+                },
+                "health_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 27.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 32.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 19.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "health_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 3.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 2.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 1.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    }
+                },
+                "politics_and_conflicts_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 34.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 66.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 66.0
+                    }
+                },
+                "crime_and_law_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 29.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 16.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 14.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    }
+                },
+                "health_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 49.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 22.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 7.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 78.0
+                    }
+                },
+                "health_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 8.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 21.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 21.0
+                    }
+                },
+                "politics_and_conflicts_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 24.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 27.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 96.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 37.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 57.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 190.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 190.0
+                    }
+                },
+                "crime_and_law_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 36.0
+                    }
+                }
+            },
+            "keep": {
+                "disasters_and_accidents_2": {
+                    "AFTER": {
+                        "precision": 0.29411764705882354,
+                        "recall": 0.10416666666666667,
+                        "f1-score": 0.15384615384615385,
+                        "support": 48.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.36363636363636365,
+                        "recall": 0.035398230088495575,
+                        "f1-score": 0.06451612903225806,
+                        "support": 113.0
+                    },
+                    "COEX": {
+                        "precision": 0.25,
+                        "recall": 0.08163265306122448,
+                        "f1-score": 0.12307692307692307,
+                        "support": 49.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.06190476190476191,
+                    "macro avg": {
+                        "precision": 0.22693850267379678,
+                        "recall": 0.05529938745409668,
+                        "f1-score": 0.08535980148883375,
+                        "support": 210.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.32123121976063157,
+                        "recall": 0.06190476190476191,
+                        "f1-score": 0.0985986056953799,
+                        "support": 210.0
+                    }
+                },
+                "politics_and_conflicts_2": {
+                    "AFTER": {
+                        "precision": 0.09090909090909091,
+                        "recall": 0.07692307692307693,
+                        "f1-score": 0.08333333333333334,
+                        "support": 13.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.8,
+                        "recall": 0.06666666666666667,
+                        "f1-score": 0.12307692307692308,
+                        "support": 60.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 5.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0641025641025641,
+                    "macro avg": {
+                        "precision": 0.22272727272727275,
+                        "recall": 0.035897435897435895,
+                        "f1-score": 0.05160256410256411,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.6305361305361306,
+                        "recall": 0.0641025641025641,
+                        "f1-score": 0.10856344510190666,
+                        "support": 78.0
+                    }
+                },
+                "politics_and_conflicts_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    }
+                },
+                "health_4": {
+                    "AFTER": {
+                        "precision": 0.2222222222222222,
+                        "recall": 0.07407407407407407,
+                        "f1-score": 0.1111111111111111,
+                        "support": 27.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.25,
+                        "recall": 0.03125,
+                        "f1-score": 0.05555555555555555,
+                        "support": 32.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 19.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.038461538461538464,
+                    "macro avg": {
+                        "precision": 0.11805555555555555,
+                        "recall": 0.026331018518518517,
+                        "f1-score": 0.041666666666666664,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.1794871794871795,
+                        "recall": 0.038461538461538464,
+                        "f1-score": 0.06125356125356125,
+                        "support": 78.0
+                    }
+                },
+                "health_1": {
+                    "AFTER": {
+                        "precision": 1.0,
+                        "recall": 0.3333333333333333,
+                        "f1-score": 0.5,
+                        "support": 3.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 2.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 1.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.16666666666666666,
+                    "macro avg": {
+                        "precision": 0.25,
+                        "recall": 0.08333333333333333,
+                        "f1-score": 0.125,
+                        "support": 6.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.5,
+                        "recall": 0.16666666666666666,
+                        "f1-score": 0.25,
+                        "support": 6.0
+                    }
+                },
+                "politics_and_conflicts_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.8,
+                        "recall": 0.11764705882352941,
+                        "f1-score": 0.20512820512820512,
+                        "support": 34.0
+                    },
+                    "COEX": {
+                        "precision": 0.5,
+                        "recall": 0.11764705882352941,
+                        "f1-score": 0.19047619047619047,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.09090909090909091,
+                    "macro avg": {
+                        "precision": 0.325,
+                        "recall": 0.058823529411764705,
+                        "f1-score": 0.0989010989010989,
+                        "support": 66.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.540909090909091,
+                        "recall": 0.09090909090909091,
+                        "f1-score": 0.15473415473415472,
+                        "support": 66.0
+                    }
+                },
+                "crime_and_law_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.4,
+                        "recall": 0.06896551724137931,
+                        "f1-score": 0.1176470588235294,
+                        "support": 29.0
+                    },
+                    "COEX": {
+                        "precision": 0.5,
+                        "recall": 0.17647058823529413,
+                        "f1-score": 0.2608695652173913,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.09090909090909091,
+                    "macro avg": {
+                        "precision": 0.225,
+                        "recall": 0.06135902636916836,
+                        "f1-score": 0.09462915601023017,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.3654545454545455,
+                        "recall": 0.09090909090909091,
+                        "f1-score": 0.142664496628691,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_1": {
+                    "AFTER": {
+                        "precision": 0.5,
+                        "recall": 0.125,
+                        "f1-score": 0.2,
+                        "support": 16.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 14.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.05555555555555555,
+                    "macro avg": {
+                        "precision": 0.125,
+                        "recall": 0.03125,
+                        "f1-score": 0.05,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.2222222222222222,
+                        "recall": 0.05555555555555555,
+                        "f1-score": 0.08888888888888889,
+                        "support": 36.0
+                    }
+                },
+                "health_2": {
+                    "AFTER": {
+                        "precision": 0.5,
+                        "recall": 0.02040816326530612,
+                        "f1-score": 0.039215686274509796,
+                        "support": 49.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 22.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 7.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.01282051282051282,
+                    "macro avg": {
+                        "precision": 0.125,
+                        "recall": 0.00510204081632653,
+                        "f1-score": 0.009803921568627449,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.3141025641025641,
+                        "recall": 0.012820512820512818,
+                        "f1-score": 0.024635495223730514,
+                        "support": 78.0
+                    }
+                },
+                "health_3": {
+                    "AFTER": {
+                        "precision": 1.0,
+                        "recall": 0.1111111111111111,
+                        "f1-score": 0.19999999999999998,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.5,
+                        "recall": 0.125,
+                        "f1-score": 0.2,
+                        "support": 8.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.09523809523809523,
+                    "macro avg": {
+                        "precision": 0.375,
+                        "recall": 0.059027777777777776,
+                        "f1-score": 0.1,
+                        "support": 21.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.6190476190476191,
+                        "recall": 0.09523809523809523,
+                        "f1-score": 0.1619047619047619,
+                        "support": 21.0
+                    }
+                },
+                "politics_and_conflicts_1": {
+                    "AFTER": {
+                        "precision": 0.5,
+                        "recall": 0.041666666666666664,
+                        "f1-score": 0.07692307692307693,
+                        "support": 24.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.25,
+                        "recall": 0.037037037037037035,
+                        "f1-score": 0.06451612903225806,
+                        "support": 27.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.03636363636363636,
+                    "macro avg": {
+                        "precision": 0.1875,
+                        "recall": 0.019675925925925923,
+                        "f1-score": 0.03535980148883375,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.3409090909090909,
+                        "recall": 0.03636363636363636,
+                        "f1-score": 0.06523798781863298,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_4": {
+                    "AFTER": {
+                        "precision": 0.5384615384615384,
+                        "recall": 0.07291666666666667,
+                        "f1-score": 0.12844036697247707,
+                        "support": 96.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.16666666666666666,
+                        "recall": 0.05405405405405406,
+                        "f1-score": 0.0816326530612245,
+                        "support": 37.0
+                    },
+                    "COEX": {
+                        "precision": 0.16666666666666666,
+                        "recall": 0.05263157894736842,
+                        "f1-score": 0.08,
+                        "support": 57.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.06315789473684211,
+                    "macro avg": {
+                        "precision": 0.21794871794871792,
+                        "recall": 0.04490057491702229,
+                        "f1-score": 0.07251825500842539,
+                        "support": 190.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.35452091767881244,
+                        "recall": 0.06315789473684211,
+                        "f1-score": 0.10479307048749004,
+                        "support": 190.0
+                    }
+                },
+                "crime_and_law_3": {
+                    "AFTER": {
+                        "precision": 0.5,
+                        "recall": 0.06666666666666667,
+                        "f1-score": 0.11764705882352941,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 1.0,
+                        "recall": 0.058823529411764705,
+                        "f1-score": 0.1111111111111111,
+                        "support": 17.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.05555555555555555,
+                    "macro avg": {
+                        "precision": 0.375,
+                        "recall": 0.03137254901960784,
+                        "f1-score": 0.05718954248366013,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.6805555555555556,
+                        "recall": 0.05555555555555555,
+                        "f1-score": 0.1014887436456064,
+                        "support": 36.0
+                    }
+                }
+            },
+            "imply": {
+                "disasters_and_accidents_2": {
+                    "AFTER": {
+                        "precision": 0.2631578947368421,
+                        "recall": 0.10416666666666667,
+                        "f1-score": 0.14925373134328357,
+                        "support": 48.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.7058823529411765,
+                        "recall": 0.10619469026548672,
+                        "f1-score": 0.1846153846153846,
+                        "support": 113.0
+                    },
+                    "COEX": {
+                        "precision": 0.3333333333333333,
+                        "recall": 0.12244897959183673,
+                        "f1-score": 0.17910447761194032,
+                        "support": 49.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.10952380952380952,
+                    "macro avg": {
+                        "precision": 0.325593395252838,
+                        "recall": 0.08320258413099754,
+                        "f1-score": 0.12824339839265214,
+                        "support": 210.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.5177600864907367,
+                        "recall": 0.10952380952380952,
+                        "f1-score": 0.17524684270952925,
+                        "support": 210.0
+                    }
+                },
+                "politics_and_conflicts_2": {
+                    "AFTER": {
+                        "precision": 0.3333333333333333,
+                        "recall": 0.07692307692307693,
+                        "f1-score": 0.125,
+                        "support": 13.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.75,
+                        "recall": 0.1,
+                        "f1-score": 0.17647058823529416,
+                        "support": 60.0
+                    },
+                    "COEX": {
+                        "precision": 0.1111111111111111,
+                        "recall": 0.2,
+                        "f1-score": 0.14285714285714285,
+                        "support": 5.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.10256410256410256,
+                    "macro avg": {
+                        "precision": 0.2986111111111111,
+                        "recall": 0.09423076923076923,
+                        "f1-score": 0.11108193277310925,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.6396011396011396,
+                        "recall": 0.10256410256410256,
+                        "f1-score": 0.16573744882568414,
+                        "support": 78.0
+                    }
+                },
+                "politics_and_conflicts_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "micro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    },
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    }
+                },
+                "health_4": {
+                    "AFTER": {
+                        "precision": 0.5714285714285714,
+                        "recall": 0.14814814814814814,
+                        "f1-score": 0.23529411764705882,
+                        "support": 27.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.5,
+                        "recall": 0.0625,
+                        "f1-score": 0.1111111111111111,
+                        "support": 32.0
+                    },
+                    "COEX": {
+                        "precision": 0.25,
+                        "recall": 0.05263157894736842,
+                        "f1-score": 0.08695652173913043,
+                        "support": 19.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.08974358974358974,
+                    "macro avg": {
+                        "precision": 0.33035714285714285,
+                        "recall": 0.06581993177387914,
+                        "f1-score": 0.10834043762432509,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.46382783882783885,
+                        "recall": 0.08974358974358974,
+                        "f1-score": 0.14821372621884132,
+                        "support": 78.0
+                    }
+                },
+                "health_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 3.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 2.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 1.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    }
+                },
+                "politics_and_conflicts_4": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.6666666666666666,
+                        "recall": 0.11764705882352941,
+                        "f1-score": 0.2,
+                        "support": 34.0
+                    },
+                    "COEX": {
+                        "precision": 0.5,
+                        "recall": 0.11764705882352941,
+                        "f1-score": 0.19047619047619047,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.09090909090909091,
+                    "macro avg": {
+                        "precision": 0.29166666666666663,
+                        "recall": 0.058823529411764705,
+                        "f1-score": 0.09761904761904762,
+                        "support": 66.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.4722222222222222,
+                        "recall": 0.09090909090909091,
+                        "f1-score": 0.15209235209235208,
+                        "support": 66.0
+                    }
+                },
+                "crime_and_law_4": {
+                    "AFTER": {
+                        "precision": 0.3333333333333333,
+                        "recall": 0.1111111111111111,
+                        "f1-score": 0.16666666666666666,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.4,
+                        "recall": 0.06896551724137931,
+                        "f1-score": 0.1176470588235294,
+                        "support": 29.0
+                    },
+                    "COEX": {
+                        "precision": 0.6,
+                        "recall": 0.17647058823529413,
+                        "f1-score": 0.2727272727272727,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.10909090909090909,
+                    "macro avg": {
+                        "precision": 0.33333333333333337,
+                        "recall": 0.08913680414694614,
+                        "f1-score": 0.1392602495543672,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.4509090909090909,
+                        "recall": 0.10909090909090909,
+                        "f1-score": 0.1736023334953816,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_1": {
+                    "AFTER": {
+                        "precision": 0.3333333333333333,
+                        "recall": 0.0625,
+                        "f1-score": 0.10526315789473684,
+                        "support": 16.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.6666666666666666,
+                        "recall": 0.14285714285714285,
+                        "f1-score": 0.23529411764705882,
+                        "support": 14.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.08333333333333333,
+                    "macro avg": {
+                        "precision": 0.25,
+                        "recall": 0.05133928571428571,
+                        "f1-score": 0.08513931888544891,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.40740740740740733,
+                        "recall": 0.08333333333333333,
+                        "f1-score": 0.13828689370485037,
+                        "support": 36.0
+                    }
+                },
+                "health_2": {
+                    "AFTER": {
+                        "precision": 0.5,
+                        "recall": 0.04081632653061224,
+                        "f1-score": 0.07547169811320753,
+                        "support": 49.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 22.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 7.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.02564102564102564,
+                    "macro avg": {
+                        "precision": 0.125,
+                        "recall": 0.01020408163265306,
+                        "f1-score": 0.018867924528301883,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.3141025641025641,
+                        "recall": 0.025641025641025637,
+                        "f1-score": 0.04741170778906627,
+                        "support": 78.0
+                    }
+                },
+                "health_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 1.0,
+                        "recall": 0.125,
+                        "f1-score": 0.2222222222222222,
+                        "support": 8.0
+                    },
+                    "COEX": {
+                        "precision": 1.0,
+                        "recall": 0.25,
+                        "f1-score": 0.4,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.09523809523809523,
+                    "macro avg": {
+                        "precision": 0.5,
+                        "recall": 0.09375,
+                        "f1-score": 0.15555555555555556,
+                        "support": 21.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.5714285714285714,
+                        "recall": 0.09523809523809523,
+                        "f1-score": 0.16084656084656085,
+                        "support": 21.0
+                    }
+                },
+                "politics_and_conflicts_1": {
+                    "AFTER": {
+                        "precision": 1.0,
+                        "recall": 0.125,
+                        "f1-score": 0.2222222222222222,
+                        "support": 24.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.3333333333333333,
+                        "recall": 0.037037037037037035,
+                        "f1-score": 0.06666666666666667,
+                        "support": 27.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.07272727272727272,
+                    "macro avg": {
+                        "precision": 0.3333333333333333,
+                        "recall": 0.04050925925925926,
+                        "f1-score": 0.07222222222222222,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.6,
+                        "recall": 0.07272727272727272,
+                        "f1-score": 0.1296969696969697,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_4": {
+                    "AFTER": {
+                        "precision": 0.5555555555555556,
+                        "recall": 0.052083333333333336,
+                        "f1-score": 0.09523809523809525,
+                        "support": 96.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.18181818181818182,
+                        "recall": 0.05405405405405406,
+                        "f1-score": 0.08333333333333334,
+                        "support": 37.0
+                    },
+                    "COEX": {
+                        "precision": 0.2857142857142857,
+                        "recall": 0.07017543859649122,
+                        "f1-score": 0.11267605633802817,
+                        "support": 57.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.05789473684210526,
+                    "macro avg": {
+                        "precision": 0.25577200577200576,
+                        "recall": 0.044078206495969656,
+                        "f1-score": 0.0728118712273642,
+                        "support": 190.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.4018227386648439,
+                        "recall": 0.05789473684210526,
+                        "f1-score": 0.09815118782872675,
+                        "support": 190.0
+                    }
+                },
+                "crime_and_law_3": {
+                    "AFTER": {
+                        "precision": 0.3333333333333333,
+                        "recall": 0.13333333333333333,
+                        "f1-score": 0.19047619047619044,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "COEX": {
+                        "precision": 1.0,
+                        "recall": 0.25,
+                        "f1-score": 0.4,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.08333333333333333,
+                    "macro avg": {
+                        "precision": 0.3333333333333333,
+                        "recall": 0.09583333333333333,
+                        "f1-score": 0.14761904761904762,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.25,
+                        "recall": 0.08333333333333333,
+                        "f1-score": 0.12380952380952381,
+                        "support": 36.0
+                    }
+                }
+            },
+            "entailment": {
+                "disasters_and_accidents_2": {
+                    "AFTER": {
+                        "precision": 0.29411764705882354,
+                        "recall": 0.10416666666666667,
+                        "f1-score": 0.15384615384615385,
+                        "support": 48.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.75,
+                        "recall": 0.07964601769911504,
+                        "f1-score": 0.144,
+                        "support": 113.0
+                    },
+                    "COEX": {
+                        "precision": 0.46153846153846156,
+                        "recall": 0.12244897959183673,
+                        "f1-score": 0.1935483870967742,
+                        "support": 49.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.09523809523809523,
+                    "macro avg": {
+                        "precision": 0.37641402714932126,
+                        "recall": 0.07656541598940461,
+                        "f1-score": 0.12284863523573201,
+                        "support": 210.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.5784906270200388,
+                        "recall": 0.09523809523809523,
+                        "f1-score": 0.1578118397731301,
+                        "support": 210.0
+                    }
+                },
+                "politics_and_conflicts_2": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 13.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.7142857142857143,
+                        "recall": 0.08333333333333333,
+                        "f1-score": 0.14925373134328357,
+                        "support": 60.0
+                    },
+                    "COEX": {
+                        "precision": 0.1,
+                        "recall": 0.2,
+                        "f1-score": 0.13333333333333333,
+                        "support": 5.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.07692307692307693,
+                    "macro avg": {
+                        "precision": 0.20357142857142857,
+                        "recall": 0.07083333333333333,
+                        "f1-score": 0.07064676616915422,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.5558608058608059,
+                        "recall": 0.07692307692307693,
+                        "f1-score": 0.12335757111876514,
+                        "support": 78.0
+                    }
+                },
+                "politics_and_conflicts_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 10.0
+                    }
+                },
+                "health_4": {
+                    "AFTER": {
+                        "precision": 0.16666666666666666,
+                        "recall": 0.037037037037037035,
+                        "f1-score": 0.06060606060606061,
+                        "support": 27.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 32.0
+                    },
+                    "COEX": {
+                        "precision": 0.16666666666666666,
+                        "recall": 0.05263157894736842,
+                        "f1-score": 0.08,
+                        "support": 19.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.02564102564102564,
+                    "macro avg": {
+                        "precision": 0.08333333333333333,
+                        "recall": 0.022417153996101363,
+                        "f1-score": 0.035151515151515156,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.09829059829059829,
+                        "recall": 0.02564102564102564,
+                        "f1-score": 0.04046620046620047,
+                        "support": 78.0
+                    }
+                },
+                "health_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 3.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 2.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 1.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    }
+                },
+                "politics_and_conflicts_4": {
+                    "AFTER": {
+                        "precision": 0.2,
+                        "recall": 0.06666666666666667,
+                        "f1-score": 0.1,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.75,
+                        "recall": 0.08823529411764706,
+                        "f1-score": 0.15789473684210525,
+                        "support": 34.0
+                    },
+                    "COEX": {
+                        "precision": 0.5,
+                        "recall": 0.058823529411764705,
+                        "f1-score": 0.10526315789473684,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.07575757575757576,
+                    "macro avg": {
+                        "precision": 0.3625,
+                        "recall": 0.05343137254901961,
+                        "f1-score": 0.09078947368421053,
+                        "support": 66.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.5606060606060606,
+                        "recall": 0.07575757575757576,
+                        "f1-score": 0.13118022328548642,
+                        "support": 66.0
+                    }
+                },
+                "crime_and_law_4": {
+                    "AFTER": {
+                        "precision": 0.2,
+                        "recall": 0.1111111111111111,
+                        "f1-score": 0.14285714285714285,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.4,
+                        "recall": 0.06896551724137931,
+                        "f1-score": 0.1176470588235294,
+                        "support": 29.0
+                    },
+                    "COEX": {
+                        "precision": 0.6666666666666666,
+                        "recall": 0.11764705882352941,
+                        "f1-score": 0.2,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.09090909090909091,
+                    "macro avg": {
+                        "precision": 0.31666666666666665,
+                        "recall": 0.07443092179400496,
+                        "f1-score": 0.11512605042016806,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.4496969696969697,
+                        "recall": 0.09090909090909091,
+                        "f1-score": 0.14722689075630252,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_1": {
+                    "AFTER": {
+                        "precision": 0.5,
+                        "recall": 0.125,
+                        "f1-score": 0.2,
+                        "support": 16.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.6666666666666666,
+                        "recall": 0.14285714285714285,
+                        "f1-score": 0.23529411764705882,
+                        "support": 14.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.1111111111111111,
+                    "macro avg": {
+                        "precision": 0.29166666666666663,
+                        "recall": 0.06696428571428571,
+                        "f1-score": 0.10882352941176471,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.48148148148148145,
+                        "recall": 0.1111111111111111,
+                        "f1-score": 0.1803921568627451,
+                        "support": 36.0
+                    }
+                },
+                "health_2": {
+                    "AFTER": {
+                        "precision": 0.5555555555555556,
+                        "recall": 0.10204081632653061,
+                        "f1-score": 0.1724137931034483,
+                        "support": 49.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.5,
+                        "recall": 0.09090909090909091,
+                        "f1-score": 0.15384615384615385,
+                        "support": 22.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 7.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.08974358974358974,
+                    "macro avg": {
+                        "precision": 0.2638888888888889,
+                        "recall": 0.04823747680890538,
+                        "f1-score": 0.08156498673740054,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.4900284900284901,
+                        "recall": 0.08974358974358974,
+                        "f1-score": 0.15170373393185066,
+                        "support": 78.0
+                    }
+                },
+                "health_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 8.0
+                    },
+                    "COEX": {
+                        "precision": 1.0,
+                        "recall": 0.25,
+                        "f1-score": 0.4,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.047619047619047616,
+                    "macro avg": {
+                        "precision": 0.25,
+                        "recall": 0.0625,
+                        "f1-score": 0.1,
+                        "support": 21.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.19047619047619047,
+                        "recall": 0.047619047619047616,
+                        "f1-score": 0.0761904761904762,
+                        "support": 21.0
+                    }
+                },
+                "politics_and_conflicts_1": {
+                    "AFTER": {
+                        "precision": 0.3333333333333333,
+                        "recall": 0.041666666666666664,
+                        "f1-score": 0.07407407407407407,
+                        "support": 24.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 27.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.01818181818181818,
+                    "macro avg": {
+                        "precision": 0.08333333333333333,
+                        "recall": 0.010416666666666666,
+                        "f1-score": 0.018518518518518517,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.14545454545454545,
+                        "recall": 0.01818181818181818,
+                        "f1-score": 0.03232323232323232,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_4": {
+                    "AFTER": {
+                        "precision": 0.5,
+                        "recall": 0.041666666666666664,
+                        "f1-score": 0.07692307692307693,
+                        "support": 96.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.07142857142857142,
+                        "recall": 0.02702702702702703,
+                        "f1-score": 0.0392156862745098,
+                        "support": 37.0
+                    },
+                    "COEX": {
+                        "precision": 0.25,
+                        "recall": 0.05263157894736842,
+                        "f1-score": 0.08695652173913043,
+                        "support": 57.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.042105263157894736,
+                    "macro avg": {
+                        "precision": 0.20535714285714285,
+                        "recall": 0.030331318160265526,
+                        "f1-score": 0.05077382123417929,
+                        "support": 190.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.34154135338345865,
+                        "recall": 0.042105263157894736,
+                        "f1-score": 0.07259009218896148,
+                        "support": 190.0
+                    }
+                },
+                "crime_and_law_3": {
+                    "AFTER": {
+                        "precision": 0.5,
+                        "recall": 0.06666666666666667,
+                        "f1-score": 0.11764705882352941,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 1.0,
+                        "recall": 0.11764705882352941,
+                        "f1-score": 0.21052631578947367,
+                        "support": 17.0
+                    },
+                    "COEX": {
+                        "precision": 1.0,
+                        "recall": 0.25,
+                        "f1-score": 0.4,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.1111111111111111,
+                    "macro avg": {
+                        "precision": 0.625,
+                        "recall": 0.10857843137254902,
+                        "f1-score": 0.18204334365325078,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.7916666666666666,
+                        "recall": 0.1111111111111111,
+                        "f1-score": 0.19287925696594424,
+                        "support": 36.0
+                    }
+                }
+            },
+            "confident": {
+                "disasters_and_accidents_2": {
+                    "AFTER": {
+                        "precision": 0.17391304347826086,
+                        "recall": 0.08333333333333333,
+                        "f1-score": 0.11267605633802817,
+                        "support": 48.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.4375,
+                        "recall": 0.061946902654867256,
+                        "f1-score": 0.10852713178294573,
+                        "support": 113.0
+                    },
+                    "COEX": {
+                        "precision": 0.3333333333333333,
+                        "recall": 0.061224489795918366,
+                        "f1-score": 0.10344827586206896,
+                        "support": 49.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.06666666666666667,
+                    "macro avg": {
+                        "precision": 0.23618659420289856,
+                        "recall": 0.051626181446029734,
+                        "f1-score": 0.08116286599576071,
+                        "support": 210.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.3529459972394755,
+                        "recall": 0.06666666666666667,
+                        "f1-score": 0.10829039101399808,
+                        "support": 210.0
+                    }
+                },
+                "politics_and_conflicts_2": {
+                    "AFTER": {
+                        "precision": 0.16666666666666666,
+                        "recall": 0.07692307692307693,
+                        "f1-score": 0.10526315789473684,
+                        "support": 13.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.75,
+                        "recall": 0.1,
+                        "f1-score": 0.17647058823529416,
+                        "support": 60.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 5.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.08974358974358974,
+                    "macro avg": {
+                        "precision": 0.22916666666666666,
+                        "recall": 0.04423076923076923,
+                        "f1-score": 0.07043343653250775,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.6047008547008547,
+                        "recall": 0.08974358974358974,
+                        "f1-score": 0.15329046598396445,
+                        "support": 78.0
+                    }
+                },
+                "politics_and_conflicts_3": {
+                    "AFTER": {
+                        "precision": 1.0,
+                        "recall": 0.16666666666666666,
+                        "f1-score": 0.2857142857142857,
+                        "support": 6.0
+                    },
+                    "BEFORE": {
+                        "precision": 1.0,
+                        "recall": 0.25,
+                        "f1-score": 0.4,
+                        "support": 4.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.2,
+                    "macro avg": {
+                        "precision": 0.5,
+                        "recall": 0.10416666666666666,
+                        "f1-score": 0.17142857142857143,
+                        "support": 10.0
+                    },
+                    "weighted avg": {
+                        "precision": 1.0,
+                        "recall": 0.2,
+                        "f1-score": 0.3314285714285714,
+                        "support": 10.0
+                    }
+                },
+                "health_4": {
+                    "AFTER": {
+                        "precision": 0.5,
+                        "recall": 0.14814814814814814,
+                        "f1-score": 0.22857142857142856,
+                        "support": 27.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.25,
+                        "recall": 0.03125,
+                        "f1-score": 0.05555555555555555,
+                        "support": 32.0
+                    },
+                    "COEX": {
+                        "precision": 0.4,
+                        "recall": 0.10526315789473684,
+                        "f1-score": 0.16666666666666666,
+                        "support": 19.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.08974358974358974,
+                    "macro avg": {
+                        "precision": 0.2875,
+                        "recall": 0.07116532651072124,
+                        "f1-score": 0.11269841269841269,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.3730769230769231,
+                        "recall": 0.08974358974358974,
+                        "f1-score": 0.1425111925111925,
+                        "support": 78.0
+                    }
+                },
+                "health_1": {
+                    "AFTER": {
+                        "precision": 0.5,
+                        "recall": 0.3333333333333333,
+                        "f1-score": 0.4,
+                        "support": 3.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 2.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 1.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.16666666666666666,
+                    "macro avg": {
+                        "precision": 0.125,
+                        "recall": 0.08333333333333333,
+                        "f1-score": 0.1,
+                        "support": 6.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.25,
+                        "recall": 0.16666666666666666,
+                        "f1-score": 0.20000000000000004,
+                        "support": 6.0
+                    }
+                },
+                "politics_and_conflicts_4": {
+                    "AFTER": {
+                        "precision": 0.3333333333333333,
+                        "recall": 0.13333333333333333,
+                        "f1-score": 0.19047619047619044,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.75,
+                        "recall": 0.08823529411764706,
+                        "f1-score": 0.15789473684210525,
+                        "support": 34.0
+                    },
+                    "COEX": {
+                        "precision": 0.5,
+                        "recall": 0.11764705882352941,
+                        "f1-score": 0.19047619047619047,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.10606060606060606,
+                    "macro avg": {
+                        "precision": 0.3958333333333333,
+                        "recall": 0.08480392156862746,
+                        "f1-score": 0.13471177944862153,
+                        "support": 66.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.5909090909090909,
+                        "recall": 0.10606060606060606,
+                        "f1-score": 0.17369180527075262,
+                        "support": 66.0
+                    }
+                },
+                "crime_and_law_4": {
+                    "AFTER": {
+                        "precision": 0.5,
+                        "recall": 0.1111111111111111,
+                        "f1-score": 0.1818181818181818,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.2857142857142857,
+                        "recall": 0.06896551724137931,
+                        "f1-score": 0.1111111111111111,
+                        "support": 29.0
+                    },
+                    "COEX": {
+                        "precision": 0.75,
+                        "recall": 0.17647058823529413,
+                        "f1-score": 0.2857142857142857,
+                        "support": 17.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.10909090909090909,
+                    "macro avg": {
+                        "precision": 0.3839285714285714,
+                        "recall": 0.08913680414694614,
+                        "f1-score": 0.14466089466089466,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.46428571428571425,
+                        "recall": 0.10909090909090909,
+                        "f1-score": 0.17664961301324938,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_1": {
+                    "AFTER": {
+                        "precision": 0.4,
+                        "recall": 0.125,
+                        "f1-score": 0.19047619047619047,
+                        "support": 16.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.6666666666666666,
+                        "recall": 0.14285714285714285,
+                        "f1-score": 0.23529411764705882,
+                        "support": 14.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 6.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.1111111111111111,
+                    "macro avg": {
+                        "precision": 0.26666666666666666,
+                        "recall": 0.06696428571428571,
+                        "f1-score": 0.10644257703081232,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.437037037037037,
+                        "recall": 0.1111111111111111,
+                        "f1-score": 0.17615935262994087,
+                        "support": 36.0
+                    }
+                },
+                "health_2": {
+                    "AFTER": {
+                        "precision": 0.4,
+                        "recall": 0.04081632653061224,
+                        "f1-score": 0.07407407407407406,
+                        "support": 49.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.6666666666666666,
+                        "recall": 0.09090909090909091,
+                        "f1-score": 0.16,
+                        "support": 22.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 7.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.05128205128205128,
+                    "macro avg": {
+                        "precision": 0.26666666666666666,
+                        "recall": 0.03293135435992579,
+                        "f1-score": 0.05851851851851851,
+                        "support": 78.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.4393162393162393,
+                        "recall": 0.05128205128205128,
+                        "f1-score": 0.09166191832858499,
+                        "support": 78.0
+                    }
+                },
+                "health_3": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 9.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 8.0
+                    },
+                    "COEX": {
+                        "precision": 0.5,
+                        "recall": 0.25,
+                        "f1-score": 0.3333333333333333,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.047619047619047616,
+                    "macro avg": {
+                        "precision": 0.125,
+                        "recall": 0.0625,
+                        "f1-score": 0.08333333333333333,
+                        "support": 21.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.09523809523809523,
+                        "recall": 0.047619047619047616,
+                        "f1-score": 0.06349206349206349,
+                        "support": 21.0
+                    }
+                },
+                "politics_and_conflicts_1": {
+                    "AFTER": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 24.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 27.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.0,
+                    "macro avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 55.0
+                    }
+                },
+                "disasters_and_accidents_4": {
+                    "AFTER": {
+                        "precision": 0.625,
+                        "recall": 0.052083333333333336,
+                        "f1-score": 0.09615384615384616,
+                        "support": 96.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.07142857142857142,
+                        "recall": 0.02702702702702703,
+                        "f1-score": 0.0392156862745098,
+                        "support": 37.0
+                    },
+                    "COEX": {
+                        "precision": 0.42857142857142855,
+                        "recall": 0.05263157894736842,
+                        "f1-score": 0.09375,
+                        "support": 57.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.04736842105263158,
+                    "macro avg": {
+                        "precision": 0.28125,
+                        "recall": 0.0329354848269322,
+                        "f1-score": 0.057279883107088994,
+                        "support": 190.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.45827067669172933,
+                        "recall": 0.04736842105263158,
+                        "f1-score": 0.08434473485750577,
+                        "support": 190.0
+                    }
+                },
+                "crime_and_law_3": {
+                    "AFTER": {
+                        "precision": 0.25,
+                        "recall": 0.06666666666666667,
+                        "f1-score": 0.10526315789473685,
+                        "support": 15.0
+                    },
+                    "BEFORE": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 17.0
+                    },
+                    "COEX": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 4.0
+                    },
+                    "null": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1-score": 0.0,
+                        "support": 0.0
+                    },
+                    "accuracy": 0.027777777777777776,
+                    "macro avg": {
+                        "precision": 0.0625,
+                        "recall": 0.016666666666666666,
+                        "f1-score": 0.026315789473684213,
+                        "support": 36.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.10416666666666667,
+                        "recall": 0.027777777777777776,
+                        "f1-score": 0.043859649122807015,
+                        "support": 36.0
+                    }
+                }
+            }
+        }
+    }
+}

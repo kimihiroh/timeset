@@ -1,0 +1,71 @@
+{
+    "args": {
+        "batch_size": 8,
+        "dataset_name": "temporal-nli",
+        "device": "cuda",
+        "dirpath_log": "log",
+        "dirpath_model": "None",
+        "dirpath_output": "output/benchmark",
+        "dirpath_output_score": "output_score/benchmark",
+        "filepath_test": "data/preprocessed/temporal_nli/test.json",
+        "filepath_dev": null,
+        "inference_type": "peft",
+        "max_new_tokens": 64,
+        "model_id": "microsoft/deberta-v3-large",
+        "num_demonstration": 0,
+        "num_gpu": 1,
+        "peft_model_path": "/usr1/datasets/kimihiro/llm-for-event-temporal-ordering/models/temporal-nli/deberta-v3-large_bfloat16_peft_sequence_classification/seed7_bs8_lr0.0001_dim64_alpha16_drop0.1",
+        "precision_type": "bfloat16",
+        "seed": 7,
+        "temperature": 0.0
+    },
+    "average": {
+        "example-wise-scores": {
+            "min": 0.2879128550261614,
+            "median": 0.2879128550261614,
+            "max": 0.2879128550261614
+        }
+    },
+    "individuals": {
+        "example-wise-scores": {
+            "0": {
+                "negative": {
+                    "precision": 1.0,
+                    "recall": 0.0032967032967032967,
+                    "f1-score": 0.0065717415115005475,
+                    "support": 1820.0
+                },
+                "positive": {
+                    "precision": 0.45525525525525523,
+                    "recall": 1.0,
+                    "f1-score": 0.6256706562113082,
+                    "support": 1516.0
+                },
+                "null": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0,
+                    "support": 0.0
+                },
+                "micro avg": {
+                    "precision": 0.45623501199040767,
+                    "recall": 0.45623501199040767,
+                    "f1-score": 0.45623501199040767,
+                    "support": 3336.0
+                },
+                "macro avg": {
+                    "precision": 0.48508508508508513,
+                    "recall": 0.3344322344322344,
+                    "f1-score": 0.21074746590760293,
+                    "support": 3336.0
+                },
+                "weighted avg": {
+                    "precision": 0.7524481315848222,
+                    "recall": 0.45623501199040767,
+                    "f1-score": 0.2879128550261614,
+                    "support": 3336.0
+                }
+            }
+        }
+    }
+}

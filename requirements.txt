@@ -3,6 +3,7 @@ chardet
 einops
 jsonlines
 lxml
+matplotlib
 peft
 pre-commit
 scikit-learn

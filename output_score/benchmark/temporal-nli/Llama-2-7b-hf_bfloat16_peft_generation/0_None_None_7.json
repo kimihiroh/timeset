@@ -1,0 +1,71 @@
+{
+    "args": {
+        "batch_size": 8,
+        "dataset_name": "temporal-nli",
+        "device": "cuda",
+        "dirpath_log": "log",
+        "dirpath_model": "None",
+        "dirpath_output": "output/benchmark",
+        "dirpath_output_score": "output_score/benchmark",
+        "filepath_test": "data/preprocessed/temporal_nli/test.json",
+        "filepath_dev": null,
+        "inference_type": "peft",
+        "local_rank": 0,
+        "marker": null,
+        "max_new_tokens": 64,
+        "model_id": "meta-llama/Llama-2-7b-hf",
+        "num_demonstration": 0,
+        "num_gpu": 1,
+        "num_cpu": 2,
+        "peft_model_path": "/usr1/datasets/kimihiro/llm-for-event-temporal-ordering/models/temporal-nli/Llama-2-7b-hf_bfloat16_peft_generation/seed7_bs8_lr0.0001_dim64_alpha16_drop0.1",
+        "precision_type": "bfloat16",
+        "representation": null,
+        "seed": 7,
+        "temperature": 0.0,
+        "dirpath_model_cache": null
+    },
+    "average": {
+        "example-wise-scores": {
+            "min": 0.8101564265749892,
+            "median": 0.8101564265749892,
+            "max": 0.8101564265749892
+        }
+    },
+    "individuals": {
+        "example-wise-scores": {
+            "0": {
+                "negative": {
+                    "precision": 0.8185699039487727,
+                    "recall": 0.8428571428571429,
+                    "f1-score": 0.8305360043313481,
+                    "support": 1820.0
+                },
+                "positive": {
+                    "precision": 0.8044229440221147,
+                    "recall": 0.7678100263852242,
+                    "f1-score": 0.785690178872764,
+                    "support": 1516.0
+                },
+                "null": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0,
+                    "support": 0.0
+                },
+                "accuracy": 0.8087529976019184,
+                "macro avg": {
+                    "precision": 0.5409976159902957,
+                    "recall": 0.5368890564141223,
+                    "f1-score": 0.5387420610680373,
+                    "support": 3336.0
+                },
+                "weighted avg": {
+                    "precision": 0.8121410096895361,
+                    "recall": 0.8087529976019184,
+                    "f1-score": 0.8101564265749892,
+                    "support": 3336.0
+                }
+            }
+        }
+    }
+}

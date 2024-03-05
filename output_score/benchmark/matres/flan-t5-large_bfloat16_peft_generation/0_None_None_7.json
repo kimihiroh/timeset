@@ -1,0 +1,88 @@
+{
+    "args": {
+        "batch_size": 8,
+        "dataset_name": "matres",
+        "device": "cuda",
+        "dirpath_log": "log",
+        "dirpath_model": "None",
+        "dirpath_output": "output/benchmark",
+        "dirpath_output_score": "output_score/benchmark",
+        "filepath_test": "data/preprocessed/matres/test.json",
+        "filepath_dev": null,
+        "inference_type": "peft",
+        "local_rank": 0,
+        "marker": null,
+        "max_new_tokens": 64,
+        "model_id": "google/flan-t5-large",
+        "num_demonstration": 0,
+        "num_gpu": 1,
+        "num_cpu": 2,
+        "peft_model_path": "/usr1/datasets/kimihiro/llm-for-event-temporal-ordering/models/matres/flan-t5-large_bfloat16_peft_generation/seed7_bs8_lr0.0001_dim16_alpha64_drop0.1",
+        "precision_type": "bfloat16",
+        "representation": null,
+        "seed": 7,
+        "temperature": 0.0,
+        "dirpath_model_cache": null
+    },
+    "average": {
+        "example-wise-scores": {
+            "min": 0.7263952739046745,
+            "median": 0.7263952739046745,
+            "max": 0.7263952739046745
+        }
+    },
+    "individuals": {
+        "example-wise-scores": {
+            "0": {
+                "AFTER": {
+                    "precision": 0.7381703470031545,
+                    "recall": 0.8698884758364313,
+                    "f1-score": 0.7986348122866894,
+                    "support": 269.0
+                },
+                "BEFORE": {
+                    "precision": 0.8208955223880597,
+                    "recall": 0.9080188679245284,
+                    "f1-score": 0.8622620380739082,
+                    "support": 424.0
+                },
+                "EQUAL": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0,
+                    "support": 31.0
+                },
+                "VAGUE": {
+                    "precision": 0.39215686274509803,
+                    "recall": 0.17699115044247787,
+                    "f1-score": 0.24390243902439024,
+                    "support": 113.0
+                },
+                "null": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0,
+                    "support": 0.0
+                },
+                "micro avg": {
+                    "precision": 0.7634408602150538,
+                    "recall": 0.7634408602150538,
+                    "f1-score": 0.7634408602150536,
+                    "support": 837.0
+                },
+                "macro avg": {
+                    "precision": 0.3902445464272625,
+                    "recall": 0.3909796988406875,
+                    "f1-score": 0.3809598578769976,
+                    "support": 837.0
+                },
+                "weighted avg": {
+                    "precision": 0.7060229991954383,
+                    "recall": 0.7634408602150538,
+                    "f1-score": 0.7263952739046745,
+                    "support": 837.0
+                }
+            }
+        }
+    }
+}

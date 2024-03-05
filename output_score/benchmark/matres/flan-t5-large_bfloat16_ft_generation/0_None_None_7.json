@@ -1,0 +1,88 @@
+{
+    "args": {
+        "batch_size": 8,
+        "dataset_name": "matres",
+        "device": "cuda",
+        "dirpath_log": "log",
+        "dirpath_model": "/usr1/datasets/kimihiro/llm-for-event-temporal-ordering/models/matres/flan-t5-large_bfloat16_ft_generation/seed7_bs16_lr0.0001_dimNone_alphaNone_dropNone",
+        "dirpath_output": "output/benchmark",
+        "dirpath_output_score": "output_score/benchmark",
+        "filepath_test": "data/preprocessed/matres/test.json",
+        "filepath_dev": null,
+        "inference_type": "ft",
+        "local_rank": 0,
+        "marker": null,
+        "max_new_tokens": 64,
+        "model_id": "google/flan-t5-large",
+        "num_demonstration": 0,
+        "num_gpu": 1,
+        "num_cpu": 2,
+        "peft_model_path": "None",
+        "precision_type": "bfloat16",
+        "representation": null,
+        "seed": 7,
+        "temperature": 0.0,
+        "dirpath_model_cache": null
+    },
+    "average": {
+        "example-wise-scores": {
+            "min": 0.7170160256229683,
+            "median": 0.7170160256229683,
+            "max": 0.7170160256229683
+        }
+    },
+    "individuals": {
+        "example-wise-scores": {
+            "0": {
+                "AFTER": {
+                    "precision": 0.7904411764705882,
+                    "recall": 0.7992565055762082,
+                    "f1-score": 0.7948243992606284,
+                    "support": 269.0
+                },
+                "BEFORE": {
+                    "precision": 0.7917525773195876,
+                    "recall": 0.9056603773584906,
+                    "f1-score": 0.8448844884488449,
+                    "support": 424.0
+                },
+                "EQUAL": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0,
+                    "support": 31.0
+                },
+                "VAGUE": {
+                    "precision": 0.3,
+                    "recall": 0.21238938053097345,
+                    "f1-score": 0.24870466321243526,
+                    "support": 113.0
+                },
+                "null": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0,
+                    "support": 0.0
+                },
+                "micro avg": {
+                    "precision": 0.7443249701314217,
+                    "recall": 0.7443249701314217,
+                    "f1-score": 0.7443249701314217,
+                    "support": 837.0
+                },
+                "macro avg": {
+                    "precision": 0.3764387507580352,
+                    "recall": 0.38346125269313447,
+                    "f1-score": 0.3776827101843817,
+                    "support": 837.0
+                },
+                "weighted avg": {
+                    "precision": 0.6956174065162406,
+                    "recall": 0.7443249701314217,
+                    "f1-score": 0.7170160256229683,
+                    "support": 837.0
+                }
+            }
+        }
+    }
+}

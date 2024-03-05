@@ -1,0 +1,94 @@
+{
+    "args": {
+        "batch_size": 8,
+        "dataset_name": "tddiscourse",
+        "device": "cuda",
+        "dirpath_log": "log",
+        "dirpath_model": "None",
+        "dirpath_output": "output/benchmark",
+        "dirpath_output_score": "output_score/benchmark",
+        "filepath_test": "data/preprocessed/tddiscourse/test.json",
+        "filepath_dev": null,
+        "inference_type": "peft",
+        "local_rank": 0,
+        "marker": null,
+        "max_new_tokens": 64,
+        "model_id": "google/flan-t5-large",
+        "num_demonstration": 0,
+        "num_gpu": 1,
+        "num_cpu": 2,
+        "peft_model_path": "/usr1/datasets/kimihiro/llm-for-event-temporal-ordering/models/tddiscourse/flan-t5-large_bfloat16_peft_generation/seed7_bs8_lr0.0001_dim64_alpha16_drop0.1",
+        "precision_type": "bfloat16",
+        "representation": null,
+        "seed": 7,
+        "temperature": 0.0,
+        "dirpath_model_cache": null
+    },
+    "average": {
+        "example-wise-scores": {
+            "min": 0.24264975334742772,
+            "median": 0.24264975334742772,
+            "max": 0.24264975334742772
+        }
+    },
+    "individuals": {
+        "example-wise-scores": {
+            "0": {
+                "AFTER": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0,
+                    "support": 188.0
+                },
+                "BEFORE": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0,
+                    "support": 401.0
+                },
+                "SIMULTANEOUS": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0,
+                    "support": 46.0
+                },
+                "INCLUDE": {
+                    "precision": 0.3939393939393939,
+                    "recall": 0.9090909090909091,
+                    "f1-score": 0.5496828752642705,
+                    "support": 572.0
+                },
+                "INCLUDED": {
+                    "precision": 0.2222222222222222,
+                    "recall": 0.13651877133105803,
+                    "f1-score": 0.16913319238900631,
+                    "support": 293.0
+                },
+                "null": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0,
+                    "support": 0.0
+                },
+                "micro avg": {
+                    "precision": 0.37333333333333335,
+                    "recall": 0.37333333333333335,
+                    "f1-score": 0.37333333333333335,
+                    "support": 1500.0
+                },
+                "macro avg": {
+                    "precision": 0.10269360269360268,
+                    "recall": 0.17426828007032782,
+                    "f1-score": 0.11980267794221282,
+                    "support": 1500.0
+                },
+                "weighted avg": {
+                    "precision": 0.19362962962962965,
+                    "recall": 0.37333333333333335,
+                    "f1-score": 0.24264975334742772,
+                    "support": 1500.0
+                }
+            }
+        }
+    }
+}

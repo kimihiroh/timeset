@@ -1,11 +1,20 @@
 # TimeSET: Formulation Comparison for Timeline Construction using LLMs
 
-This repository contains the data and code for the paper, ["Formulation Comparison for Timeline Construction using LLMs" (Hasegawa et al., arXiv 2024)](https://arxiv.org/submit/5426384/view).
+This repository contains the data and code for the paper, ["Formulation Comparison for Timeline Construction using LLMs" (Hasegawa et al., arXiv 2024)](https://arxiv.org/abs/2403.00990).
+
+## News
+* 2024/03/04: TimeSET now includes 118 annotated documents (dev: 18, test: 100), over twice the number reported in the paper (dev: 10, test: 40).
 
 ## TimeSET
+TimeSET is an evaluation dataset for timeline construction from text, consisting of diverse Wikinews articles.
+It features two unique characteristics:
+* saliency-based event selection
+* partial-ordering annotation
+Check [the paper](https://arxiv.org/abs/2403.00990) for more details.
+### Data
 * `brat` format: `data/brat`
 * `json` format: `data/preprocess/timeset`
-    * Data used in the paper: `data/preprocess/timeset-sample/`
+    * Original data used in the paper: `data/preprocess/timeset-sample/`
 Check [data](https://github.com/kimihiroh/timeset/blob/main/data/) for more details.
 
 ## Environment Setup
@@ -24,16 +33,11 @@ export HF_HOME="<some dir>/.cache/huggingface/"
 ```
 
 ## Formulation Comparison
-### Download model weights
-```bash
-bash scripts/download.sh
-```
-### Experiment
-```bash
-bash scripts/comparison/{formulation}/{model}.sh
-```
-* `output` contains the actual outputs from models.
-* `output_score` contains the evaluation results/scores.
+![Overview](./notebooks/figures/overview_w_timeline.pdf)
+
+Check [`scripts/comparison`](https://github.com/kimihiroh/timeset/blob/main/scripts/comparison) for more details.
+
+![Result](./notebooks/figures/result_formulation_comparison_base.pdf)
 
 ## Benchmarking
 ### Download data
@@ -85,7 +89,13 @@ bash scripts/benchmark/{dataset}/inference_{method}_*.sh
 ## Citation
 If you find this work helpful in your research, please consider citing our work,
 ```bib
-TBU
+@article{hasegawa-etal-2024-formulation,
+      title={Formulation Comparison for Timeline Construction using LLMs},
+      author={Hasegawa, Kimihiro and Kandukuri, Nikhil and Holm, Susan and Yamakawa, Yukari and Mitamura, Teruko},
+      publisher = {arXiv},
+      year={2024},
+      url={https://arxiv.org/abs/2403.00990},
+}
 ```
 
 ## Issues
